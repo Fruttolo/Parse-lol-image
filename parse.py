@@ -191,9 +191,6 @@ def main() -> None:
     for idx, (champ_id, champ_name) in enumerate(champions, start=1):
         print(f"[{idx:3}/{len(champions)}] {champ_name}")
 
-        # Create per-champion subfolder with a safe name
-        champ_dir = os.path.join(OUTPUT_DIR, safe_dirname(champ_name))
-        os.makedirs(champ_dir, exist_ok=True)
 
         # Query the wiki API for skin images
         try:
@@ -223,7 +220,7 @@ def main() -> None:
                 failed_items.append((champ_name, raw_filename, msg))
                 continue
 
-            output_path = os.path.join(champ_dir, filename)
+            output_path = os.path.join(OUTPUT_DIR, filename)
 
             if os.path.exists(output_path):
                 print(f"  ↷ {filename} (already exists, skipping)")
