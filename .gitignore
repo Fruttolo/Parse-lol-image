@@ -1,2 +1,5 @@
 .vscode/settings.json
 splash_arts/
+image_hashes.csv
+__pycache__/
+failed_downloads.txt
