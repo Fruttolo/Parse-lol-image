@@ -414,6 +414,16 @@ class SkinSelectorApp:
             if n.replace(" ", "_") != filename.replace(" ", "_")
             and "_hd." in n.lower()
         ]
+
+        # 2.5 Se uno dei candidati è già presente in SHARED, aggiorna
+        #     shared_exceptions.json automaticamente e passa al prossimo.
+        shared_dir = ALTERNATIVES_DIR / "SHARED"
+        for cname in candidates_names:
+            clean = _clean_wiki_name(cname)
+            if (shared_dir / clean).exists():
+                self.root.after(0, self._auto_shared, champion, filename, cname, clean)
+                return
+
         total = len(candidates_names)
 
         # 3. Download parallelo candidati + fetch info dimensioni
@@ -608,6 +618,35 @@ class SkinSelectorApp:
             f"[green]✓[/] [bold]{self._current_champion}[/]  "
             f"{self._sel_wiki_name} → {dest}")
         self._status_var.set(f"Salvato → {dest}")
+        self.root.update()
+
+        self.idx += 1
+        self.root.after(200, self._load_entry)
+
+    def _auto_shared(self, champion: str, filename: str, wiki_name: str, clean_name: str) -> None:
+        """Chiamato dal background thread quando un candidato esiste già in SHARED."""
+        target_hd = Path(filename).stem + "_HD.jpg"
+        original_key = Path(target_hd).stem
+        shared_value = Path(clean_name).stem
+
+        exceptions: dict = {}
+        if SHARED_EXCEPTIONS_FILE.exists():
+            try:
+                exceptions = json.loads(SHARED_EXCEPTIONS_FILE.read_text(encoding="utf-8"))
+            except Exception:
+                exceptions = {}
+        exceptions[original_key] = shared_value
+        SHARED_EXCEPTIONS_FILE.write_text(
+            json.dumps(exceptions, indent=4, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        console.print(
+            f"[magenta]🔗 AUTO[/] [bold]{champion}[/]  "
+            f"{original_key} → [bold]SHARED[/] {shared_value}  "
+            f"([dim]già presente in SHARED/[/])")
+        self._loading_var.set("")
+        self._status_var.set(f"AUTO-SHARED: {original_key} → {shared_value}")
         self.root.update()
 
         self.idx += 1
