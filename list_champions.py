@@ -16,7 +16,7 @@ DDRAGON_CHAMPIONS_URL = (
 )
 WIKI_API_URL = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
-MAX_WORKERS = 10
+MAX_WORKERS = 1
 OUTPUT_FILE = "champions.txt"
 
 
@@ -65,6 +65,9 @@ def main() -> None:
             skins = get_skin_filenames(wiki_name)
         except requests.RequestException:
             skins = []
+        if " &" in champ_name:
+            full_prefix = champ_name.replace(" ", "_") + "_"
+            skins = [s for s in skins if not s.startswith(full_prefix)]
         return index, champ_name, skins
 
     with Progress(

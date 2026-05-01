@@ -1362,31 +1362,18 @@ Nocturne
   - Nocturne_EmpyreanSkin.jpg
 
 Nunu & Willump
-  - Nunu_&_Willump_OriginalSkin.jpg
   - Nunu_OriginalSkin.jpg
-  - Nunu_&_Willump_SasquatchSkin.jpg
   - Nunu_SasquatchSkin.jpg
-  - Nunu_&_Willump_WorkshopSkin.jpg
   - Nunu_WorkshopSkin.jpg
-  - Nunu_&_Willump_GrungySkin.jpg
   - Nunu_GrungySkin.jpg
-  - Nunu_&_Willump_NunuBotSkin.jpg
   - Nunu_NunuBotSkin.jpg
-  - Nunu_&_Willump_DemolisherSkin.jpg
   - Nunu_DemolisherSkin.jpg
-  - Nunu_&_Willump_TPASkin.jpg
   - Nunu_TPASkin.jpg
-  - Nunu_&_Willump_ZombieSkin.jpg
   - Nunu_ZombieSkin.jpg
-  - Nunu_&_Willump_PapercraftSkin.jpg
   - Nunu_PapercraftSkin.jpg
-  - Nunu_&_Willump_SpaceGrooveSkin.jpg
   - Nunu_SpaceGrooveSkin.jpg
-  - Nunu_&_Willump_Nunu&BeelumpSkin.jpg
   - Nunu_Nunu&BeelumpSkin.jpg
-  - Nunu_&_Willump_CosmicPaladinsSkin.jpg
   - Nunu_CosmicPaladinsSkin.jpg
-  - Nunu_&_Willump_FrightNightSkin.jpg
   - Nunu_FrightNightSkin.jpg
 
 Olaf
