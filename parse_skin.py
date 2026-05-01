@@ -25,6 +25,7 @@ console = Console()
 CHAMPIONS_FILE = "champions.txt"
 SPLASH_ARTS_DIR = Path("splash_arts")
 SHARED_DIR = SPLASH_ARTS_DIR / "SHARED"
+OLD_DIR = SPLASH_ARTS_DIR / "OLD"
 FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 REQUEST_TIMEOUT = 30
@@ -80,14 +81,24 @@ def stripped_filename(champion: str, hd_name: str) -> str:
     return hd_name
 
 
+def old2_filename(hd_name: str) -> str:
+    """'Heimerdinger_AlienInvaderSkin_HD.jpg' → 'Heimerdinger_AlienInvaderSkin_old2_HD.jpg'."""
+    if hd_name.endswith("_HD.jpg"):
+        stem = hd_name[: -len("_HD.jpg")]
+        return f"{stem}_old2_HD.jpg"
+    stem, ext = hd_name.rsplit(".", 1)
+    return f"{stem}_old2.{ext}"
+
+
 def download_skin(
     champion: str, skin_filename: str
-) -> tuple[str, str, bool, str, bool]:
+) -> tuple[str, str, bool, str, str]:
     """
     Download a single HD skin image.
-    Returns (champion, skin_filename, success, message, was_retry).
-    On 404, retries with the champion-prefix stripped from the filename
-    and saves to RETRY_DIR instead of SPLASH_ARTS_DIR.
+    Returns (champion, skin_filename, success, message, retry_type).
+    retry_type is '' for a direct download, 'shared' for the first retry
+    (champion prefix stripped, saved to SHARED_DIR), or 'old' for the second
+    retry (_old2 suffix, saved to OLD_DIR).
     """
     hd_name = hd_filename(skin_filename)
     save_dir = SPLASH_ARTS_DIR / champion
@@ -95,13 +106,19 @@ def download_skin(
 
     # Skip if already downloaded (normal path)
     if save_path.exists() and save_path.stat().st_size > 0:
-        return champion, skin_filename, True, "already exists", False
+        return champion, skin_filename, True, "already exists", ""
 
     # Skip if already downloaded via shared path
     retry_name = stripped_filename(champion, hd_name)
     retry_save_path = SHARED_DIR / retry_name
     if retry_save_path.exists() and retry_save_path.stat().st_size > 0:
-        return champion, skin_filename, True, "already exists", True
+        return champion, skin_filename, True, "already exists", "shared"
+
+    # Skip if already downloaded via old2 path
+    old2_name = old2_filename(hd_name)
+    old2_save_path = OLD_DIR / old2_name
+    if old2_save_path.exists() and old2_save_path.stat().st_size > 0:
+        return champion, skin_filename, True, "already exists", "old"
 
     url = WIKI_IMAGE_BASE + quote(hd_name, safe="")
 
@@ -110,24 +127,39 @@ def download_skin(
         response = requests.get(url, timeout=REQUEST_TIMEOUT, stream=True)
 
         if response.status_code == 404:
-            # Retry with the champion prefix stripped from the filename
-            if retry_name == hd_name:
-                return champion, skin_filename, False, f"404 Not Found: {url}", False
-            retry_url = WIKI_IMAGE_BASE + quote(retry_name, safe="")
+            # Retry 1: champion prefix stripped → SHARED_DIR
+            if retry_name != hd_name:
+                retry_url = WIKI_IMAGE_BASE + quote(retry_name, safe="")
+                try:
+                    retry_response = requests.get(retry_url, timeout=REQUEST_TIMEOUT, stream=True)
+                    if retry_response.status_code != 404:
+                        retry_response.raise_for_status()
+                        SHARED_DIR.mkdir(parents=True, exist_ok=True)
+                        with open(retry_save_path, "wb") as f:
+                            for chunk in retry_response.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                        return champion, skin_filename, True, "downloaded (retry shared)", "shared"
+                except requests.RequestException as exc:
+                    if retry_save_path.exists():
+                        retry_save_path.unlink(missing_ok=True)
+                    return champion, skin_filename, False, str(exc), ""
+
+            # Retry 2: _old2 suffix on original name → OLD_DIR
+            old2_url = WIKI_IMAGE_BASE + quote(old2_name, safe="")
             try:
-                retry_response = requests.get(retry_url, timeout=REQUEST_TIMEOUT, stream=True)
-                if retry_response.status_code == 404:
-                    return champion, skin_filename, False, f"404 Not Found: {url}", False
-                retry_response.raise_for_status()
-                SHARED_DIR.mkdir(parents=True, exist_ok=True)
-                with open(retry_save_path, "wb") as f:
-                    for chunk in retry_response.iter_content(chunk_size=8192):
+                old2_response = requests.get(old2_url, timeout=REQUEST_TIMEOUT, stream=True)
+                if old2_response.status_code == 404:
+                    return champion, skin_filename, False, f"404 Not Found: {url}", ""
+                old2_response.raise_for_status()
+                OLD_DIR.mkdir(parents=True, exist_ok=True)
+                with open(old2_save_path, "wb") as f:
+                    for chunk in old2_response.iter_content(chunk_size=8192):
                         f.write(chunk)
-                return champion, skin_filename, True, "downloaded (retry)", True
+                return champion, skin_filename, True, "downloaded (retry old2)", "old"
             except requests.RequestException as exc:
-                if retry_save_path.exists():
-                    retry_save_path.unlink(missing_ok=True)
-                return champion, skin_filename, False, str(exc), False
+                if old2_save_path.exists():
+                    old2_save_path.unlink(missing_ok=True)
+                return champion, skin_filename, False, str(exc), ""
 
         response.raise_for_status()
 
@@ -135,13 +167,13 @@ def download_skin(
             for chunk in response.iter_content(chunk_size=8192):
                 f.write(chunk)
 
-        return champion, skin_filename, True, "downloaded", False
+        return champion, skin_filename, True, "downloaded", ""
 
     except requests.RequestException as exc:
         # Remove partial file if it was created
         if save_path.exists():
             save_path.unlink(missing_ok=True)
-        return champion, skin_filename, False, str(exc), False
+        return champion, skin_filename, False, str(exc), ""
 
 
 def write_failed_report(failed: list[tuple[str, str, str]]) -> None:
@@ -173,7 +205,8 @@ def main() -> None:
     failed: list[tuple[str, str, str]] = []
     skipped = 0
     downloaded = 0
-    retried = 0
+    retried_shared = 0
+    retried_old = 0
 
     with Progress(
         SpinnerColumn(),
@@ -190,7 +223,7 @@ def main() -> None:
                 for champion, skin in tasks
             }
             for future in as_completed(futures):
-                champion, skin, success, msg, was_retry = future.result()
+                champion, skin, success, msg, retry_type = future.result()
 
                 if not success:
                     failed.append((champion, skin, msg))
@@ -204,8 +237,14 @@ def main() -> None:
                         task,
                         description=f"[dim]↷ {champion}/{skin}[/]",
                     )
-                elif was_retry:
-                    retried += 1
+                elif retry_type == "old":
+                    retried_old += 1
+                    progress.update(
+                        task,
+                        description=f"[magenta]↺² {champion}/{skin}",
+                    )
+                elif retry_type == "shared":
+                    retried_shared += 1
                     progress.update(
                         task,
                         description=f"[yellow]↺ {champion}/{skin}",
@@ -223,7 +262,8 @@ def main() -> None:
 
     console.print(f"\n[bold]Done.[/]")
     console.print(f"  Downloaded : [green]{downloaded}[/]")
-    console.print(f"  Retried    : [yellow]{retried}[/] (saved to {SHARED_DIR}/)")
+    console.print(f"  Retry 1    : [yellow]{retried_shared}[/] (saved to {SHARED_DIR}/)")
+    console.print(f"  Retry 2    : [magenta]{retried_old}[/] (saved to {OLD_DIR}/)")
     console.print(f"  Skipped    : [dim]{skipped}[/] (already present)")
     console.print(f"  Failed     : [{'red' if failed else 'green'}]{len(failed)}[/]")
     if failed:
