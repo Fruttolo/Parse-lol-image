@@ -53,8 +53,9 @@ def _clean_wiki_name(name: str) -> str:
     return _JUNK_RE.sub('', p.stem) + p.suffix
 
 
-THUMB_W, THUMB_H = 240, 135   # thumbnail 16:9
-COLS = 3
+THUMB_W, THUMB_H = 200, 113   # candidate thumbnails 16:9
+PREVIEW_W, PREVIEW_H = 460, 259  # comparison preview 16:9
+COLS = 4
 
 # ── Tema ────────────────────────────────────────────────────────────────────────
 BG_DARK = "#1a1a2e"
@@ -226,10 +227,11 @@ class SkinSelectorApp:
         self.root = tk.Tk()
         self.root.title("Check Failed Downloads — Selettore skin")
         self.root.configure(bg=BG_DARK)
-        self.root.minsize(960, 640)
+        self.root.minsize(1100, 780)
 
         self._photo_refs: list[ImageTk.PhotoImage] = []
         self._ref_photo: Optional[ImageTk.PhotoImage] = None
+        self._sel_photo: Optional[ImageTk.PhotoImage] = None
         self._card_frames: list[tk.Frame] = []
         self._spinner_lbl: Optional[tk.Label] = None
 
@@ -257,30 +259,52 @@ class SkinSelectorApp:
         tk.Label(header, textvariable=self._progress_var,
                  font=("Helvetica", 10), fg=MUTED, bg=BG_CARD).pack()
 
-        # Main
-        main = tk.Frame(self.root, bg=BG_DARK)
-        main.pack(fill="both", expand=True, padx=12, pady=8)
+        # ── Comparison strip ─────────────────────────────────────────────────
+        cmp_frame = tk.Frame(self.root, bg=BG_DARK, pady=6)
+        cmp_frame.pack(fill="x")
+        cmp_frame.columnconfigure(0, weight=1)
+        cmp_frame.columnconfigure(1, weight=1)
 
-        # Sinistra — riferimento
-        ref_panel = tk.Frame(main, bg=BG_CARD)
-        ref_panel.pack(side="left", fill="y", padx=(0, 10))
-        tk.Label(ref_panel, text="Riferimento (non-HD)",
-                 font=("Helvetica", 10, "bold"), fg=MUTED, bg=BG_CARD, pady=6).pack()
-        self._ref_img_lbl = tk.Label(ref_panel, bg=BG_HOVER,
-                                      width=THUMB_W, height=THUMB_H)
-        self._ref_img_lbl.pack(padx=8, pady=(0, 4))
+        # Reference (left)
+        ref_col = tk.Frame(cmp_frame, bg=BG_CARD, padx=6, pady=6)
+        ref_col.grid(row=0, column=0, padx=(12, 6), sticky="nsew")
+        tk.Label(ref_col, text="Riferimento (non-HD)",
+                 font=("Helvetica", 10, "bold"), fg=MUTED, bg=BG_CARD, pady=4).pack()
+        ref_img_container = tk.Frame(ref_col, bg=BG_HOVER,
+                                     width=PREVIEW_W, height=PREVIEW_H)
+        ref_img_container.pack_propagate(False)
+        ref_img_container.pack()
+        self._ref_img_lbl = tk.Label(ref_img_container, bg=BG_HOVER)
+        self._ref_img_lbl.place(relx=0.5, rely=0.5, anchor="center")
         self._ref_name_var = tk.StringVar()
-        tk.Label(ref_panel, textvariable=self._ref_name_var,
+        tk.Label(ref_col, textvariable=self._ref_name_var,
                  font=("Helvetica", 8), fg=MUTED, bg=BG_CARD,
-                 wraplength=THUMB_W + 10).pack(padx=8, pady=(0, 4))
+                 wraplength=PREVIEW_W).pack(pady=(2, 0))
         self._loading_var = tk.StringVar()
-        tk.Label(ref_panel, textvariable=self._loading_var,
-                 font=("Helvetica", 9), fg=ACCENT, bg=BG_CARD,
-                 wraplength=THUMB_W + 10).pack(padx=8, pady=(0, 8))
+        tk.Label(ref_col, textvariable=self._loading_var,
+                 font=("Helvetica", 9), fg=ACCENT, bg=BG_CARD).pack()
 
-        # Destra — candidati scrollabili
-        cand_outer = tk.Frame(main, bg=BG_DARK)
-        cand_outer.pack(side="left", fill="both", expand=True)
+        # Selected (right)
+        sel_col = tk.Frame(cmp_frame, bg=BG_CARD, padx=6, pady=6)
+        sel_col.grid(row=0, column=1, padx=(6, 12), sticky="nsew")
+        tk.Label(sel_col, text="Selezionato",
+                 font=("Helvetica", 10, "bold"), fg=GREEN, bg=BG_CARD, pady=4).pack()
+        sel_img_container = tk.Frame(sel_col, bg=BG_DARK,
+                                     width=PREVIEW_W, height=PREVIEW_H)
+        sel_img_container.pack_propagate(False)
+        sel_img_container.pack()
+        self._sel_preview_lbl = tk.Label(sel_img_container, bg=BG_DARK,
+                                          text="—", fg=MUTED,
+                                          font=("Helvetica", 24))
+        self._sel_preview_lbl.place(relx=0.5, rely=0.5, anchor="center")
+        self._sel_name_var = tk.StringVar(value="—")
+        tk.Label(sel_col, textvariable=self._sel_name_var,
+                 font=("Helvetica", 8), fg=GREEN, bg=BG_CARD,
+                 wraplength=PREVIEW_W).pack(pady=(2, 0))
+
+        # ── Candidates (scrollable, full width) ──────────────────────────────
+        cand_outer = tk.Frame(self.root, bg=BG_DARK)
+        cand_outer.pack(fill="both", expand=True, padx=12, pady=(4, 0))
         tk.Label(cand_outer, text="Candidati dal wiki — clicca per selezionare",
                  font=("Helvetica", 10, "bold"), fg=MUTED, bg=BG_DARK, pady=4).pack()
 
@@ -307,33 +331,35 @@ class SkinSelectorApp:
         for ev in ("<MouseWheel>", "<Button-4>", "<Button-5>"):
             self._canvas.bind_all(ev, self._on_mousewheel)
 
-        # Bottom
-        bottom = tk.Frame(self.root, bg=BG_CARD, pady=8)
+        # ── Bottom buttons (centered) ─────────────────────────────────────────
+        bottom = tk.Frame(self.root, bg=BG_CARD, pady=10)
         bottom.pack(fill="x", side="bottom")
-        tk.Button(bottom, text="✓  Conferma selezione", command=self._confirm,
+        btn_row = tk.Frame(bottom, bg=BG_CARD)
+        btn_row.pack(anchor="center")
+        tk.Button(btn_row, text="✓  Conferma selezione", command=self._confirm,
                   font=("Helvetica", 11, "bold"), fg=WHITE, bg=GREEN,
                   activebackground="#388E3C", activeforeground=WHITE,
-                  relief="flat", padx=18, pady=7, cursor="hand2",
-                  ).pack(side="left", padx=(12, 8))
-        tk.Button(bottom, text="→  Salta", command=self._skip,
+                  relief="flat", padx=18, pady=8, cursor="hand2",
+                  ).pack(side="left", padx=6)
+        tk.Button(btn_row, text="→  Salta", command=self._skip,
                   font=("Helvetica", 11), fg=WHITE, bg="#555577",
                   activebackground="#444466", activeforeground=WHITE,
-                  relief="flat", padx=18, pady=7, cursor="hand2",
-                  ).pack(side="left")
-        tk.Button(bottom, text="🔗  SHARED", command=self._flag_shared,
+                  relief="flat", padx=18, pady=8, cursor="hand2",
+                  ).pack(side="left", padx=6)
+        tk.Button(btn_row, text="🔗  SHARED", command=self._flag_shared,
                   font=("Helvetica", 11, "bold"), fg=WHITE, bg="#7b2d8b",
                   activebackground="#5a1f66", activeforeground=WHITE,
-                  relief="flat", padx=18, pady=7, cursor="hand2",
-                  ).pack(side="left", padx=(8, 0))
-        tk.Button(bottom, text="📁  Mantieni originale", command=self._keep_original,
+                  relief="flat", padx=18, pady=8, cursor="hand2",
+                  ).pack(side="left", padx=6)
+        tk.Button(btn_row, text="📁  Mantieni originale", command=self._keep_original,
                   font=("Helvetica", 11), fg=WHITE, bg="#2e5f7a",
                   activebackground="#1e4a62", activeforeground=WHITE,
-                  relief="flat", padx=18, pady=7, cursor="hand2",
-                  ).pack(side="left", padx=(8, 0))
+                  relief="flat", padx=18, pady=8, cursor="hand2",
+                  ).pack(side="left", padx=6)
         self._status_var = tk.StringVar()
         tk.Label(bottom, textvariable=self._status_var,
                  font=("Helvetica", 10), fg=MUTED, bg=BG_CARD,
-                 ).pack(side="right", padx=14)
+                 ).pack(pady=(4, 0))
 
     # ── Caricamento entry ────────────────────────────────────────────────────
 
@@ -360,6 +386,9 @@ class SkinSelectorApp:
         self._ref_name_var.set(filename)
         self._loading_var.set("⏳ Caricamento...")
         self._ref_img_lbl.configure(image="", text="…")
+        self._sel_preview_lbl.configure(image="", text="—")
+        self._sel_photo = None
+        self._sel_name_var.set("—")
         self._status_var.set("")
         self._clear_candidates()
         self._show_spinner("Recupero immagini dal wiki…")
@@ -433,7 +462,7 @@ class SkinSelectorApp:
         self._ref_filename = filename
 
         if ref_img is not None:
-            self._ref_photo = ImageTk.PhotoImage(self._make_thumb(ref_img))
+            self._ref_photo = ImageTk.PhotoImage(self._make_preview(ref_img))
             self._ref_img_lbl.configure(image=self._ref_photo, text="")
         else:
             self._ref_img_lbl.configure(image="", text="Non disponibile", fg=MUTED)
@@ -550,6 +579,9 @@ class SkinSelectorApp:
 
         self._sel_wiki_name = name
         self._sel_image = img
+        self._sel_photo = ImageTk.PhotoImage(self._make_preview(img))
+        self._sel_preview_lbl.configure(image=self._sel_photo, text="")
+        self._sel_name_var.set(name)
         self._status_var.set(f"✓ Selezionato: {name}")
 
     # ── Azioni ───────────────────────────────────────────────────────────────
@@ -665,6 +697,15 @@ class SkinSelectorApp:
             resample = Image.LANCZOS  # type: ignore[attr-defined]
         thumb = img.copy()
         thumb.thumbnail((THUMB_W, THUMB_H), resample)
+        return thumb
+
+    def _make_preview(self, img: Image.Image) -> Image.Image:
+        try:
+            resample = Image.Resampling.LANCZOS
+        except AttributeError:
+            resample = Image.LANCZOS  # type: ignore[attr-defined]
+        thumb = img.copy()
+        thumb.thumbnail((PREVIEW_W, PREVIEW_H), resample)
         return thumb
 
     def _on_mousewheel(self, event: tk.Event) -> None:
