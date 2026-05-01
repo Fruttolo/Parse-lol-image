@@ -36,7 +36,7 @@ console = Console()
 
 FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
 SHARED_EXCEPTIONS_FILE = Path("shared_exceptions.json")
-ALTERNATIVES_DIR = Path("alternatives")
+ALTERNATIVES_DIR = Path("splash_arts")
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 WIKI_API_URL    = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
