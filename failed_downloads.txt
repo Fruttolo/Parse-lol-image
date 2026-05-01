@@ -1,30 +1,14 @@
 === Failed Downloads Report ===
-Generated: 2026-05-01 21:24:34
-Total failures: 10
+Generated: 2026-05-01 21:26:23
+Total failures: 5
 
 Champion : Blitzcrank
 File     : Blitzcrank_ZenithGamesSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_ZenithGamesSkin_HD.jpg
 ------------------------------------------------------------
-Champion : Caitlyn
-File     : Caitlyn_FirecrackerSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Caitlyn_FirecrackerSkin_HD.jpg
-------------------------------------------------------------
 Champion : Fiddlesticks
 File     : Fiddlesticks_StarNemesisSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_StarNemesisSkin_HD.jpg
-------------------------------------------------------------
-Champion : Graves
-File     : Graves_CutthroatSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Graves_CutthroatSkin_HD.jpg
-------------------------------------------------------------
-Champion : Kayle
-File     : Kayle_IronInquisitorSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Kayle_IronInquisitorSkin_HD.jpg
-------------------------------------------------------------
-Champion : Poppy
-File     : Poppy_BewitchingSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Poppy_BewitchingSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Riven
 File     : Riven_ReignitedWorlds2012Skin.jpg
@@ -37,8 +21,4 @@ Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Soraka_P
 Champion : Tristana
 File     : Tristana_RainShepherdSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Tristana_RainShepherdSkin_HD.jpg
-------------------------------------------------------------
-Champion : Vi
-File     : Vi_OfficerSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Vi_OfficerSkin_HD.jpg
 ------------------------------------------------------------
