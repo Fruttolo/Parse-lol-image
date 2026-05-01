@@ -36,7 +36,7 @@ def get_skin_filenames(champ_name: str) -> list[str]:
         return []
 
     images: list[str] = payload.get("parse", {}).get("images", [])
-    return [img for img in images if img.lower().endswith("skin.jpg")]
+    return [img for img in images if img.lower().endswith("skin.jpg") and "(2022)" not in img]
 
 
 def main() -> None:
@@ -71,7 +71,8 @@ def main() -> None:
             progress.update(task, description=f"[bold green]{champ_name}")
             try:
                 time.sleep(REQUEST_DELAY)
-                skins = get_skin_filenames(champ_name)
+                wiki_name = champ_name.split(" &")[0] if " &" in champ_name else champ_name
+                skins = get_skin_filenames(wiki_name)
             except requests.RequestException:
                 skins = []
             results.append((champ_name, skins))

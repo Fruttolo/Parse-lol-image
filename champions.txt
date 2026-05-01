@@ -3,2416 +3,2416 @@ Total: 172
 ========================================
 
 Aatrox
-  - Original
-  - Justicar
-  - Mecha
-  - SeaHunter
-  - BloodMoon
-  - PrestigeBloodMoon
-  - Victorious
-  - Odyssey
-  - PrestigeBloodMoon(2022)
-  - LunarEclipse
-  - DRX
-  - PrestigeDRX
-  - Primordian
+  - Aatrox_OriginalSkin.jpg
+  - Aatrox_JusticarSkin.jpg
+  - Aatrox_MechaSkin.jpg
+  - Aatrox_SeaHunterSkin.jpg
+  - Aatrox_BloodMoonSkin.jpg
+  - Aatrox_PrestigeBloodMoonSkin.jpg
+  - Aatrox_VictoriousSkin.jpg
+  - Aatrox_OdysseySkin.jpg
+  - Aatrox_PrestigeBloodMoon(2022)Skin.jpg
+  - Aatrox_LunarEclipseSkin.jpg
+  - Aatrox_DRXSkin.jpg
+  - Aatrox_PrestigeDRXSkin.jpg
+  - Aatrox_PrimordianSkin.jpg
 
 Ahri
-  - Original
-  - Dynasty
-  - Midnight
-  - Foxfire
-  - Popstar
-  - Challenger
-  - Academy
-  - Arcade
-  - StarGuardian
-  - KDA
-  - PrestigeKDA
-  - Elderwood
-  - SpiritBlossom
-  - KDAALLOUT
-  - Coven
-  - PrestigeKDA(2022)
-  - Arcana
-  - SnowMoon
-  - RisenLegend
-  - ImmortalizedLegend
-  - SpiritBlossomSprings
-  - AfterHoursSpiritBlossomSprings
+  - Ahri_OriginalSkin.jpg
+  - Ahri_DynastySkin.jpg
+  - Ahri_MidnightSkin.jpg
+  - Ahri_FoxfireSkin.jpg
+  - Ahri_PopstarSkin.jpg
+  - Ahri_ChallengerSkin.jpg
+  - Ahri_AcademySkin.jpg
+  - Ahri_ArcadeSkin.jpg
+  - Ahri_StarGuardianSkin.jpg
+  - Ahri_KDASkin.jpg
+  - Ahri_PrestigeKDASkin.jpg
+  - Ahri_ElderwoodSkin.jpg
+  - Ahri_SpiritBlossomSkin.jpg
+  - Ahri_KDAALLOUTSkin.jpg
+  - Ahri_CovenSkin.jpg
+  - Ahri_PrestigeKDA(2022)Skin.jpg
+  - Ahri_ArcanaSkin.jpg
+  - Ahri_SnowMoonSkin.jpg
+  - Ahri_RisenLegendSkin.jpg
+  - Ahri_ImmortalizedLegendSkin.jpg
+  - Ahri_SpiritBlossomSpringsSkin.jpg
+  - Ahri_AfterHoursSpiritBlossomSpringsSkin.jpg
 
 Akali
-  - Original
-  - Stinger
-  - Infernal
-  - All-star
-  - Nurse
-  - BloodMoon
-  - Silverfang
-  - Headhunter
-  - Sashimi
-  - KDA
-  - PrestigeKDA
-  - PROJECT
-  - TrueDamage
-  - KDAALLOUT
-  - CrimeCityNightmare
-  - PrestigeKDA(2022)
-  - StarGuardian
-  - DRX
-  - Coven
-  - PrestigeCoven
-  - Empyrean
-  - SpiritBlossom
+  - Akali_OriginalSkin.jpg
+  - Akali_StingerSkin.jpg
+  - Akali_InfernalSkin.jpg
+  - Akali_All-starSkin.jpg
+  - Akali_NurseSkin.jpg
+  - Akali_BloodMoonSkin.jpg
+  - Akali_SilverfangSkin.jpg
+  - Akali_HeadhunterSkin.jpg
+  - Akali_SashimiSkin.jpg
+  - Akali_KDASkin.jpg
+  - Akali_PrestigeKDASkin.jpg
+  - Akali_PROJECTSkin.jpg
+  - Akali_TrueDamageSkin.jpg
+  - Akali_KDAALLOUTSkin.jpg
+  - Akali_CrimeCityNightmareSkin.jpg
+  - Akali_PrestigeKDA(2022)Skin.jpg
+  - Akali_StarGuardianSkin.jpg
+  - Akali_DRXSkin.jpg
+  - Akali_CovenSkin.jpg
+  - Akali_PrestigeCovenSkin.jpg
+  - Akali_EmpyreanSkin.jpg
+  - Akali_SpiritBlossomSkin.jpg
 
 Akshan
-  - Original
-  - CyberPop
-  - CrystalRose
-  - ThreeHonors
+  - Akshan_OriginalSkin.jpg
+  - Akshan_CyberPopSkin.jpg
+  - Akshan_CrystalRoseSkin.jpg
+  - Akshan_ThreeHonorsSkin.jpg
 
 Alistar
-  - Original
-  - Black
-  - Golden
-  - Matador
-  - Longhorn
-  - Unchained
-  - Infernal
-  - Sweeper
-  - Marauder
-  - SKTT1
-  - MooCow
-  - Hextech
-  - Conqueror
-  - Blackfrost
-  - LunarBeast
-  - Elderwood
+  - Alistar_OriginalSkin.jpg
+  - Alistar_BlackSkin.jpg
+  - Alistar_GoldenSkin.jpg
+  - Alistar_MatadorSkin.jpg
+  - Alistar_LonghornSkin.jpg
+  - Alistar_UnchainedSkin.jpg
+  - Alistar_InfernalSkin.jpg
+  - Alistar_SweeperSkin.jpg
+  - Alistar_MarauderSkin.jpg
+  - Alistar_SKTT1Skin.jpg
+  - Alistar_MooCowSkin.jpg
+  - Alistar_HextechSkin.jpg
+  - Alistar_ConquerorSkin.jpg
+  - Alistar_BlackfrostSkin.jpg
+  - Alistar_LunarBeastSkin.jpg
+  - Alistar_ElderwoodSkin.jpg
 
 Ambessa
-  - Original
-  - ChosenoftheWolf
+  - Ambessa_OriginalSkin.jpg
+  - Ambessa_ChosenoftheWolfSkin.jpg
 
 Amumu
-  - Original
-  - Pharaoh
-  - Vancouver
-  - Emumu
-  - Re-Gifted
-  - Almost-PromKing
-  - LittleKnight
-  - SadRobot
-  - SurpriseParty
-  - Infernal
-  - Hextech
-  - PumpkinPrince
-  - Porcelain
-  - Heartache
-  - DumplingDarlings
+  - Amumu_OriginalSkin.jpg
+  - Amumu_PharaohSkin.jpg
+  - Amumu_VancouverSkin.jpg
+  - Amumu_EmumuSkin.jpg
+  - Amumu_Re-GiftedSkin.jpg
+  - Amumu_Almost-PromKingSkin.jpg
+  - Amumu_LittleKnightSkin.jpg
+  - Amumu_SadRobotSkin.jpg
+  - Amumu_SurprisePartySkin.jpg
+  - Amumu_InfernalSkin.jpg
+  - Amumu_HextechSkin.jpg
+  - Amumu_PumpkinPrinceSkin.jpg
+  - Amumu_PorcelainSkin.jpg
+  - Amumu_HeartacheSkin.jpg
+  - Amumu_DumplingDarlingsSkin.jpg
 
 Anivia
-  - Original
-  - TeamSpirit
-  - BirdofPrey
-  - NoxusHunter
-  - Hextech
-  - Blackfrost
-  - Prehistoric
-  - FestivalQueen
-  - Papercraft
-  - CosmicFlight
-  - DivinePhoenix
-  - BewitchingBatnivia
-  - Victorious
+  - Anivia_OriginalSkin.jpg
+  - Anivia_TeamSpiritSkin.jpg
+  - Anivia_BirdofPreySkin.jpg
+  - Anivia_NoxusHunterSkin.jpg
+  - Anivia_HextechSkin.jpg
+  - Anivia_BlackfrostSkin.jpg
+  - Anivia_PrehistoricSkin.jpg
+  - Anivia_FestivalQueenSkin.jpg
+  - Anivia_PapercraftSkin.jpg
+  - Anivia_CosmicFlightSkin.jpg
+  - Anivia_DivinePhoenixSkin.jpg
+  - Anivia_BewitchingBatniviaSkin.jpg
+  - Anivia_VictoriousSkin.jpg
 
 Annie
-  - Original
-  - Goth
-  - RedRiding
-  - AnnieinWonderland
-  - PromQueen
-  - Frostfire
-  - Reverse
-  - FrankenTibbers
-  - Panda
-  - Sweetheart
-  - Hextech
-  - SuperGalaxy
-  - Annie-Versary
-  - LunarBeast
-  - CafeCuties
-  - FrightNight
-  - Winterblessed
-  - BattlePrincess
-  - Pandemonium
+  - Annie_OriginalSkin.jpg
+  - Annie_GothSkin.jpg
+  - Annie_RedRidingSkin.jpg
+  - Annie_AnnieinWonderlandSkin.jpg
+  - Annie_PromQueenSkin.jpg
+  - Annie_FrostfireSkin.jpg
+  - Annie_ReverseSkin.jpg
+  - Annie_FrankenTibbersSkin.jpg
+  - Annie_PandaSkin.jpg
+  - Annie_SweetheartSkin.jpg
+  - Annie_HextechSkin.jpg
+  - Annie_SuperGalaxySkin.jpg
+  - Annie_Annie-VersarySkin.jpg
+  - Annie_LunarBeastSkin.jpg
+  - Annie_CafeCutiesSkin.jpg
+  - Annie_FrightNightSkin.jpg
+  - Annie_WinterblessedSkin.jpg
+  - Annie_BattlePrincessSkin.jpg
+  - Annie_PandemoniumSkin.jpg
 
 Aphelios
-  - Original
-  - Nightbringer
-  - LunarBeast
-  - EDG
-  - SpiritBlossom
-  - HEARTSTEEL
-  - PrestigeSpiritBlossomSprings
+  - Aphelios_OriginalSkin.jpg
+  - Aphelios_NightbringerSkin.jpg
+  - Aphelios_LunarBeastSkin.jpg
+  - Aphelios_EDGSkin.jpg
+  - Aphelios_SpiritBlossomSkin.jpg
+  - Aphelios_HEARTSTEELSkin.jpg
+  - Aphelios_PrestigeSpiritBlossomSpringsSkin.jpg
 
 Ashe
-  - Original
-  - Freljord
-  - SherwoodForest
-  - Woad
-  - Queen
-  - Amethyst
-  - Heartseeker
-  - Marauder
-  - PROJECT
-  - Worlds2017
-  - CosmicQueen
-  - HighNoon
-  - FaeDragon
-  - Coven
-  - OceanSong
-  - LunarEmpress
-  - DRX
-  - CrystalisMotus
-  - Infernal
-  - SpiritBlossom
-  - Firecracker
+  - Ashe_OriginalSkin.jpg
+  - Ashe_FreljordSkin.jpg
+  - Ashe_SherwoodForestSkin.jpg
+  - Ashe_WoadSkin.jpg
+  - Ashe_QueenSkin.jpg
+  - Ashe_AmethystSkin.jpg
+  - Ashe_HeartseekerSkin.jpg
+  - Ashe_MarauderSkin.jpg
+  - Ashe_PROJECTSkin.jpg
+  - Ashe_Worlds2017Skin.jpg
+  - Ashe_CosmicQueenSkin.jpg
+  - Ashe_HighNoonSkin.jpg
+  - Ashe_FaeDragonSkin.jpg
+  - Ashe_CovenSkin.jpg
+  - Ashe_OceanSongSkin.jpg
+  - Ashe_LunarEmpressSkin.jpg
+  - Ashe_DRXSkin.jpg
+  - Ashe_CrystalisMotusSkin.jpg
+  - Ashe_InfernalSkin.jpg
+  - Ashe_SpiritBlossomSkin.jpg
+  - Ashe_FirecrackerSkin.jpg
 
 Aurelion Sol
-  - Aurelion Sol Original
-  - Aurelion Sol AshenLord
-  - Aurelion Sol Mecha
-  - Aurelion Sol StormDragon
-  - Aurelion Sol Inkshadow
-  - Aurelion Sol PorcelainProtector
-  - Aurelion Sol DivineArchitectPorcelain
+  - Aurelion_Sol_OriginalSkin.jpg
+  - Aurelion_Sol_AshenLordSkin.jpg
+  - Aurelion_Sol_MechaSkin.jpg
+  - Aurelion_Sol_StormDragonSkin.jpg
+  - Aurelion_Sol_InkshadowSkin.jpg
+  - Aurelion_Sol_PorcelainProtectorSkin.jpg
+  - Aurelion_Sol_DivineArchitectPorcelainSkin.jpg
 
 Aurora
-  - Original
-  - BattleBunny
-  - Arcana
+  - Aurora_OriginalSkin.jpg
+  - Aurora_BattleBunnySkin.jpg
+  - Aurora_ArcanaSkin.jpg
 
 Azir
-  - Original
-  - Galactic
-  - Gravelord
-  - SKTT1
-  - WarringKingdoms
-  - Elderwood
-  - Worlds2022
-  - Attorney
+  - Azir_OriginalSkin.jpg
+  - Azir_GalacticSkin.jpg
+  - Azir_GravelordSkin.jpg
+  - Azir_SKTT1Skin.jpg
+  - Azir_WarringKingdomsSkin.jpg
+  - Azir_ElderwoodSkin.jpg
+  - Azir_Worlds2022Skin.jpg
+  - Azir_AttorneySkin.jpg
 
 Bard
-  - Original
-  - Elderwood
-  - SnowDay
-  - BardBard
-  - Astronaut
-  - CafeCuties
-  - ShanHaiScrolls
-  - T1
-  - SpiritBlossom
+  - Bard_OriginalSkin.jpg
+  - Bard_ElderwoodSkin.jpg
+  - Bard_SnowDaySkin.jpg
+  - Bard_BardBardSkin.jpg
+  - Bard_AstronautSkin.jpg
+  - Bard_CafeCutiesSkin.jpg
+  - Bard_ShanHaiScrollsSkin.jpg
+  - Bard_T1Skin.jpg
+  - Bard_SpiritBlossomSkin.jpg
 
 Bel'Veth
-  - Bel'Veth Original
-  - Bel'Veth BattleBoss
-  - Bel'Veth CosmicMatriarch
-  - Bel'Veth Primordian
+  - Bel'Veth_OriginalSkin.jpg
+  - Bel'Veth_BattleBossSkin.jpg
+  - Bel'Veth_CosmicMatriarchSkin.jpg
+  - Bel'Veth_PrimordianSkin.jpg
 
 Blitzcrank
-  - Original
-  - Rusty
-  - Goalkeeper
-  - BoomBoom
-  - PiltoverCustoms
-  - DefinitelyNot
-  - iBlitzcrank
-  - Riot
-  - BattleBoss
-  - LancerRogue
-  - LancerParagon
-  - Witch'sBrew
-  - SpaceGroove
-  - Victorious
-  - ZenithGames
-  - Beezcrank
-  - BubbleBash
+  - Blitzcrank_OriginalSkin.jpg
+  - Blitzcrank_RustySkin.jpg
+  - Blitzcrank_GoalkeeperSkin.jpg
+  - Blitzcrank_BoomBoomSkin.jpg
+  - Blitzcrank_PiltoverCustomsSkin.jpg
+  - Blitzcrank_DefinitelyNotSkin.jpg
+  - Blitzcrank_iBlitzcrankSkin.jpg
+  - Blitzcrank_RiotSkin.jpg
+  - Blitzcrank_BattleBossSkin.jpg
+  - Blitzcrank_LancerRogueSkin.jpg
+  - Blitzcrank_LancerParagonSkin.jpg
+  - Blitzcrank_Witch'sBrewSkin.jpg
+  - Blitzcrank_SpaceGrooveSkin.jpg
+  - Blitzcrank_VictoriousSkin.jpg
+  - Blitzcrank_ZenithGamesSkin.jpg
+  - Blitzcrank_BeezcrankSkin.jpg
+  - Blitzcrank_BubbleBashSkin.jpg
 
 Brand
-  - Original
-  - Apocalyptic
-  - Vandal
-  - Cryocore
-  - Zombie
-  - SpiritFire
-  - BattleBoss
-  - Arclight
-  - EternalDragon
-  - Debonair
-  - PrestigeDebonair
-  - StreetDemons
-  - Empyrean
+  - Brand_OriginalSkin.jpg
+  - Brand_ApocalypticSkin.jpg
+  - Brand_VandalSkin.jpg
+  - Brand_CryocoreSkin.jpg
+  - Brand_ZombieSkin.jpg
+  - Brand_SpiritFireSkin.jpg
+  - Brand_BattleBossSkin.jpg
+  - Brand_ArclightSkin.jpg
+  - Brand_EternalDragonSkin.jpg
+  - Brand_DebonairSkin.jpg
+  - Brand_PrestigeDebonairSkin.jpg
+  - Brand_StreetDemonsSkin.jpg
+  - Brand_EmpyreanSkin.jpg
 
 Braum
-  - Original
-  - Dragonslayer
-  - ElTigre
-  - BraumLionheart
-  - Santa
-  - CrimeCity
-  - SugarRush
-  - PoolParty
-  - GrillMaster
-  - Victorious
+  - Braum_OriginalSkin.jpg
+  - Braum_DragonslayerSkin.jpg
+  - Braum_ElTigreSkin.jpg
+  - Braum_BraumLionheartSkin.jpg
+  - Braum_SantaSkin.jpg
+  - Braum_CrimeCitySkin.jpg
+  - Braum_SugarRushSkin.jpg
+  - Braum_PoolPartySkin.jpg
+  - Braum_GrillMasterSkin.jpg
+  - Braum_VictoriousSkin.jpg
 
 Briar
-  - Original
-  - StreetDemons
-  - Primordian
-  - BattleAcademia
+  - Briar_OriginalSkin.jpg
+  - Briar_StreetDemonsSkin.jpg
+  - Briar_PrimordianSkin.jpg
+  - Briar_BattleAcademiaSkin.jpg
 
 Caitlyn
-  - Original
-  - Resistance
-  - Sheriff
-  - Safari
-  - ArcticWarfare
-  - Officer
-  - Headhunter
-  - LunarWraith
-  - Pulsefire
-  - PoolParty
-  - Arcade
-  - PrestigeArcade
-  - BattleAcademia
-  - ArcaneEnforcer
-  - PrestigeArcade(2022)
-  - SnowMoon
-  - Heartthrob
-  - DRX
-  - ArcaneCommander
-  - PrestigeArcaneCommander
-  - Firecracker
+  - Caitlyn_OriginalSkin.jpg
+  - Caitlyn_ResistanceSkin.jpg
+  - Caitlyn_SheriffSkin.jpg
+  - Caitlyn_SafariSkin.jpg
+  - Caitlyn_ArcticWarfareSkin.jpg
+  - Caitlyn_OfficerSkin.jpg
+  - Caitlyn_HeadhunterSkin.jpg
+  - Caitlyn_LunarWraithSkin.jpg
+  - Caitlyn_PulsefireSkin.jpg
+  - Caitlyn_PoolPartySkin.jpg
+  - Caitlyn_ArcadeSkin.jpg
+  - Caitlyn_PrestigeArcadeSkin.jpg
+  - Caitlyn_BattleAcademiaSkin.jpg
+  - Caitlyn_ArcaneEnforcerSkin.jpg
+  - Caitlyn_PrestigeArcade(2022)Skin.jpg
+  - Caitlyn_SnowMoonSkin.jpg
+  - Caitlyn_HeartthrobSkin.jpg
+  - Caitlyn_DRXSkin.jpg
+  - Caitlyn_ArcaneCommanderSkin.jpg
+  - Caitlyn_PrestigeArcaneCommanderSkin.jpg
+  - Caitlyn_FirecrackerSkin.jpg
 
 Camille
-  - Original
-  - Program
-  - Coven
-  - iG
-  - Arcana
-  - StrikeCommander
-  - Winterblessed
-  - PrestigeWinterblessed
-  - PetalsofSpring
+  - Camille_OriginalSkin.jpg
+  - Camille_ProgramSkin.jpg
+  - Camille_CovenSkin.jpg
+  - Camille_iGSkin.jpg
+  - Camille_ArcanaSkin.jpg
+  - Camille_StrikeCommanderSkin.jpg
+  - Camille_WinterblessedSkin.jpg
+  - Camille_PrestigeWinterblessedSkin.jpg
+  - Camille_PetalsofSpringSkin.jpg
 
 Cassiopeia
-  - Original
-  - Desperada
-  - Siren
-  - Mythic
-  - JadeFang
-  - Eternum
-  - SpiritBlossom
-  - Coven
-  - Bewitching
-  - PrestigeMythmaker
+  - Cassiopeia_OriginalSkin.jpg
+  - Cassiopeia_DesperadaSkin.jpg
+  - Cassiopeia_SirenSkin.jpg
+  - Cassiopeia_MythicSkin.jpg
+  - Cassiopeia_JadeFangSkin.jpg
+  - Cassiopeia_EternumSkin.jpg
+  - Cassiopeia_SpiritBlossomSkin.jpg
+  - Cassiopeia_CovenSkin.jpg
+  - Cassiopeia_BewitchingSkin.jpg
+  - Cassiopeia_PrestigeMythmakerSkin.jpg
 
 Cho'Gath
-  - Cho'Gath Original
-  - Cho'Gath Nightmare
-  - Cho'Gath Gentleman
-  - Cho'Gath LochNess
-  - Cho'Gath Jurassic
-  - Cho'Gath BattlecastPrime
-  - Cho'Gath Prehistoric
-  - Cho'Gath DarkStar
-  - Cho'Gath ShanHaiScrolls
-  - Cho'Gath BrokenCovenant
-  - Cho'Gath ToyTerror
-  - Cho'Gath Petricite
+  - Cho'Gath_OriginalSkin.jpg
+  - Cho'Gath_NightmareSkin.jpg
+  - Cho'Gath_GentlemanSkin.jpg
+  - Cho'Gath_LochNessSkin.jpg
+  - Cho'Gath_JurassicSkin.jpg
+  - Cho'Gath_BattlecastPrimeSkin.jpg
+  - Cho'Gath_PrehistoricSkin.jpg
+  - Cho'Gath_DarkStarSkin.jpg
+  - Cho'Gath_ShanHaiScrollsSkin.jpg
+  - Cho'Gath_BrokenCovenantSkin.jpg
+  - Cho'Gath_ToyTerrorSkin.jpg
+  - Cho'Gath_PetriciteSkin.jpg
 
 Corki
-  - Original
-  - UFO
-  - IceToboggan
-  - RedBaron
-  - HotRod
-  - Urfrider
-  - Dragonwing
-  - Fnatic
-  - Arcade
-  - Corgi
-  - Astronaut
-  - BrickToy
+  - Corki_OriginalSkin.jpg
+  - Corki_UFOSkin.jpg
+  - Corki_IceTobogganSkin.jpg
+  - Corki_RedBaronSkin.jpg
+  - Corki_HotRodSkin.jpg
+  - Corki_UrfriderSkin.jpg
+  - Corki_DragonwingSkin.jpg
+  - Corki_FnaticSkin.jpg
+  - Corki_ArcadeSkin.jpg
+  - Corki_CorgiSkin.jpg
+  - Corki_AstronautSkin.jpg
+  - Corki_BrickToySkin.jpg
 
 Darius
-  - Original
-  - Lord
-  - Bioforge
-  - WoadKing
-  - Dunkmaster
-  - Academy
-  - Dreadnova
-  - God-King
-  - HighNoon
-  - LunarBeast
-  - CrimeCityNightmare
-  - SpiritBlossom
-  - Porcelain
-  - DivineGod-King
-  - PrestigeTriumphantGeneral
-  - MechaKingdoms
+  - Darius_OriginalSkin.jpg
+  - Darius_LordSkin.jpg
+  - Darius_BioforgeSkin.jpg
+  - Darius_WoadKingSkin.jpg
+  - Darius_DunkmasterSkin.jpg
+  - Darius_AcademySkin.jpg
+  - Darius_DreadnovaSkin.jpg
+  - Darius_God-KingSkin.jpg
+  - Darius_HighNoonSkin.jpg
+  - Darius_LunarBeastSkin.jpg
+  - Darius_CrimeCityNightmareSkin.jpg
+  - Darius_SpiritBlossomSkin.jpg
+  - Darius_PorcelainSkin.jpg
+  - Darius_DivineGod-KingSkin.jpg
+  - Darius_PrestigeTriumphantGeneralSkin.jpg
+  - Darius_MechaKingdomsSkin.jpg
 
 Diana
-  - Original
-  - DarkValkyrie
-  - LunarGoddess
-  - Infernal
-  - BloodMoon
-  - DarkWaters
-  - Dragonslayer
-  - BattleQueen
-  - PrestigeBattleQueen
-  - Sentinel
-  - Firecracker
-  - Winterblessed
-  - Heavenscale
-  - DarkCosmic
-  - PrestigeDarkCosmic
+  - Diana_OriginalSkin.jpg
+  - Diana_DarkValkyrieSkin.jpg
+  - Diana_LunarGoddessSkin.jpg
+  - Diana_InfernalSkin.jpg
+  - Diana_BloodMoonSkin.jpg
+  - Diana_DarkWatersSkin.jpg
+  - Diana_DragonslayerSkin.jpg
+  - Diana_BattleQueenSkin.jpg
+  - Diana_PrestigeBattleQueenSkin.jpg
+  - Diana_SentinelSkin.jpg
+  - Diana_FirecrackerSkin.jpg
+  - Diana_WinterblessedSkin.jpg
+  - Diana_HeavenscaleSkin.jpg
+  - Diana_DarkCosmicSkin.jpg
+  - Diana_PrestigeDarkCosmicSkin.jpg
 
 Dr. Mundo
-  - Dr. Mundo Original
-  - Dr. Mundo Toxic
-  - Dr. Mundo Mr.Mundoverse
-  - Dr. Mundo CorporateMundo
-  - Dr. Mundo MundoMundo
-  - Dr. Mundo ExecutionerMundo
-  - Dr. Mundo RagebornMundo
-  - Dr. Mundo TPAMundo
-  - Dr. Mundo PoolPartyMundo
-  - Dr. Mundo ElMachoMundo
-  - Dr. Mundo FrozenPrinceMundo
-  - Dr. Mundo StreetDemons
+  - Dr._Mundo_OriginalSkin.jpg
+  - Dr._Mundo_ToxicSkin.jpg
+  - Dr._Mundo_Mr.MundoverseSkin.jpg
+  - Dr._Mundo_CorporateMundoSkin.jpg
+  - Dr._Mundo_MundoMundoSkin.jpg
+  - Dr._Mundo_ExecutionerMundoSkin.jpg
+  - Dr._Mundo_RagebornMundoSkin.jpg
+  - Dr._Mundo_TPAMundoSkin.jpg
+  - Dr._Mundo_PoolPartyMundoSkin.jpg
+  - Dr._Mundo_ElMachoMundoSkin.jpg
+  - Dr._Mundo_FrozenPrinceMundoSkin.jpg
+  - Dr._Mundo_StreetDemonsSkin.jpg
 
 Draven
-  - Original
-  - SoulReaver
-  - Gladiator
-  - Primetime
-  - PoolParty
-  - BeastHunter
-  - DravenDraven
-  - Santa
-  - MechaKingdoms
-  - Ruined
-  - Debonair
-  - FrightNight
-  - LaIlusión
-  - GrandReckoning
-  - Victorious
+  - Draven_OriginalSkin.jpg
+  - Draven_SoulReaverSkin.jpg
+  - Draven_GladiatorSkin.jpg
+  - Draven_PrimetimeSkin.jpg
+  - Draven_PoolPartySkin.jpg
+  - Draven_BeastHunterSkin.jpg
+  - Draven_DravenDravenSkin.jpg
+  - Draven_SantaSkin.jpg
+  - Draven_MechaKingdomsSkin.jpg
+  - Draven_RuinedSkin.jpg
+  - Draven_DebonairSkin.jpg
+  - Draven_FrightNightSkin.jpg
+  - Draven_LaIlusiónSkin.jpg
+  - Draven_GrandReckoningSkin.jpg
+  - Draven_VictoriousSkin.jpg
 
 Ekko
-  - Original
-  - Sandstorm
-  - Academy
-  - PROJECT
-  - SKTT1
-  - TrickorTreat
-  - TrueDamage
-  - Pulsefire
-  - ArcaneFirelight
-  - StarGuardian
-  - PrestigeStarGuardian
-  - BreakoutTrueDamage
-  - ArcaneLastStand
+  - Ekko_OriginalSkin.jpg
+  - Ekko_SandstormSkin.jpg
+  - Ekko_AcademySkin.jpg
+  - Ekko_PROJECTSkin.jpg
+  - Ekko_SKTT1Skin.jpg
+  - Ekko_TrickorTreatSkin.jpg
+  - Ekko_TrueDamageSkin.jpg
+  - Ekko_PulsefireSkin.jpg
+  - Ekko_ArcaneFirelightSkin.jpg
+  - Ekko_StarGuardianSkin.jpg
+  - Ekko_PrestigeStarGuardianSkin.jpg
+  - Ekko_BreakoutTrueDamageSkin.jpg
+  - Ekko_ArcaneLastStandSkin.jpg
 
 Elise
-  - Original
-  - DeathBlossom
-  - Victorious
-  - BloodMoon
-  - SKTT1
-  - SuperGalaxy
-  - Bewitching
-  - WitheredRose
-  - Coven
-  - MasqueoftheBlackRose
+  - Elise_OriginalSkin.jpg
+  - Elise_DeathBlossomSkin.jpg
+  - Elise_VictoriousSkin.jpg
+  - Elise_BloodMoonSkin.jpg
+  - Elise_SKTT1Skin.jpg
+  - Elise_SuperGalaxySkin.jpg
+  - Elise_BewitchingSkin.jpg
+  - Elise_WitheredRoseSkin.jpg
+  - Elise_CovenSkin.jpg
+  - Elise_MasqueoftheBlackRoseSkin.jpg
 
 Evelynn
-  - Original
-  - Shadow
-  - Masquerade
-  - Tango
-  - Safecracker
-  - BloodMoon
-  - KDA
-  - PrestigeKDA
-  - SugarRush
-  - KDAALLOUT
-  - Coven
-  - PrestigeKDA(2022)
-  - SpiritBlossom
-  - SoulFighter
-  - HighNoon
-  - PrestigeHighNoon
-  - Nightbringer
+  - Evelynn_OriginalSkin.jpg
+  - Evelynn_ShadowSkin.jpg
+  - Evelynn_MasqueradeSkin.jpg
+  - Evelynn_TangoSkin.jpg
+  - Evelynn_SafecrackerSkin.jpg
+  - Evelynn_BloodMoonSkin.jpg
+  - Evelynn_KDASkin.jpg
+  - Evelynn_PrestigeKDASkin.jpg
+  - Evelynn_SugarRushSkin.jpg
+  - Evelynn_KDAALLOUTSkin.jpg
+  - Evelynn_CovenSkin.jpg
+  - Evelynn_PrestigeKDA(2022)Skin.jpg
+  - Evelynn_SpiritBlossomSkin.jpg
+  - Evelynn_SoulFighterSkin.jpg
+  - Evelynn_HighNoonSkin.jpg
+  - Evelynn_PrestigeHighNoonSkin.jpg
+  - Evelynn_NightbringerSkin.jpg
 
 Ezreal
-  - Original
-  - Nottingham
-  - Striker
-  - Frosted
-  - Explorer
-  - Pulsefire
-  - TPA
-  - Debonair
-  - AceofSpades
-  - Arcade
-  - StarGuardian
-  - SSG
-  - PajamaGuardian
-  - BattleAcademia
-  - PsyOps
-  - PrestigePsyOps
-  - PorcelainProtector
-  - FaerieCourt
-  - HEARTSTEEL
-  - Heavenscale
-  - PrestigeHeavenscale
-  - MasqueoftheBlackRose
+  - Ezreal_OriginalSkin.jpg
+  - Ezreal_NottinghamSkin.jpg
+  - Ezreal_StrikerSkin.jpg
+  - Ezreal_FrostedSkin.jpg
+  - Ezreal_ExplorerSkin.jpg
+  - Ezreal_PulsefireSkin.jpg
+  - Ezreal_TPASkin.jpg
+  - Ezreal_DebonairSkin.jpg
+  - Ezreal_AceofSpadesSkin.jpg
+  - Ezreal_ArcadeSkin.jpg
+  - Ezreal_StarGuardianSkin.jpg
+  - Ezreal_SSGSkin.jpg
+  - Ezreal_PajamaGuardianSkin.jpg
+  - Ezreal_BattleAcademiaSkin.jpg
+  - Ezreal_PsyOpsSkin.jpg
+  - Ezreal_PrestigePsyOpsSkin.jpg
+  - Ezreal_PorcelainProtectorSkin.jpg
+  - Ezreal_FaerieCourtSkin.jpg
+  - Ezreal_HEARTSTEELSkin.jpg
+  - Ezreal_HeavenscaleSkin.jpg
+  - Ezreal_PrestigeHeavenscaleSkin.jpg
+  - Ezreal_MasqueoftheBlackRoseSkin.jpg
 
 Fiddlesticks
-  - Original
-  - Spectral
-  - UnionJack
-  - Bandito
-  - Pumpkinhead
-  - FiddleMeTimbers
-  - SurpriseParty
-  - DarkCandy
-  - Risen
-  - Praetorian
-  - StarNemesis
-  - BloodMoon
-  - FloraFatalis
+  - Fiddlesticks_OriginalSkin.jpg
+  - Fiddlesticks_SpectralSkin.jpg
+  - Fiddlesticks_UnionJackSkin.jpg
+  - Fiddlesticks_BanditoSkin.jpg
+  - Fiddlesticks_PumpkinheadSkin.jpg
+  - Fiddlesticks_FiddleMeTimbersSkin.jpg
+  - Fiddlesticks_SurprisePartySkin.jpg
+  - Fiddlesticks_DarkCandySkin.jpg
+  - Fiddlesticks_RisenSkin.jpg
+  - Fiddlesticks_PraetorianSkin.jpg
+  - Fiddlesticks_StarNemesisSkin.jpg
+  - Fiddlesticks_BloodMoonSkin.jpg
+  - Fiddlesticks_FloraFatalisSkin.jpg
 
 Fiora
-  - Original
-  - RoyalGuard
-  - Nightraven
-  - Headmistress
-  - PROJECT
-  - PoolParty
-  - SoaringSword
-  - Heartpiercer
-  - iG
-  - Pulsefire
-  - LunarBeast
-  - PrestigeLunarBeast
-  - Bewitching
-  - FaerieCourt
-  - Dragonmancer
-  - BattleQueen
-  - Victorious
+  - Fiora_OriginalSkin.jpg
+  - Fiora_RoyalGuardSkin.jpg
+  - Fiora_NightravenSkin.jpg
+  - Fiora_HeadmistressSkin.jpg
+  - Fiora_PROJECTSkin.jpg
+  - Fiora_PoolPartySkin.jpg
+  - Fiora_SoaringSwordSkin.jpg
+  - Fiora_HeartpiercerSkin.jpg
+  - Fiora_iGSkin.jpg
+  - Fiora_PulsefireSkin.jpg
+  - Fiora_LunarBeastSkin.jpg
+  - Fiora_PrestigeLunarBeastSkin.jpg
+  - Fiora_BewitchingSkin.jpg
+  - Fiora_FaerieCourtSkin.jpg
+  - Fiora_DragonmancerSkin.jpg
+  - Fiora_BattleQueenSkin.jpg
+  - Fiora_VictoriousSkin.jpg
 
 Fizz
-  - Original
-  - Atlantean
-  - Tundra
-  - Fisherman
-  - Void
-  - Cottontail
-  - SuperGalaxy
-  - OmegaSquad
-  - Fuzz
-  - PrestigeFuzz
-  - LittleDevil
-  - PrestigeFuzz(2022)
-  - Astronaut
-  - RainShepherd
+  - Fizz_OriginalSkin.jpg
+  - Fizz_AtlanteanSkin.jpg
+  - Fizz_TundraSkin.jpg
+  - Fizz_FishermanSkin.jpg
+  - Fizz_VoidSkin.jpg
+  - Fizz_CottontailSkin.jpg
+  - Fizz_SuperGalaxySkin.jpg
+  - Fizz_OmegaSquadSkin.jpg
+  - Fizz_FuzzSkin.jpg
+  - Fizz_PrestigeFuzzSkin.jpg
+  - Fizz_LittleDevilSkin.jpg
+  - Fizz_PrestigeFuzz(2022)Skin.jpg
+  - Fizz_AstronautSkin.jpg
+  - Fizz_RainShepherdSkin.jpg
 
 Galio
-  - Original
-  - Enchanted
-  - Hextech
-  - Commando
-  - Gatekeeper
-  - Debonair
-  - Birdio
-  - Infernal
-  - DragonGuardian
-  - Mythmaker
-  - AegisFrame
+  - Galio_OriginalSkin.jpg
+  - Galio_EnchantedSkin.jpg
+  - Galio_HextechSkin.jpg
+  - Galio_CommandoSkin.jpg
+  - Galio_GatekeeperSkin.jpg
+  - Galio_DebonairSkin.jpg
+  - Galio_BirdioSkin.jpg
+  - Galio_InfernalSkin.jpg
+  - Galio_DragonGuardianSkin.jpg
+  - Galio_MythmakerSkin.jpg
+  - Galio_AegisFrameSkin.jpg
 
 Gangplank
-  - Original
-  - Spooky
-  - Minuteman
-  - Sailor
-  - ToySoldier
-  - SpecialForces
-  - Sultan
-  - Captain
-  - Dreadnova
-  - PoolParty
-  - FPX
-  - GangplanktheBetrayer
-  - PROJECT
+  - Gangplank_OriginalSkin.jpg
+  - Gangplank_SpookySkin.jpg
+  - Gangplank_MinutemanSkin.jpg
+  - Gangplank_SailorSkin.jpg
+  - Gangplank_ToySoldierSkin.jpg
+  - Gangplank_SpecialForcesSkin.jpg
+  - Gangplank_SultanSkin.jpg
+  - Gangplank_CaptainSkin.jpg
+  - Gangplank_DreadnovaSkin.jpg
+  - Gangplank_PoolPartySkin.jpg
+  - Gangplank_FPXSkin.jpg
+  - Gangplank_GangplanktheBetrayerSkin.jpg
+  - Gangplank_PROJECTSkin.jpg
 
 Garen
-  - Original
-  - Sanguine
-  - DesertTrooper
-  - Commando
-  - Dreadknight
-  - Rugged
-  - SteelLegion
-  - RogueAdmiral
-  - WarringKingdoms
-  - God-King
-  - DemaciaVice
-  - MechaKingdoms
-  - PrestigeMechaKingdoms
-  - BattleAcademia
-  - Mythmaker
-  - Pengu
-  - FallenGod-King
-  - VisionsoftheFallen
+  - Garen_OriginalSkin.jpg
+  - Garen_SanguineSkin.jpg
+  - Garen_DesertTrooperSkin.jpg
+  - Garen_CommandoSkin.jpg
+  - Garen_DreadknightSkin.jpg
+  - Garen_RuggedSkin.jpg
+  - Garen_SteelLegionSkin.jpg
+  - Garen_RogueAdmiralSkin.jpg
+  - Garen_WarringKingdomsSkin.jpg
+  - Garen_God-KingSkin.jpg
+  - Garen_DemaciaViceSkin.jpg
+  - Garen_MechaKingdomsSkin.jpg
+  - Garen_PrestigeMechaKingdomsSkin.jpg
+  - Garen_BattleAcademiaSkin.jpg
+  - Garen_MythmakerSkin.jpg
+  - Garen_PenguSkin.jpg
+  - Garen_FallenGod-KingSkin.jpg
+  - Garen_VisionsoftheFallenSkin.jpg
 
 Gnar
-  - Original
-  - Dino
-  - Gentleman
-  - SnowDay
-  - ElLeón
-  - SuperGalaxy
-  - SSG
-  - Astronaut
-  - Elderwood
-  - LaIlusión
-  - T1
+  - Gnar_OriginalSkin.jpg
+  - Gnar_DinoSkin.jpg
+  - Gnar_GentlemanSkin.jpg
+  - Gnar_SnowDaySkin.jpg
+  - Gnar_ElLeónSkin.jpg
+  - Gnar_SuperGalaxySkin.jpg
+  - Gnar_SSGSkin.jpg
+  - Gnar_AstronautSkin.jpg
+  - Gnar_ElderwoodSkin.jpg
+  - Gnar_LaIlusiónSkin.jpg
+  - Gnar_T1Skin.jpg
 
 Gragas
-  - Original
-  - Scuba
-  - Hillbilly
-  - Santa
-  - Gragas,Esq.
-  - Vandal
-  - Oktoberfest
-  - Superfan
-  - Fnatic
-  - GragasCaskbreaker
-  - ArcticOps
-  - Warden
-  - SpaceGroove
-  - HighNoon
-  - MusicFan
+  - Gragas_OriginalSkin.jpg
+  - Gragas_ScubaSkin.jpg
+  - Gragas_HillbillySkin.jpg
+  - Gragas_SantaSkin.jpg
+  - Gragas_Gragas,Esq.Skin.jpg
+  - Gragas_VandalSkin.jpg
+  - Gragas_OktoberfestSkin.jpg
+  - Gragas_SuperfanSkin.jpg
+  - Gragas_FnaticSkin.jpg
+  - Gragas_GragasCaskbreakerSkin.jpg
+  - Gragas_ArcticOpsSkin.jpg
+  - Gragas_WardenSkin.jpg
+  - Gragas_SpaceGrooveSkin.jpg
+  - Gragas_HighNoonSkin.jpg
+  - Gragas_MusicFanSkin.jpg
 
 Graves
-  - Original
-  - HiredGun
-  - Jailbreak
-  - CrimeCity
-  - Riot
-  - PoolParty
-  - Cutthroat
-  - SnowDay
-  - Victorious
-  - Praetorian
-  - BattleProfessor
-  - Sentinel
-  - EDG
-  - Porcelain
+  - Graves_OriginalSkin.jpg
+  - Graves_HiredGunSkin.jpg
+  - Graves_JailbreakSkin.jpg
+  - Graves_CrimeCitySkin.jpg
+  - Graves_RiotSkin.jpg
+  - Graves_PoolPartySkin.jpg
+  - Graves_CutthroatSkin.jpg
+  - Graves_SnowDaySkin.jpg
+  - Graves_VictoriousSkin.jpg
+  - Graves_PraetorianSkin.jpg
+  - Graves_BattleProfessorSkin.jpg
+  - Graves_SentinelSkin.jpg
+  - Graves_EDGSkin.jpg
+  - Graves_PorcelainSkin.jpg
 
 Gwen
-  - Original
-  - SpaceGroove
-  - CafeCuties
-  - SoulFighter
-  - BattleQueen
-  - RainShepherd
+  - Gwen_OriginalSkin.jpg
+  - Gwen_SpaceGrooveSkin.jpg
+  - Gwen_CafeCutiesSkin.jpg
+  - Gwen_SoulFighterSkin.jpg
+  - Gwen_BattleQueenSkin.jpg
+  - Gwen_RainShepherdSkin.jpg
 
 Hecarim
-  - Original
-  - BloodKnight
-  - Reaper
-  - Headless
-  - Arcade
-  - Elderwood
-  - Worldbreaker
-  - LancerZero
-  - HighNoon
-  - CosmicCharger
-  - Arcana
-  - Winterblessed
-  - Nightbringer
+  - Hecarim_OriginalSkin.jpg
+  - Hecarim_BloodKnightSkin.jpg
+  - Hecarim_ReaperSkin.jpg
+  - Hecarim_HeadlessSkin.jpg
+  - Hecarim_ArcadeSkin.jpg
+  - Hecarim_ElderwoodSkin.jpg
+  - Hecarim_WorldbreakerSkin.jpg
+  - Hecarim_LancerZeroSkin.jpg
+  - Hecarim_HighNoonSkin.jpg
+  - Hecarim_CosmicChargerSkin.jpg
+  - Hecarim_ArcanaSkin.jpg
+  - Hecarim_WinterblessedSkin.jpg
+  - Hecarim_NightbringerSkin.jpg
 
 Heimerdinger
-  - Original
-  - AlienInvader
-  - BlastZone
-  - PiltoverCustoms
-  - Snowmerdinger
-  - Hazmat
-  - DragonTrainer
-  - PoolParty
-  - Heimerstinger
-  - ArcaneProfessor
+  - Heimerdinger_OriginalSkin.jpg
+  - Heimerdinger_AlienInvaderSkin.jpg
+  - Heimerdinger_BlastZoneSkin.jpg
+  - Heimerdinger_PiltoverCustomsSkin.jpg
+  - Heimerdinger_SnowmerdingerSkin.jpg
+  - Heimerdinger_HazmatSkin.jpg
+  - Heimerdinger_DragonTrainerSkin.jpg
+  - Heimerdinger_PoolPartySkin.jpg
+  - Heimerdinger_HeimerstingerSkin.jpg
+  - Heimerdinger_ArcaneProfessorSkin.jpg
 
 Hwei
-  - Original
-  - Winterblessed
-  - SpiritBlossom
+  - Hwei_OriginalSkin.jpg
+  - Hwei_WinterblessedSkin.jpg
+  - Hwei_SpiritBlossomSkin.jpg
 
 Illaoi
-  - Original
-  - VoidBringer
-  - Resistance
-  - CosmicInvoker
-  - SnowMoon
-  - BattleBear
+  - Illaoi_OriginalSkin.jpg
+  - Illaoi_VoidBringerSkin.jpg
+  - Illaoi_ResistanceSkin.jpg
+  - Illaoi_CosmicInvokerSkin.jpg
+  - Illaoi_SnowMoonSkin.jpg
+  - Illaoi_BattleBearSkin.jpg
 
 Irelia
-  - Original
-  - Nightblade
-  - Aviator
-  - Infiltrator
-  - Frostblade
-  - OrderoftheLotus
-  - DivineSword
-  - iG
-  - PROJECT
-  - PrestigePROJECT
-  - HighNoon
-  - Sentinel
-  - PrestigePROJECT(2022)
-  - Mythmaker
-  - Porcelain
-  - SpiritBlossom
+  - Irelia_OriginalSkin.jpg
+  - Irelia_NightbladeSkin.jpg
+  - Irelia_AviatorSkin.jpg
+  - Irelia_InfiltratorSkin.jpg
+  - Irelia_FrostbladeSkin.jpg
+  - Irelia_OrderoftheLotusSkin.jpg
+  - Irelia_DivineSwordSkin.jpg
+  - Irelia_iGSkin.jpg
+  - Irelia_PROJECTSkin.jpg
+  - Irelia_PrestigePROJECTSkin.jpg
+  - Irelia_HighNoonSkin.jpg
+  - Irelia_SentinelSkin.jpg
+  - Irelia_PrestigePROJECT(2022)Skin.jpg
+  - Irelia_MythmakerSkin.jpg
+  - Irelia_PorcelainSkin.jpg
+  - Irelia_SpiritBlossomSkin.jpg
 
 Ivern
-  - Original
-  - CandyKing
-  - Dunkmaster
-  - OldGod
-  - Astronaut
-  - SpiritBlossom
-  - RainShepherd
+  - Ivern_OriginalSkin.jpg
+  - Ivern_CandyKingSkin.jpg
+  - Ivern_DunkmasterSkin.jpg
+  - Ivern_OldGodSkin.jpg
+  - Ivern_AstronautSkin.jpg
+  - Ivern_SpiritBlossomSkin.jpg
+  - Ivern_RainShepherdSkin.jpg
 
 Janna
-  - Original
-  - Tempest
-  - Hextech
-  - FrostQueen
-  - Victorious
-  - Forecast
-  - Fnatic
-  - StarGuardian
-  - SacredSword
-  - Bewitching
-  - GuardianoftheSands
-  - BattleQueen
-  - CrystalRose
-  - CyberHalo
-  - PrestigeCyberHalo
-  - Heavenscale
-  - Dawnbringer
+  - Janna_OriginalSkin.jpg
+  - Janna_TempestSkin.jpg
+  - Janna_HextechSkin.jpg
+  - Janna_FrostQueenSkin.jpg
+  - Janna_VictoriousSkin.jpg
+  - Janna_ForecastSkin.jpg
+  - Janna_FnaticSkin.jpg
+  - Janna_StarGuardianSkin.jpg
+  - Janna_SacredSwordSkin.jpg
+  - Janna_BewitchingSkin.jpg
+  - Janna_GuardianoftheSandsSkin.jpg
+  - Janna_BattleQueenSkin.jpg
+  - Janna_CrystalRoseSkin.jpg
+  - Janna_CyberHaloSkin.jpg
+  - Janna_PrestigeCyberHaloSkin.jpg
+  - Janna_HeavenscaleSkin.jpg
+  - Janna_DawnbringerSkin.jpg
 
 Jarvan IV
-  - Jarvan IV Original
-  - Jarvan IV Commando
-  - Jarvan IV Dragonslayer
-  - Jarvan IV Darkforge
-  - Jarvan IV Victorious
-  - Jarvan IV WarringKingdoms
-  - Jarvan IV Fnatic
-  - Jarvan IV DarkStar
-  - Jarvan IV SSG
-  - Jarvan IV Hextech
-  - Jarvan IV PoolParty
-  - Jarvan IV LunarBeast
-  - Jarvan IV Worlds2021
-  - Jarvan IV Nightbringer
-  - Jarvan IV Mythmaker
-  - Jarvan IV PrestigeVisionsoftheFallen
+  - Jarvan_IV_OriginalSkin.jpg
+  - Jarvan_IV_CommandoSkin.jpg
+  - Jarvan_IV_DragonslayerSkin.jpg
+  - Jarvan_IV_DarkforgeSkin.jpg
+  - Jarvan_IV_VictoriousSkin.jpg
+  - Jarvan_IV_WarringKingdomsSkin.jpg
+  - Jarvan_IV_FnaticSkin.jpg
+  - Jarvan_IV_DarkStarSkin.jpg
+  - Jarvan_IV_SSGSkin.jpg
+  - Jarvan_IV_HextechSkin.jpg
+  - Jarvan_IV_PoolPartySkin.jpg
+  - Jarvan_IV_LunarBeastSkin.jpg
+  - Jarvan_IV_Worlds2021Skin.jpg
+  - Jarvan_IV_NightbringerSkin.jpg
+  - Jarvan_IV_MythmakerSkin.jpg
+  - Jarvan_IV_PrestigeVisionsoftheFallenSkin.jpg
 
 Jax
-  - Original
-  - TheMighty
-  - Vandal
-  - Angler
-  - PAX
-  - Jaximus
-  - Temple
-  - Nemesis
-  - SKTT1
-  - Warden
-  - GodStaff
-  - MechaKingdoms
-  - Conqueror
-  - PrestigeConqueror
-  - Empyrean
-  - NeoPAX
-  - PROJECT
+  - Jax_OriginalSkin.jpg
+  - Jax_TheMightySkin.jpg
+  - Jax_VandalSkin.jpg
+  - Jax_AnglerSkin.jpg
+  - Jax_PAXSkin.jpg
+  - Jax_JaximusSkin.jpg
+  - Jax_TempleSkin.jpg
+  - Jax_NemesisSkin.jpg
+  - Jax_SKTT1Skin.jpg
+  - Jax_WardenSkin.jpg
+  - Jax_GodStaffSkin.jpg
+  - Jax_MechaKingdomsSkin.jpg
+  - Jax_ConquerorSkin.jpg
+  - Jax_PrestigeConquerorSkin.jpg
+  - Jax_EmpyreanSkin.jpg
+  - Jax_NeoPAXSkin.jpg
+  - Jax_PROJECTSkin.jpg
 
 Jayce
-  - Original
-  - FullMetal
-  - Debonair
-  - Forsaken
-  - JayceBrighthammer
-  - BattleAcademia
-  - Resistance
-  - ArcaneInventor
-  - ZenithGames
-  - T1
-  - ArcaneSurvivor
-  - PrestigeT1
-  - PetalsofSpring
+  - Jayce_OriginalSkin.jpg
+  - Jayce_FullMetalSkin.jpg
+  - Jayce_DebonairSkin.jpg
+  - Jayce_ForsakenSkin.jpg
+  - Jayce_JayceBrighthammerSkin.jpg
+  - Jayce_BattleAcademiaSkin.jpg
+  - Jayce_ResistanceSkin.jpg
+  - Jayce_ArcaneInventorSkin.jpg
+  - Jayce_ZenithGamesSkin.jpg
+  - Jayce_T1Skin.jpg
+  - Jayce_ArcaneSurvivorSkin.jpg
+  - Jayce_PrestigeT1Skin.jpg
+  - Jayce_PetalsofSpringSkin.jpg
 
 Jhin
-  - Original
-  - HighNoon
-  - BloodMoon
-  - SKTT1
-  - PROJECT
-  - DarkCosmic
-  - ShanHaiScrolls
-  - DWG
-  - Empyrean
-  - SoulFighter
-  - DarkCosmicErasure
-  - Mythmaker
-  - Arcana
+  - Jhin_OriginalSkin.jpg
+  - Jhin_HighNoonSkin.jpg
+  - Jhin_BloodMoonSkin.jpg
+  - Jhin_SKTT1Skin.jpg
+  - Jhin_PROJECTSkin.jpg
+  - Jhin_DarkCosmicSkin.jpg
+  - Jhin_ShanHaiScrollsSkin.jpg
+  - Jhin_DWGSkin.jpg
+  - Jhin_EmpyreanSkin.jpg
+  - Jhin_SoulFighterSkin.jpg
+  - Jhin_DarkCosmicErasureSkin.jpg
+  - Jhin_MythmakerSkin.jpg
+  - Jhin_ArcanaSkin.jpg
 
 Jinx
-  - Original
-  - CrimeCity
-  - Firecracker
-  - ZombieSlayer
-  - StarGuardian
-  - AmbitiousElf
-  - Odyssey
-  - PROJECT
-  - Heartseeker
-  - ArcaneEnemy
-  - BattleCat
-  - PrestigeBattleCat
-  - CafeCuties
-  - ArcaneFractured
-  - T1
+  - Jinx_OriginalSkin.jpg
+  - Jinx_CrimeCitySkin.jpg
+  - Jinx_FirecrackerSkin.jpg
+  - Jinx_ZombieSlayerSkin.jpg
+  - Jinx_StarGuardianSkin.jpg
+  - Jinx_AmbitiousElfSkin.jpg
+  - Jinx_OdysseySkin.jpg
+  - Jinx_PROJECTSkin.jpg
+  - Jinx_HeartseekerSkin.jpg
+  - Jinx_ArcaneEnemySkin.jpg
+  - Jinx_BattleCatSkin.jpg
+  - Jinx_PrestigeBattleCatSkin.jpg
+  - Jinx_CafeCutiesSkin.jpg
+  - Jinx_ArcaneFracturedSkin.jpg
+  - Jinx_T1Skin.jpg
 
 K'Sante
-  - K'Sante Original
-  - K'Sante Empyrean
-  - K'Sante PrestigeEmpyrean
-  - K'Sante HEARTSTEEL
+  - K'Sante_OriginalSkin.jpg
+  - K'Sante_EmpyreanSkin.jpg
+  - K'Sante_PrestigeEmpyreanSkin.jpg
+  - K'Sante_HEARTSTEELSkin.jpg
 
 Kai'Sa
-  - Kai'Sa Original
-  - Kai'Sa BulletAngel
-  - Kai'Sa KDA
-  - Kai'Sa PrestigeKDA
-  - Kai'Sa iG
-  - Kai'Sa Arcade
-  - Kai'Sa KDAALLOUT
-  - Kai'Sa PrestigeKDAALLOUT
-  - Kai'Sa LagoonDragon
-  - Kai'Sa PrestigeKDA(2022)
-  - Kai'Sa StarGuardian
-  - Kai'Sa Inkshadow
-  - Kai'Sa Heavenscale
-  - Kai'Sa DarkStar
-  - Kai'Sa RisenLegend
-  - Kai'Sa ImmortalizedLegend
+  - Kai'Sa_OriginalSkin.jpg
+  - Kai'Sa_BulletAngelSkin.jpg
+  - Kai'Sa_KDASkin.jpg
+  - Kai'Sa_PrestigeKDASkin.jpg
+  - Kai'Sa_iGSkin.jpg
+  - Kai'Sa_ArcadeSkin.jpg
+  - Kai'Sa_KDAALLOUTSkin.jpg
+  - Kai'Sa_PrestigeKDAALLOUTSkin.jpg
+  - Kai'Sa_LagoonDragonSkin.jpg
+  - Kai'Sa_PrestigeKDA(2022)Skin.jpg
+  - Kai'Sa_StarGuardianSkin.jpg
+  - Kai'Sa_InkshadowSkin.jpg
+  - Kai'Sa_HeavenscaleSkin.jpg
+  - Kai'Sa_DarkStarSkin.jpg
+  - Kai'Sa_RisenLegendSkin.jpg
+  - Kai'Sa_ImmortalizedLegendSkin.jpg
 
 Kalista
-  - Original
-  - BloodMoon
-  - Worlds2015
-  - SKTT1
-  - Marauder
-  - FaerieCourt
-  - Dawnbringer
+  - Kalista_OriginalSkin.jpg
+  - Kalista_BloodMoonSkin.jpg
+  - Kalista_Worlds2015Skin.jpg
+  - Kalista_SKTT1Skin.jpg
+  - Kalista_MarauderSkin.jpg
+  - Kalista_FaerieCourtSkin.jpg
+  - Kalista_DawnbringerSkin.jpg
 
 Karma
-  - Original
-  - SunGoddess
-  - Sakura
-  - Traditional
-  - OrderoftheLotus
-  - Warden
-  - WinterWonder
-  - Conqueror
-  - DarkStar
-  - Dawnbringer
-  - Odyssey
-  - Ruined
-  - TranquilityDragon
-  - FaerieQueen
-  - Infernal
-  - SpiritBlossom
+  - Karma_OriginalSkin.jpg
+  - Karma_SunGoddessSkin.jpg
+  - Karma_SakuraSkin.jpg
+  - Karma_TraditionalSkin.jpg
+  - Karma_OrderoftheLotusSkin.jpg
+  - Karma_WardenSkin.jpg
+  - Karma_WinterWonderSkin.jpg
+  - Karma_ConquerorSkin.jpg
+  - Karma_DarkStarSkin.jpg
+  - Karma_DawnbringerSkin.jpg
+  - Karma_OdysseySkin.jpg
+  - Karma_RuinedSkin.jpg
+  - Karma_TranquilityDragonSkin.jpg
+  - Karma_FaerieQueenSkin.jpg
+  - Karma_InfernalSkin.jpg
+  - Karma_SpiritBlossomSkin.jpg
 
 Karthus
-  - Original
-  - Phantom
-  - StatueofKarthus
-  - GrimReaper
-  - Pentakill
-  - Fnatic
-  - KarthusLightsbane
-  - Infernal
-  - PentakillLostChapter
-  - Elderwood
-  - Arcana
+  - Karthus_OriginalSkin.jpg
+  - Karthus_PhantomSkin.jpg
+  - Karthus_StatueofKarthusSkin.jpg
+  - Karthus_GrimReaperSkin.jpg
+  - Karthus_PentakillSkin.jpg
+  - Karthus_FnaticSkin.jpg
+  - Karthus_KarthusLightsbaneSkin.jpg
+  - Karthus_InfernalSkin.jpg
+  - Karthus_PentakillLostChapterSkin.jpg
+  - Karthus_ElderwoodSkin.jpg
+  - Karthus_ArcanaSkin.jpg
 
 Kassadin
-  - Original
-  - Festival
-  - DeepOne
-  - Pre-Void
-  - Harbinger
-  - CosmicReaver
-  - Count
-  - Hextech
-  - Shockblade
-  - Dragonmancer
+  - Kassadin_OriginalSkin.jpg
+  - Kassadin_FestivalSkin.jpg
+  - Kassadin_DeepOneSkin.jpg
+  - Kassadin_Pre-VoidSkin.jpg
+  - Kassadin_HarbingerSkin.jpg
+  - Kassadin_CosmicReaverSkin.jpg
+  - Kassadin_CountSkin.jpg
+  - Kassadin_HextechSkin.jpg
+  - Kassadin_ShockbladeSkin.jpg
+  - Kassadin_DragonmancerSkin.jpg
 
 Katarina
-  - Original
-  - Mercenary
-  - RedCard
-  - Bilgewater
-  - KittyCat
-  - HighCommand
-  - Sandstorm
-  - SlayBelle
-  - WarringKingdoms
-  - PROJECT
-  - DeathSworn
-  - BattleAcademia
-  - BloodMoon
-  - BattleQueen
-  - HighNoon
-  - FaerieCourt
-  - PrestigeFaerieCourt
-  - ChosenoftheWolf
-  - PrestigeMasqueoftheBlackRose
-  - PetalsofSpring
+  - Katarina_OriginalSkin.jpg
+  - Katarina_MercenarySkin.jpg
+  - Katarina_RedCardSkin.jpg
+  - Katarina_BilgewaterSkin.jpg
+  - Katarina_KittyCatSkin.jpg
+  - Katarina_HighCommandSkin.jpg
+  - Katarina_SandstormSkin.jpg
+  - Katarina_SlayBelleSkin.jpg
+  - Katarina_WarringKingdomsSkin.jpg
+  - Katarina_PROJECTSkin.jpg
+  - Katarina_DeathSwornSkin.jpg
+  - Katarina_BattleAcademiaSkin.jpg
+  - Katarina_BloodMoonSkin.jpg
+  - Katarina_BattleQueenSkin.jpg
+  - Katarina_HighNoonSkin.jpg
+  - Katarina_FaerieCourtSkin.jpg
+  - Katarina_PrestigeFaerieCourtSkin.jpg
+  - Katarina_ChosenoftheWolfSkin.jpg
+  - Katarina_PrestigeMasqueoftheBlackRoseSkin.jpg
+  - Katarina_PetalsofSpringSkin.jpg
 
 Kayle
-  - Original
-  - Silver
-  - Viridian
-  - Transcended
-  - Battleborn
-  - Judgment
-  - AetherWing
-  - Riot
-  - IronInquisitor
-  - Pentakill
-  - PsyOps
-  - Dragonslayer
-  - PentakillLostChapter
-  - Sun-Eater
-  - ImmortalJourney
-  - Empyrean
-  - PrestigeEmpyrean
-  - SpiritBlossom
+  - Kayle_OriginalSkin.jpg
+  - Kayle_SilverSkin.jpg
+  - Kayle_ViridianSkin.jpg
+  - Kayle_TranscendedSkin.jpg
+  - Kayle_BattlebornSkin.jpg
+  - Kayle_JudgmentSkin.jpg
+  - Kayle_AetherWingSkin.jpg
+  - Kayle_RiotSkin.jpg
+  - Kayle_IronInquisitorSkin.jpg
+  - Kayle_PentakillSkin.jpg
+  - Kayle_PsyOpsSkin.jpg
+  - Kayle_DragonslayerSkin.jpg
+  - Kayle_PentakillLostChapterSkin.jpg
+  - Kayle_Sun-EaterSkin.jpg
+  - Kayle_ImmortalJourneySkin.jpg
+  - Kayle_EmpyreanSkin.jpg
+  - Kayle_PrestigeEmpyreanSkin.jpg
+  - Kayle_SpiritBlossomSkin.jpg
 
 Kayn
-  - Original
-  - Soulhunter
-  - Odyssey
-  - Nightbringer
-  - PrestigeNightbringer
-  - SnowMoon
-  - HEARTSTEEL
-  - BattleAcademia
+  - Kayn_OriginalSkin.jpg
+  - Kayn_SoulhunterSkin.jpg
+  - Kayn_OdysseySkin.jpg
+  - Kayn_NightbringerSkin.jpg
+  - Kayn_PrestigeNightbringerSkin.jpg
+  - Kayn_SnowMoonSkin.jpg
+  - Kayn_HEARTSTEELSkin.jpg
+  - Kayn_BattleAcademiaSkin.jpg
 
 Kennen
-  - Original
-  - Deadly
-  - SwampMaster
-  - Karate
-  - KennenM.D.
-  - ArcticOps
-  - BloodMoon
-  - Super
-  - Infernal
-  - DWG
-  - Astronaut
+  - Kennen_OriginalSkin.jpg
+  - Kennen_DeadlySkin.jpg
+  - Kennen_SwampMasterSkin.jpg
+  - Kennen_KarateSkin.jpg
+  - Kennen_KennenM.D.Skin.jpg
+  - Kennen_ArcticOpsSkin.jpg
+  - Kennen_BloodMoonSkin.jpg
+  - Kennen_SuperSkin.jpg
+  - Kennen_InfernalSkin.jpg
+  - Kennen_DWGSkin.jpg
+  - Kennen_AstronautSkin.jpg
 
 Kha'Zix
-  - Kha'Zix Original
-  - Kha'Zix Mecha
-  - Kha'Zix GuardianoftheSands
-  - Kha'Zix DeathBlossom
-  - Kha'Zix DarkStar
-  - Kha'Zix Worlds2018
-  - Kha'Zix Odyssey
-  - Kha'Zix LunarGuardian
-  - Kha'Zix CrystalisIndomitus
+  - Kha'Zix_OriginalSkin.jpg
+  - Kha'Zix_MechaSkin.jpg
+  - Kha'Zix_GuardianoftheSandsSkin.jpg
+  - Kha'Zix_DeathBlossomSkin.jpg
+  - Kha'Zix_DarkStarSkin.jpg
+  - Kha'Zix_Worlds2018Skin.jpg
+  - Kha'Zix_OdysseySkin.jpg
+  - Kha'Zix_LunarGuardianSkin.jpg
+  - Kha'Zix_CrystalisIndomitusSkin.jpg
 
 Kindred
-  - Original
-  - Shadowfire
-  - SuperGalaxy
-  - SpiritBlossom
-  - Porcelain
-  - WoofandLamb
-  - DRX
-  - PrestigePorcelain
-  - ChosenoftheWolf
-  - Pandemonium
+  - Kindred_OriginalSkin.jpg
+  - Kindred_ShadowfireSkin.jpg
+  - Kindred_SuperGalaxySkin.jpg
+  - Kindred_SpiritBlossomSkin.jpg
+  - Kindred_PorcelainSkin.jpg
+  - Kindred_WoofandLambSkin.jpg
+  - Kindred_DRXSkin.jpg
+  - Kindred_PrestigePorcelainSkin.jpg
+  - Kindred_ChosenoftheWolfSkin.jpg
+  - Kindred_PandemoniumSkin.jpg
 
 Kled
-  - Original
-  - Sir
-  - CountKledula
-  - Marauder
-  - Kibble-Head
+  - Kled_OriginalSkin.jpg
+  - Kled_SirSkin.jpg
+  - Kled_CountKledulaSkin.jpg
+  - Kled_MarauderSkin.jpg
+  - Kled_Kibble-HeadSkin.jpg
 
 Kog'Maw
-  - Kog'Maw Original
-  - Kog'Maw Caterpillar
-  - Kog'Maw Sonoran
-  - Kog'Maw Monarch
-  - Kog'Maw Reindeer
-  - Kog'Maw LionDance
-  - Kog'Maw DeepSea
-  - Kog'Maw Jurassic
-  - Kog'Maw Battlecast
-  - Kog'Maw Pug'Maw
-  - Kog'Maw Hextech
-  - Kog'Maw Arcanist
-  - Kog'Maw Bee'Maw
-  - Kog'Maw Zap'Maw
-  - Kog'Maw ShanHaiScrolls
-  - Kog'Maw Victorious
+  - Kog'Maw_OriginalSkin.jpg
+  - Kog'Maw_CaterpillarSkin.jpg
+  - Kog'Maw_SonoranSkin.jpg
+  - Kog'Maw_MonarchSkin.jpg
+  - Kog'Maw_ReindeerSkin.jpg
+  - Kog'Maw_LionDanceSkin.jpg
+  - Kog'Maw_DeepSeaSkin.jpg
+  - Kog'Maw_JurassicSkin.jpg
+  - Kog'Maw_BattlecastSkin.jpg
+  - Kog'Maw_Pug'MawSkin.jpg
+  - Kog'Maw_HextechSkin.jpg
+  - Kog'Maw_ArcanistSkin.jpg
+  - Kog'Maw_Bee'MawSkin.jpg
+  - Kog'Maw_Zap'MawSkin.jpg
+  - Kog'Maw_ShanHaiScrollsSkin.jpg
+  - Kog'Maw_VictoriousSkin.jpg
 
 LeBlanc
-  - LeBlanc Original
-  - LeBlanc Wicked
-  - LeBlanc Prestigious
-  - LeBlanc Mistletoe
-  - LeBlanc Ravenborn
-  - LeBlanc Elderwood
-  - LeBlanc Program
-  - LeBlanc iG
-  - LeBlanc Coven
-  - LeBlanc Worlds2020
-  - LeBlanc PrestigeCoven
-  - LeBlanc Debonair
-  - LeBlanc Bewitching
-  - LeBlanc RisenLegend
+  - LeBlanc_OriginalSkin.jpg
+  - LeBlanc_WickedSkin.jpg
+  - LeBlanc_PrestigiousSkin.jpg
+  - LeBlanc_MistletoeSkin.jpg
+  - LeBlanc_RavenbornSkin.jpg
+  - LeBlanc_ElderwoodSkin.jpg
+  - LeBlanc_ProgramSkin.jpg
+  - LeBlanc_iGSkin.jpg
+  - LeBlanc_CovenSkin.jpg
+  - LeBlanc_Worlds2020Skin.jpg
+  - LeBlanc_PrestigeCovenSkin.jpg
+  - LeBlanc_DebonairSkin.jpg
+  - LeBlanc_BewitchingSkin.jpg
+  - LeBlanc_RisenLegendSkin.jpg
 
 Lee Sin
-  - Lee Sin Original
-  - Lee Sin Traditional
-  - Lee Sin Acolyte
-  - Lee Sin DragonFist
-  - Lee Sin MuayThai
-  - Lee Sin PoolParty
-  - Lee Sin SKTT1
-  - Lee Sin Knockout
-  - Lee Sin GodFist
-  - Lee Sin Playmaker
-  - Lee Sin Nightbringer
-  - Lee Sin PrestigeNightbringer
-  - Lee Sin FPX
-  - Lee Sin StormDragon
-  - Lee Sin PrestigeNightbringer(2022)
-  - Lee Sin ZenithGames
-  - Lee Sin Heavenscale
-  - Lee Sin DivineHeavenscale
-  - Lee Sin T1
-  - Lee Sin Inkshadow
+  - Lee_Sin_OriginalSkin.jpg
+  - Lee_Sin_TraditionalSkin.jpg
+  - Lee_Sin_AcolyteSkin.jpg
+  - Lee_Sin_DragonFistSkin.jpg
+  - Lee_Sin_MuayThaiSkin.jpg
+  - Lee_Sin_PoolPartySkin.jpg
+  - Lee_Sin_SKTT1Skin.jpg
+  - Lee_Sin_KnockoutSkin.jpg
+  - Lee_Sin_GodFistSkin.jpg
+  - Lee_Sin_PlaymakerSkin.jpg
+  - Lee_Sin_NightbringerSkin.jpg
+  - Lee_Sin_PrestigeNightbringerSkin.jpg
+  - Lee_Sin_FPXSkin.jpg
+  - Lee_Sin_StormDragonSkin.jpg
+  - Lee_Sin_PrestigeNightbringer(2022)Skin.jpg
+  - Lee_Sin_ZenithGamesSkin.jpg
+  - Lee_Sin_HeavenscaleSkin.jpg
+  - Lee_Sin_DivineHeavenscaleSkin.jpg
+  - Lee_Sin_T1Skin.jpg
+  - Lee_Sin_InkshadowSkin.jpg
 
 Leona
-  - Original
-  - Valkyrie
-  - Defender
-  - IronSolari
-  - PoolParty
-  - PROJECT
-  - Barbecue
-  - SolarEclipse
-  - LunarEclipse
-  - MechaKingdoms
-  - BattleAcademia
-  - DWG
-  - PrestigeBattleAcademia
-  - Debonair
-  - HighNoon
-  - CrystalisMotus
-  - BattleLion
-  - PrestigeBattleLion
+  - Leona_OriginalSkin.jpg
+  - Leona_ValkyrieSkin.jpg
+  - Leona_DefenderSkin.jpg
+  - Leona_IronSolariSkin.jpg
+  - Leona_PoolPartySkin.jpg
+  - Leona_PROJECTSkin.jpg
+  - Leona_BarbecueSkin.jpg
+  - Leona_SolarEclipseSkin.jpg
+  - Leona_LunarEclipseSkin.jpg
+  - Leona_MechaKingdomsSkin.jpg
+  - Leona_BattleAcademiaSkin.jpg
+  - Leona_DWGSkin.jpg
+  - Leona_PrestigeBattleAcademiaSkin.jpg
+  - Leona_DebonairSkin.jpg
+  - Leona_HighNoonSkin.jpg
+  - Leona_CrystalisMotusSkin.jpg
+  - Leona_BattleLionSkin.jpg
+  - Leona_PrestigeBattleLionSkin.jpg
 
 Lillia
-  - Original
-  - SpiritBlossom
-  - Nightbringer
-  - ShanHaiScrolls
-  - FaerieCourt
-  - BowlingLeague
-  - PetalsofSpring
+  - Lillia_OriginalSkin.jpg
+  - Lillia_SpiritBlossomSkin.jpg
+  - Lillia_NightbringerSkin.jpg
+  - Lillia_ShanHaiScrollsSkin.jpg
+  - Lillia_FaerieCourtSkin.jpg
+  - Lillia_BowlingLeagueSkin.jpg
+  - Lillia_PetalsofSpringSkin.jpg
 
 Lissandra
-  - Original
-  - Bloodstone
-  - BladeQueen
-  - Program
-  - Coven
-  - DarkCosmic
-  - Porcelain
-  - PrestigePorcelain
-  - SpaceGroove
-  - FloraFatalis
+  - Lissandra_OriginalSkin.jpg
+  - Lissandra_BloodstoneSkin.jpg
+  - Lissandra_BladeQueenSkin.jpg
+  - Lissandra_ProgramSkin.jpg
+  - Lissandra_CovenSkin.jpg
+  - Lissandra_DarkCosmicSkin.jpg
+  - Lissandra_PorcelainSkin.jpg
+  - Lissandra_PrestigePorcelainSkin.jpg
+  - Lissandra_SpaceGrooveSkin.jpg
+  - Lissandra_FloraFatalisSkin.jpg
 
 Lucian
-  - Original
-  - HiredGun
-  - Striker
-  - PROJECT
-  - Heartseeker
-  - HighNoon
-  - DemaciaVice
-  - Pulsefire
-  - PrestigePulsefire
-  - Victorious
-  - Arcana
-  - StrikePaladin
-  - Winterblessed
-  - MaskedJustice
-  - SunkenShadows
+  - Lucian_OriginalSkin.jpg
+  - Lucian_HiredGunSkin.jpg
+  - Lucian_StrikerSkin.jpg
+  - Lucian_PROJECTSkin.jpg
+  - Lucian_HeartseekerSkin.jpg
+  - Lucian_HighNoonSkin.jpg
+  - Lucian_DemaciaViceSkin.jpg
+  - Lucian_PulsefireSkin.jpg
+  - Lucian_PrestigePulsefireSkin.jpg
+  - Lucian_VictoriousSkin.jpg
+  - Lucian_ArcanaSkin.jpg
+  - Lucian_StrikePaladinSkin.jpg
+  - Lucian_WinterblessedSkin.jpg
+  - Lucian_MaskedJusticeSkin.jpg
+  - Lucian_SunkenShadowsSkin.jpg
 
 Lulu
-  - Original
-  - Bittersweet
-  - Wicked
-  - DragonTrainer
-  - WinterWonder
-  - PoolParty
-  - StarGuardian
-  - CosmicEnchantress
-  - PajamaGuardian
-  - SpaceGroove
-  - PrestigeSpaceGroove
-  - MonsterTamer
-  - CafeCuties
-  - Arcana
+  - Lulu_OriginalSkin.jpg
+  - Lulu_BittersweetSkin.jpg
+  - Lulu_WickedSkin.jpg
+  - Lulu_DragonTrainerSkin.jpg
+  - Lulu_WinterWonderSkin.jpg
+  - Lulu_PoolPartySkin.jpg
+  - Lulu_StarGuardianSkin.jpg
+  - Lulu_CosmicEnchantressSkin.jpg
+  - Lulu_PajamaGuardianSkin.jpg
+  - Lulu_SpaceGrooveSkin.jpg
+  - Lulu_PrestigeSpaceGrooveSkin.jpg
+  - Lulu_MonsterTamerSkin.jpg
+  - Lulu_CafeCutiesSkin.jpg
+  - Lulu_ArcanaSkin.jpg
 
 Lux
-  - Original
-  - Sorceress
-  - Spellthief
-  - Commando
-  - Imperial
-  - SteelLegion
-  - StarGuardian
-  - Elementalist
-  - LunarEmpress
-  - PajamaGuardian
-  - BattleAcademia
-  - PrestigeBattleAcademia
-  - DarkCosmic
-  - Cosmic
-  - SpaceGroove
-  - Porcelain
-  - SoulFighter
-  - PrestigeBattleAcademia(2022)
-  - PrestigePorcelain
-  - Empyrean
-  - FaerieCourt
-  - PrestigeSpiritBlossom
-  - PandaPal
+  - Lux_OriginalSkin.jpg
+  - Lux_SorceressSkin.jpg
+  - Lux_SpellthiefSkin.jpg
+  - Lux_CommandoSkin.jpg
+  - Lux_ImperialSkin.jpg
+  - Lux_SteelLegionSkin.jpg
+  - Lux_StarGuardianSkin.jpg
+  - Lux_ElementalistSkin.jpg
+  - Lux_LunarEmpressSkin.jpg
+  - Lux_PajamaGuardianSkin.jpg
+  - Lux_BattleAcademiaSkin.jpg
+  - Lux_PrestigeBattleAcademiaSkin.jpg
+  - Lux_DarkCosmicSkin.jpg
+  - Lux_CosmicSkin.jpg
+  - Lux_SpaceGrooveSkin.jpg
+  - Lux_PorcelainSkin.jpg
+  - Lux_SoulFighterSkin.jpg
+  - Lux_PrestigeBattleAcademia(2022)Skin.jpg
+  - Lux_PrestigePorcelainSkin.jpg
+  - Lux_EmpyreanSkin.jpg
+  - Lux_FaerieCourtSkin.jpg
+  - Lux_PrestigeSpiritBlossomSkin.jpg
+  - Lux_PandaPalSkin.jpg
 
 Malphite
-  - Original
-  - Shamrock
-  - CoralReef
-  - Marble
-  - Obsidian
-  - Glacial
-  - Mecha
-  - Ironside
-  - Odyssey
-  - DarkStar
-  - PrestigeDarkStar
-  - FPX
-  - OldGod
-  - LunarGuardian
-  - PoolParty
+  - Malphite_OriginalSkin.jpg
+  - Malphite_ShamrockSkin.jpg
+  - Malphite_CoralReefSkin.jpg
+  - Malphite_MarbleSkin.jpg
+  - Malphite_ObsidianSkin.jpg
+  - Malphite_GlacialSkin.jpg
+  - Malphite_MechaSkin.jpg
+  - Malphite_IronsideSkin.jpg
+  - Malphite_OdysseySkin.jpg
+  - Malphite_DarkStarSkin.jpg
+  - Malphite_PrestigeDarkStarSkin.jpg
+  - Malphite_FPXSkin.jpg
+  - Malphite_OldGodSkin.jpg
+  - Malphite_LunarGuardianSkin.jpg
+  - Malphite_PoolPartySkin.jpg
 
 Malzahar
-  - Original
-  - Vizier
-  - ShadowPrince
-  - Djinn
-  - Overlord
-  - SnowDay
-  - BattleBoss
-  - Hextech
-  - Worldbreaker
-  - Beezahar
-  - Debonair
-  - ThreeHonors
-  - Empyrean
-  - Fatebreaker
+  - Malzahar_OriginalSkin.jpg
+  - Malzahar_VizierSkin.jpg
+  - Malzahar_ShadowPrinceSkin.jpg
+  - Malzahar_DjinnSkin.jpg
+  - Malzahar_OverlordSkin.jpg
+  - Malzahar_SnowDaySkin.jpg
+  - Malzahar_BattleBossSkin.jpg
+  - Malzahar_HextechSkin.jpg
+  - Malzahar_WorldbreakerSkin.jpg
+  - Malzahar_BeezaharSkin.jpg
+  - Malzahar_DebonairSkin.jpg
+  - Malzahar_ThreeHonorsSkin.jpg
+  - Malzahar_EmpyreanSkin.jpg
+  - Malzahar_FatebreakerSkin.jpg
 
 Maokai
-  - Original
-  - Charred
-  - Totemic
-  - Festive
-  - Haunted
-  - Goalkeeper
-  - Meowkai
-  - Victorious
-  - Worldbreaker
-  - Astronaut
-  - DRX
-  - CorruptedPetricite
+  - Maokai_OriginalSkin.jpg
+  - Maokai_CharredSkin.jpg
+  - Maokai_TotemicSkin.jpg
+  - Maokai_FestiveSkin.jpg
+  - Maokai_HauntedSkin.jpg
+  - Maokai_GoalkeeperSkin.jpg
+  - Maokai_MeowkaiSkin.jpg
+  - Maokai_VictoriousSkin.jpg
+  - Maokai_WorldbreakerSkin.jpg
+  - Maokai_AstronautSkin.jpg
+  - Maokai_DRXSkin.jpg
+  - Maokai_CorruptedPetriciteSkin.jpg
 
 Master Yi
-  - Master Yi Original
-  - Master Yi Assassin
-  - Master Yi Chosen
-  - Master Yi Ionia
-  - Master Yi SamuraiYi
-  - Master Yi Headhunter
-  - Master Yi PROJECTYi
-  - Master Yi CosmicBlade
-  - Master Yi EternalSwordYi
-  - Master Yi SnowManYi
-  - Master Yi BloodMoon
-  - Master Yi PsyOps
-  - Master Yi Debonair
-  - Master Yi SpiritBlossom
-  - Master Yi PrestigeSpiritBlossom
-  - Master Yi Inkshadow
-  - Master Yi Heavenscale
-  - Master Yi Victorious
-  - Master Yi PROJECTCommandLineYi
+  - Master_Yi_OriginalSkin.jpg
+  - Master_Yi_AssassinSkin.jpg
+  - Master_Yi_ChosenSkin.jpg
+  - Master_Yi_IoniaSkin.jpg
+  - Master_Yi_SamuraiYiSkin.jpg
+  - Master_Yi_HeadhunterSkin.jpg
+  - Master_Yi_PROJECTYiSkin.jpg
+  - Master_Yi_CosmicBladeSkin.jpg
+  - Master_Yi_EternalSwordYiSkin.jpg
+  - Master_Yi_SnowManYiSkin.jpg
+  - Master_Yi_BloodMoonSkin.jpg
+  - Master_Yi_PsyOpsSkin.jpg
+  - Master_Yi_DebonairSkin.jpg
+  - Master_Yi_SpiritBlossomSkin.jpg
+  - Master_Yi_PrestigeSpiritBlossomSkin.jpg
+  - Master_Yi_InkshadowSkin.jpg
+  - Master_Yi_HeavenscaleSkin.jpg
+  - Master_Yi_VictoriousSkin.jpg
+  - Master_Yi_PROJECTCommandLineYiSkin.jpg
 
 Mel
-  - Original
-  - ArcaneCouncilor
-  - PrestigeWinterblessed
+  - Mel_OriginalSkin.jpg
+  - Mel_ArcaneCouncilorSkin.jpg
+  - Mel_PrestigeWinterblessedSkin.jpg
 
 Milio
-  - Original
-  - FaerieCourt
-  - RainShepherd
-  - WinterWonder
+  - Milio_OriginalSkin.jpg
+  - Milio_FaerieCourtSkin.jpg
+  - Milio_RainShepherdSkin.jpg
+  - Milio_WinterWonderSkin.jpg
 
 Miss Fortune
-  - Miss Fortune Original
-  - Miss Fortune Cowgirl
-  - Miss Fortune Waterloo
-  - Miss Fortune SecretAgent
-  - Miss Fortune CandyCane
-  - Miss Fortune RoadWarrior
-  - Miss Fortune CrimeCity
-  - Miss Fortune Arcade
-  - Miss Fortune CaptainFortune
-  - Miss Fortune PoolParty
-  - Miss Fortune StarGuardian
-  - Miss Fortune GunGoddess
-  - Miss Fortune PajamaGuardian
-  - Miss Fortune Bewitching
-  - Miss Fortune PrestigeBewitching
-  - Miss Fortune Ruined
-  - Miss Fortune BattleBunny
-  - Miss Fortune AdmiralBattleBunny
-  - Miss Fortune PrestigeBewitching(2022)
-  - Miss Fortune BrokenCovenant
-  - Miss Fortune PrestigeBrokenCovenant
-  - Miss Fortune Porcelain
-  - Miss Fortune BattleQueen
+  - Miss_Fortune_OriginalSkin.jpg
+  - Miss_Fortune_CowgirlSkin.jpg
+  - Miss_Fortune_WaterlooSkin.jpg
+  - Miss_Fortune_SecretAgentSkin.jpg
+  - Miss_Fortune_CandyCaneSkin.jpg
+  - Miss_Fortune_RoadWarriorSkin.jpg
+  - Miss_Fortune_CrimeCitySkin.jpg
+  - Miss_Fortune_ArcadeSkin.jpg
+  - Miss_Fortune_CaptainFortuneSkin.jpg
+  - Miss_Fortune_PoolPartySkin.jpg
+  - Miss_Fortune_StarGuardianSkin.jpg
+  - Miss_Fortune_GunGoddessSkin.jpg
+  - Miss_Fortune_PajamaGuardianSkin.jpg
+  - Miss_Fortune_BewitchingSkin.jpg
+  - Miss_Fortune_PrestigeBewitchingSkin.jpg
+  - Miss_Fortune_RuinedSkin.jpg
+  - Miss_Fortune_BattleBunnySkin.jpg
+  - Miss_Fortune_AdmiralBattleBunnySkin.jpg
+  - Miss_Fortune_PrestigeBewitching(2022)Skin.jpg
+  - Miss_Fortune_BrokenCovenantSkin.jpg
+  - Miss_Fortune_PrestigeBrokenCovenantSkin.jpg
+  - Miss_Fortune_PorcelainSkin.jpg
+  - Miss_Fortune_BattleQueenSkin.jpg
 
 Mordekaiser
-  - Original
-  - DragonKnight
-  - Infernal
-  - Pentakill
-  - Lord
-  - KingofClubs
-  - DarkStar
-  - PROJECT
-  - PentakillLostChapter
-  - HighNoon
-  - AshenGraveknight
-  - OldGod
-  - Sahn-Uzal
-  - PrestigeMoneyMiser
+  - Mordekaiser_OriginalSkin.jpg
+  - Mordekaiser_DragonKnightSkin.jpg
+  - Mordekaiser_InfernalSkin.jpg
+  - Mordekaiser_PentakillSkin.jpg
+  - Mordekaiser_LordSkin.jpg
+  - Mordekaiser_KingofClubsSkin.jpg
+  - Mordekaiser_DarkStarSkin.jpg
+  - Mordekaiser_PROJECTSkin.jpg
+  - Mordekaiser_PentakillLostChapterSkin.jpg
+  - Mordekaiser_HighNoonSkin.jpg
+  - Mordekaiser_AshenGraveknightSkin.jpg
+  - Mordekaiser_OldGodSkin.jpg
+  - Mordekaiser_Sahn-UzalSkin.jpg
+  - Mordekaiser_PrestigeMoneyMiserSkin.jpg
 
 Morgana
-  - Original
-  - Exiled
-  - SinfulSucculence
-  - BladeMistress
-  - Blackthorn
-  - GhostBride
-  - Victorious
-  - LunarWraith
-  - Bewitching
-  - MajesticEmpress
-  - Coven
-  - Dawnbringer
-  - PrestigeBewitching
-  - StarNemesis
-  - SnowMoon
-  - Porcelain
-  - SpiritBlossom
-  - PrestigeVeiledLady
+  - Morgana_OriginalSkin.jpg
+  - Morgana_ExiledSkin.jpg
+  - Morgana_SinfulSucculenceSkin.jpg
+  - Morgana_BladeMistressSkin.jpg
+  - Morgana_BlackthornSkin.jpg
+  - Morgana_GhostBrideSkin.jpg
+  - Morgana_VictoriousSkin.jpg
+  - Morgana_LunarWraithSkin.jpg
+  - Morgana_BewitchingSkin.jpg
+  - Morgana_MajesticEmpressSkin.jpg
+  - Morgana_CovenSkin.jpg
+  - Morgana_DawnbringerSkin.jpg
+  - Morgana_PrestigeBewitchingSkin.jpg
+  - Morgana_StarNemesisSkin.jpg
+  - Morgana_SnowMoonSkin.jpg
+  - Morgana_PorcelainSkin.jpg
+  - Morgana_SpiritBlossomSkin.jpg
+  - Morgana_PrestigeVeiledLadySkin.jpg
 
 Naafiri
-  - Original
-  - SoulFighter
-  - PROJECT
-  - Glizzy
-  - Warhound
+  - Naafiri_OriginalSkin.jpg
+  - Naafiri_SoulFighterSkin.jpg
+  - Naafiri_PROJECTSkin.jpg
+  - Naafiri_GlizzySkin.jpg
+  - Naafiri_WarhoundSkin.jpg
 
 Nami
-  - Original
-  - Koi
-  - RiverSpirit
-  - UrftheNami-tee
-  - DeepSea
-  - SKTT1
-  - Program
-  - SplendidStaff
-  - CosmicDestiny
-  - Bewitching
-  - SpaceGroove
-  - PrestigeSpaceGroove
-  - Coven
-  - Mythmaker
-  - SunkenShadows
+  - Nami_OriginalSkin.jpg
+  - Nami_KoiSkin.jpg
+  - Nami_RiverSpiritSkin.jpg
+  - Nami_UrftheNami-teeSkin.jpg
+  - Nami_DeepSeaSkin.jpg
+  - Nami_SKTT1Skin.jpg
+  - Nami_ProgramSkin.jpg
+  - Nami_SplendidStaffSkin.jpg
+  - Nami_CosmicDestinySkin.jpg
+  - Nami_BewitchingSkin.jpg
+  - Nami_SpaceGrooveSkin.jpg
+  - Nami_PrestigeSpaceGrooveSkin.jpg
+  - Nami_CovenSkin.jpg
+  - Nami_MythmakerSkin.jpg
+  - Nami_SunkenShadowsSkin.jpg
 
 Nasus
-  - Original
-  - Galactic
-  - Pharaoh
-  - Dreadknight
-  - RiotK-9
-  - Infernal
-  - Archduke
-  - Worldbreaker
-  - LunarGuardian
-  - Battlecast
-  - SpaceGroove
-  - ArmoredTitan
-  - Nightbringer
-  - Fatemaker
+  - Nasus_OriginalSkin.jpg
+  - Nasus_GalacticSkin.jpg
+  - Nasus_PharaohSkin.jpg
+  - Nasus_DreadknightSkin.jpg
+  - Nasus_RiotK-9Skin.jpg
+  - Nasus_InfernalSkin.jpg
+  - Nasus_ArchdukeSkin.jpg
+  - Nasus_WorldbreakerSkin.jpg
+  - Nasus_LunarGuardianSkin.jpg
+  - Nasus_BattlecastSkin.jpg
+  - Nasus_SpaceGrooveSkin.jpg
+  - Nasus_ArmoredTitanSkin.jpg
+  - Nasus_NightbringerSkin.jpg
+  - Nasus_FatemakerSkin.jpg
 
 Nautilus
-  - Original
-  - Abyssal
-  - Subterranean
-  - AstroNautilus
-  - Warden
-  - Worldbreaker
-  - Conqueror
-  - ShanHaiScrolls
-  - FrightNight
-  - CosmicPaladin
-  - CrystalisIndomitus
-  - Petricite
+  - Nautilus_OriginalSkin.jpg
+  - Nautilus_AbyssalSkin.jpg
+  - Nautilus_SubterraneanSkin.jpg
+  - Nautilus_AstroNautilusSkin.jpg
+  - Nautilus_WardenSkin.jpg
+  - Nautilus_WorldbreakerSkin.jpg
+  - Nautilus_ConquerorSkin.jpg
+  - Nautilus_ShanHaiScrollsSkin.jpg
+  - Nautilus_FrightNightSkin.jpg
+  - Nautilus_CosmicPaladinSkin.jpg
+  - Nautilus_CrystalisIndomitusSkin.jpg
+  - Nautilus_PetriciteSkin.jpg
 
 Neeko
-  - Original
-  - WinterWonder
-  - StarGuardian
-  - PrestigeStarGuardian
-  - ShanHaiScrolls
-  - PrestigeStarGuardian(2022)
-  - Bewitching
-  - StreetDemons
-  - Cosplayer
-  - Beeko
+  - Neeko_OriginalSkin.jpg
+  - Neeko_WinterWonderSkin.jpg
+  - Neeko_StarGuardianSkin.jpg
+  - Neeko_PrestigeStarGuardianSkin.jpg
+  - Neeko_ShanHaiScrollsSkin.jpg
+  - Neeko_PrestigeStarGuardian(2022)Skin.jpg
+  - Neeko_BewitchingSkin.jpg
+  - Neeko_StreetDemonsSkin.jpg
+  - Neeko_CosplayerSkin.jpg
+  - Neeko_BeekoSkin.jpg
 
 Nidalee
-  - Original
-  - SnowBunny
-  - Leopard
-  - FrenchMaid
-  - Pharaoh
-  - Bewitching
-  - Headhunter
-  - WarringKingdoms
-  - Challenger
-  - SuperGalaxy
-  - Dawnbringer
-  - CosmicHuntress
-  - DWG
-  - OceanSong
-  - Kittalee
-  - LaIlusión
-  - SpiritBlossom
+  - Nidalee_OriginalSkin.jpg
+  - Nidalee_SnowBunnySkin.jpg
+  - Nidalee_LeopardSkin.jpg
+  - Nidalee_FrenchMaidSkin.jpg
+  - Nidalee_PharaohSkin.jpg
+  - Nidalee_BewitchingSkin.jpg
+  - Nidalee_HeadhunterSkin.jpg
+  - Nidalee_WarringKingdomsSkin.jpg
+  - Nidalee_ChallengerSkin.jpg
+  - Nidalee_SuperGalaxySkin.jpg
+  - Nidalee_DawnbringerSkin.jpg
+  - Nidalee_CosmicHuntressSkin.jpg
+  - Nidalee_DWGSkin.jpg
+  - Nidalee_OceanSongSkin.jpg
+  - Nidalee_KittaleeSkin.jpg
+  - Nidalee_LaIlusiónSkin.jpg
+  - Nidalee_SpiritBlossomSkin.jpg
 
 Nilah
-  - Original
-  - StarGuardian
-  - Coven
-  - Inkshadow
+  - Nilah_OriginalSkin.jpg
+  - Nilah_StarGuardianSkin.jpg
+  - Nilah_CovenSkin.jpg
+  - Nilah_InkshadowSkin.jpg
 
 Nocturne
-  - Original
-  - FrozenTerror
-  - Void
-  - Ravager
-  - Haunting
-  - Eternum
-  - CursedRevenant
-  - OldGod
-  - Hextech
-  - BrokenCovenant
-  - Empyrean
+  - Nocturne_OriginalSkin.jpg
+  - Nocturne_FrozenTerrorSkin.jpg
+  - Nocturne_VoidSkin.jpg
+  - Nocturne_RavagerSkin.jpg
+  - Nocturne_HauntingSkin.jpg
+  - Nocturne_EternumSkin.jpg
+  - Nocturne_CursedRevenantSkin.jpg
+  - Nocturne_OldGodSkin.jpg
+  - Nocturne_HextechSkin.jpg
+  - Nocturne_BrokenCovenantSkin.jpg
+  - Nocturne_EmpyreanSkin.jpg
 
 Nunu & Willump
   (no skins found)
 
 Olaf
-  - Original
-  - Forsaken
-  - Glacial
-  - Brolaf
-  - Pentakill
-  - Marauder
-  - Butcher
-  - SKTT1
-  - Dragonslayer
-  - Sentinel
-  - PentakillLostChapter
-  - Infernal
+  - Olaf_OriginalSkin.jpg
+  - Olaf_ForsakenSkin.jpg
+  - Olaf_GlacialSkin.jpg
+  - Olaf_BrolafSkin.jpg
+  - Olaf_PentakillSkin.jpg
+  - Olaf_MarauderSkin.jpg
+  - Olaf_ButcherSkin.jpg
+  - Olaf_SKTT1Skin.jpg
+  - Olaf_DragonslayerSkin.jpg
+  - Olaf_SentinelSkin.jpg
+  - Olaf_PentakillLostChapterSkin.jpg
+  - Olaf_InfernalSkin.jpg
 
 Orianna
-  - Original
-  - Gothic
-  - SewnChaos
-  - Bladecraft
-  - TPA
-  - WinterWonder
-  - Heartseeker
-  - DarkStar
-  - Victorious
-  - PoolParty
-  - Orbeeanna
-  - StarGuardian
-  - T1
+  - Orianna_OriginalSkin.jpg
+  - Orianna_GothicSkin.jpg
+  - Orianna_SewnChaosSkin.jpg
+  - Orianna_BladecraftSkin.jpg
+  - Orianna_TPASkin.jpg
+  - Orianna_WinterWonderSkin.jpg
+  - Orianna_HeartseekerSkin.jpg
+  - Orianna_DarkStarSkin.jpg
+  - Orianna_VictoriousSkin.jpg
+  - Orianna_PoolPartySkin.jpg
+  - Orianna_OrbeeannaSkin.jpg
+  - Orianna_StarGuardianSkin.jpg
+  - Orianna_T1Skin.jpg
 
 Ornn
-  - Original
-  - ThunderLord
-  - Elderwood
-  - SpaceGroove
-  - Choo-Choo
-  - AegisFrame
+  - Ornn_OriginalSkin.jpg
+  - Ornn_ThunderLordSkin.jpg
+  - Ornn_ElderwoodSkin.jpg
+  - Ornn_SpaceGrooveSkin.jpg
+  - Ornn_Choo-ChooSkin.jpg
+  - Ornn_AegisFrameSkin.jpg
 
 Pantheon
-  - Original
-  - Myrmidon
-  - Ruthless
-  - Perseus
-  - FullMetal
-  - GlaiveWarrior
-  - Dragonslayer
-  - ZombieSlayer
-  - Baker
-  - Pulsefire
-  - Ruined
-  - PrestigeAscended
-  - AshenConqueror
-  - ChosenoftheWolf
+  - Pantheon_OriginalSkin.jpg
+  - Pantheon_MyrmidonSkin.jpg
+  - Pantheon_RuthlessSkin.jpg
+  - Pantheon_PerseusSkin.jpg
+  - Pantheon_FullMetalSkin.jpg
+  - Pantheon_GlaiveWarriorSkin.jpg
+  - Pantheon_DragonslayerSkin.jpg
+  - Pantheon_ZombieSlayerSkin.jpg
+  - Pantheon_BakerSkin.jpg
+  - Pantheon_PulsefireSkin.jpg
+  - Pantheon_RuinedSkin.jpg
+  - Pantheon_PrestigeAscendedSkin.jpg
+  - Pantheon_AshenConquerorSkin.jpg
+  - Pantheon_ChosenoftheWolfSkin.jpg
 
 Poppy
-  - Original
-  - Noxus
-  - Lollipoppy
-  - Blacksmith
-  - Ragdoll
-  - BattleRegalia
-  - ScarletHammer
-  - StarGuardian
-  - SnowFawn
-  - Hextech
-  - Astronaut
-  - Bewitching
-  - CafeCuties
-  - Firecracker
+  - Poppy_OriginalSkin.jpg
+  - Poppy_NoxusSkin.jpg
+  - Poppy_LollipoppySkin.jpg
+  - Poppy_BlacksmithSkin.jpg
+  - Poppy_RagdollSkin.jpg
+  - Poppy_BattleRegaliaSkin.jpg
+  - Poppy_ScarletHammerSkin.jpg
+  - Poppy_StarGuardianSkin.jpg
+  - Poppy_SnowFawnSkin.jpg
+  - Poppy_HextechSkin.jpg
+  - Poppy_AstronautSkin.jpg
+  - Poppy_BewitchingSkin.jpg
+  - Poppy_CafeCutiesSkin.jpg
+  - Poppy_FirecrackerSkin.jpg
 
 Pyke
-  - Original
-  - SandWraith
-  - BloodMoon
-  - PROJECT
-  - PsyOps
-  - Sentinel
-  - AshenKnight
-  - Empyrean
-  - SoulFighter
-  - PrestigeSoulFighter
-  - FrightNight
-  - Inkshadow
-  - T1
+  - Pyke_OriginalSkin.jpg
+  - Pyke_SandWraithSkin.jpg
+  - Pyke_BloodMoonSkin.jpg
+  - Pyke_PROJECTSkin.jpg
+  - Pyke_PsyOpsSkin.jpg
+  - Pyke_SentinelSkin.jpg
+  - Pyke_AshenKnightSkin.jpg
+  - Pyke_EmpyreanSkin.jpg
+  - Pyke_SoulFighterSkin.jpg
+  - Pyke_PrestigeSoulFighterSkin.jpg
+  - Pyke_FrightNightSkin.jpg
+  - Pyke_InkshadowSkin.jpg
+  - Pyke_T1Skin.jpg
 
 Qiyana
-  - Original
-  - BattleBoss
-  - TrueDamage
-  - PrestigeTrueDamage
-  - BattleQueen
-  - Shockblade
-  - PrestigeTrueDamage(2022)
-  - LunarEmpress
-  - LaIlusión
-  - PrestigeBattleAcademia
+  - Qiyana_OriginalSkin.jpg
+  - Qiyana_BattleBossSkin.jpg
+  - Qiyana_TrueDamageSkin.jpg
+  - Qiyana_PrestigeTrueDamageSkin.jpg
+  - Qiyana_BattleQueenSkin.jpg
+  - Qiyana_ShockbladeSkin.jpg
+  - Qiyana_PrestigeTrueDamage(2022)Skin.jpg
+  - Qiyana_LunarEmpressSkin.jpg
+  - Qiyana_LaIlusiónSkin.jpg
+  - Qiyana_PrestigeBattleAcademiaSkin.jpg
 
 Quinn
-  - Original
-  - Phoenix
-  - WoadScout
-  - Corsair
-  - Heartseeker
-  - Warden
-  - StarGuardian
-  - PROJECT
+  - Quinn_OriginalSkin.jpg
+  - Quinn_PhoenixSkin.jpg
+  - Quinn_WoadScoutSkin.jpg
+  - Quinn_CorsairSkin.jpg
+  - Quinn_HeartseekerSkin.jpg
+  - Quinn_WardenSkin.jpg
+  - Quinn_StarGuardianSkin.jpg
+  - Quinn_PROJECTSkin.jpg
 
 Rakan
-  - Original
-  - CosmicDawn
-  - Sweetheart
-  - SSG
-  - iG
-  - StarGuardian
-  - Elderwood
-  - Arcana
-  - BrokenCovenant
-  - RedeemedStarGuardian
-  - Dragonmancer
-  - PrestigeDragonmancer
-  - BattleAcademia
+  - Rakan_OriginalSkin.jpg
+  - Rakan_CosmicDawnSkin.jpg
+  - Rakan_SweetheartSkin.jpg
+  - Rakan_SSGSkin.jpg
+  - Rakan_iGSkin.jpg
+  - Rakan_StarGuardianSkin.jpg
+  - Rakan_ElderwoodSkin.jpg
+  - Rakan_ArcanaSkin.jpg
+  - Rakan_BrokenCovenantSkin.jpg
+  - Rakan_RedeemedStarGuardianSkin.jpg
+  - Rakan_DragonmancerSkin.jpg
+  - Rakan_PrestigeDragonmancerSkin.jpg
+  - Rakan_BattleAcademiaSkin.jpg
 
 Rammus
-  - Original
-  - King
-  - Chrome
-  - Molten
-  - Freljord
-  - Ninja
-  - FullMetal
-  - GuardianoftheSands
-  - Sweeper
-  - Hextech
-  - Astronaut
-  - DurianDefender
+  - Rammus_OriginalSkin.jpg
+  - Rammus_KingSkin.jpg
+  - Rammus_ChromeSkin.jpg
+  - Rammus_MoltenSkin.jpg
+  - Rammus_FreljordSkin.jpg
+  - Rammus_NinjaSkin.jpg
+  - Rammus_FullMetalSkin.jpg
+  - Rammus_GuardianoftheSandsSkin.jpg
+  - Rammus_SweeperSkin.jpg
+  - Rammus_HextechSkin.jpg
+  - Rammus_AstronautSkin.jpg
+  - Rammus_DurianDefenderSkin.jpg
 
 Rek'Sai
-  - Rek'Sai Original
-  - Rek'Sai Eternum
-  - Rek'Sai PoolParty
-  - Rek'Sai Blackfrost
-  - Rek'Sai Elderwood
-  - Rek'Sai Primordian
+  - Rek'Sai_OriginalSkin.jpg
+  - Rek'Sai_EternumSkin.jpg
+  - Rek'Sai_PoolPartySkin.jpg
+  - Rek'Sai_BlackfrostSkin.jpg
+  - Rek'Sai_ElderwoodSkin.jpg
+  - Rek'Sai_PrimordianSkin.jpg
 
 Rell
-  - Original
-  - BattleQueen
-  - StarGuardian
-  - HighNoon
-  - GrandReckoning
+  - Rell_OriginalSkin.jpg
+  - Rell_BattleQueenSkin.jpg
+  - Rell_StarGuardianSkin.jpg
+  - Rell_HighNoonSkin.jpg
+  - Rell_GrandReckoningSkin.jpg
 
 Renata Glasc
-  - Glasc Original
-  - Glasc AdmiralGlasc
-  - Glasc FrightNight
-  - Glasc LaIlusión
-  - Glasc PrestigeLaIlusión
-  - Glasc MasqueoftheBlackRose
+  - Renata_Glasc_OriginalSkin.jpg
+  - Renata_Glasc_AdmiralGlascSkin.jpg
+  - Renata_Glasc_FrightNightSkin.jpg
+  - Renata_Glasc_LaIlusiónSkin.jpg
+  - Renata_Glasc_PrestigeLaIlusiónSkin.jpg
+  - Renata_Glasc_MasqueoftheBlackRoseSkin.jpg
 
 Renekton
-  - Original
-  - Galactic
-  - Outback
-  - Bloodfury
-  - RuneWars
-  - ScorchedEarth
-  - PoolParty
-  - Prehistoric
-  - SKTT1
-  - Renektoy
-  - Hextech
-  - Blackfrost
-  - PROJECT
-  - Dawnbringer
-  - Worlds2023
-  - Inkshadow
+  - Renekton_OriginalSkin.jpg
+  - Renekton_GalacticSkin.jpg
+  - Renekton_OutbackSkin.jpg
+  - Renekton_BloodfurySkin.jpg
+  - Renekton_RuneWarsSkin.jpg
+  - Renekton_ScorchedEarthSkin.jpg
+  - Renekton_PoolPartySkin.jpg
+  - Renekton_PrehistoricSkin.jpg
+  - Renekton_SKTT1Skin.jpg
+  - Renekton_RenektoySkin.jpg
+  - Renekton_HextechSkin.jpg
+  - Renekton_BlackfrostSkin.jpg
+  - Renekton_PROJECTSkin.jpg
+  - Renekton_DawnbringerSkin.jpg
+  - Renekton_Worlds2023Skin.jpg
+  - Renekton_InkshadowSkin.jpg
 
 Rengar
-  - Original
-  - Headhunter
-  - NightHunter
-  - SSW
-  - Mecha
-  - PrettyKitty
-  - GuardianoftheSands
-  - Sentinel
-  - StreetDemons
+  - Rengar_OriginalSkin.jpg
+  - Rengar_HeadhunterSkin.jpg
+  - Rengar_NightHunterSkin.jpg
+  - Rengar_SSWSkin.jpg
+  - Rengar_MechaSkin.jpg
+  - Rengar_PrettyKittySkin.jpg
+  - Rengar_GuardianoftheSandsSkin.jpg
+  - Rengar_SentinelSkin.jpg
+  - Rengar_StreetDemonsSkin.jpg
 
 Riven
-  - Original
-  - Redeemed
-  - CrimsonElite
-  - BattleBunny
-  - Worlds2012
-  - Dragonblade
-  - Arcade
-  - ReignitedWorlds2012
-  - Dawnbringer
-  - Pulsefire
-  - ValiantSword
-  - PrestigeValiantSword
-  - SpiritBlossom
-  - Sentinel
-  - BattleBunnyPrime
-  - PrestigeValiantSword(2022)
-  - BrokenCovenant
-  - PrimalAmbush
+  - Riven_OriginalSkin.jpg
+  - Riven_RedeemedSkin.jpg
+  - Riven_CrimsonEliteSkin.jpg
+  - Riven_BattleBunnySkin.jpg
+  - Riven_Worlds2012Skin.jpg
+  - Riven_DragonbladeSkin.jpg
+  - Riven_ArcadeSkin.jpg
+  - Riven_ReignitedWorlds2012Skin.jpg
+  - Riven_DawnbringerSkin.jpg
+  - Riven_PulsefireSkin.jpg
+  - Riven_ValiantSwordSkin.jpg
+  - Riven_PrestigeValiantSwordSkin.jpg
+  - Riven_SpiritBlossomSkin.jpg
+  - Riven_SentinelSkin.jpg
+  - Riven_BattleBunnyPrimeSkin.jpg
+  - Riven_PrestigeValiantSword(2022)Skin.jpg
+  - Riven_BrokenCovenantSkin.jpg
+  - Riven_PrimalAmbushSkin.jpg
 
 Rumble
-  - Original
-  - RumbleintheJungle
-  - Bilgerat
-  - SuperGalaxy
-  - BadlandsBaron
-  - SpaceGroove
-  - CafeCuties
+  - Rumble_OriginalSkin.jpg
+  - Rumble_RumbleintheJungleSkin.jpg
+  - Rumble_BilgeratSkin.jpg
+  - Rumble_SuperGalaxySkin.jpg
+  - Rumble_BadlandsBaronSkin.jpg
+  - Rumble_SpaceGrooveSkin.jpg
+  - Rumble_CafeCutiesSkin.jpg
 
 Ryze
-  - Original
-  - Young
-  - Tribal
-  - Uncle
-  - Triumphant
-  - Professor
-  - Zombie
-  - DarkCrystal
-  - Pirate
-  - RyzeWhitebeard
-  - SKTT1
-  - Worlds2019
-  - GuardianoftheSands
-  - Arcana
-  - BloodMoon
+  - Ryze_OriginalSkin.jpg
+  - Ryze_YoungSkin.jpg
+  - Ryze_TribalSkin.jpg
+  - Ryze_UncleSkin.jpg
+  - Ryze_TriumphantSkin.jpg
+  - Ryze_ProfessorSkin.jpg
+  - Ryze_ZombieSkin.jpg
+  - Ryze_DarkCrystalSkin.jpg
+  - Ryze_PirateSkin.jpg
+  - Ryze_RyzeWhitebeardSkin.jpg
+  - Ryze_SKTT1Skin.jpg
+  - Ryze_Worlds2019Skin.jpg
+  - Ryze_GuardianoftheSandsSkin.jpg
+  - Ryze_ArcanaSkin.jpg
+  - Ryze_BloodMoonSkin.jpg
 
 Samira
-  - Original
-  - PsyOps
-  - SpaceGroove
-  - HighNoon
-  - SoulFighter
-  - MasqueoftheBlackRose
-  - BattleProfessor
+  - Samira_OriginalSkin.jpg
+  - Samira_PsyOpsSkin.jpg
+  - Samira_SpaceGrooveSkin.jpg
+  - Samira_HighNoonSkin.jpg
+  - Samira_SoulFighterSkin.jpg
+  - Samira_MasqueoftheBlackRoseSkin.jpg
+  - Samira_BattleProfessorSkin.jpg
 
 Sejuani
-  - Original
-  - Sabretusk
-  - Darkrider
-  - Traditional
-  - BearCavalry
-  - PoroRider
-  - BeastHunter
-  - SejuaniDawnchaser
-  - Firecracker
-  - Hextech
-  - PROJECT
-  - SolarEclipse
-  - Victorious
-  - PugTrainer
+  - Sejuani_OriginalSkin.jpg
+  - Sejuani_SabretuskSkin.jpg
+  - Sejuani_DarkriderSkin.jpg
+  - Sejuani_TraditionalSkin.jpg
+  - Sejuani_BearCavalrySkin.jpg
+  - Sejuani_PoroRiderSkin.jpg
+  - Sejuani_BeastHunterSkin.jpg
+  - Sejuani_SejuaniDawnchaserSkin.jpg
+  - Sejuani_FirecrackerSkin.jpg
+  - Sejuani_HextechSkin.jpg
+  - Sejuani_PROJECTSkin.jpg
+  - Sejuani_SolarEclipseSkin.jpg
+  - Sejuani_VictoriousSkin.jpg
+  - Sejuani_PugTrainerSkin.jpg
 
 Senna
-  - Original
-  - TrueDamage
-  - PrestigeTrueDamage
-  - HighNoon
-  - PROJECT
-  - LunarEclipse
-  - PrestigeLunarEclipse
-  - Bewitching
-  - StarGuardian
-  - Winterblessed
-  - MaskedJustice
-  - Warhound
+  - Senna_OriginalSkin.jpg
+  - Senna_TrueDamageSkin.jpg
+  - Senna_PrestigeTrueDamageSkin.jpg
+  - Senna_HighNoonSkin.jpg
+  - Senna_PROJECTSkin.jpg
+  - Senna_LunarEclipseSkin.jpg
+  - Senna_PrestigeLunarEclipseSkin.jpg
+  - Senna_BewitchingSkin.jpg
+  - Senna_StarGuardianSkin.jpg
+  - Senna_WinterblessedSkin.jpg
+  - Senna_MaskedJusticeSkin.jpg
+  - Senna_WarhoundSkin.jpg
 
 Seraphine
-  - Original
-  - KDAALLOUTIndie
-  - KDAALLOUTRisingStar
-  - KDAALLOUTSuperstar
-  - GracefulPhoenix
-  - OceanSong
-  - PrestigeOceanSong
-  - FaerieCourt
-  - StarGuardian
-  - BattleDove
-  - DumplingDarlings
-  - Firecracker
+  - Seraphine_OriginalSkin.jpg
+  - Seraphine_KDAALLOUTIndieSkin.jpg
+  - Seraphine_KDAALLOUTRisingStarSkin.jpg
+  - Seraphine_KDAALLOUTSuperstarSkin.jpg
+  - Seraphine_GracefulPhoenixSkin.jpg
+  - Seraphine_OceanSongSkin.jpg
+  - Seraphine_PrestigeOceanSongSkin.jpg
+  - Seraphine_FaerieCourtSkin.jpg
+  - Seraphine_StarGuardianSkin.jpg
+  - Seraphine_BattleDoveSkin.jpg
+  - Seraphine_DumplingDarlingsSkin.jpg
+  - Seraphine_FirecrackerSkin.jpg
 
 Sett
-  - Original
-  - MechaKingdoms
-  - ObsidianDragon
-  - PrestigeObsidianDragon
-  - PoolParty
-  - Firecracker
-  - SpiritBlossom
-  - SoulFighter
-  - HEARTSTEEL
-  - RadiantSerpent
-  - SpiritBlossomSprings
+  - Sett_OriginalSkin.jpg
+  - Sett_MechaKingdomsSkin.jpg
+  - Sett_ObsidianDragonSkin.jpg
+  - Sett_PrestigeObsidianDragonSkin.jpg
+  - Sett_PoolPartySkin.jpg
+  - Sett_FirecrackerSkin.jpg
+  - Sett_SpiritBlossomSkin.jpg
+  - Sett_SoulFighterSkin.jpg
+  - Sett_HEARTSTEELSkin.jpg
+  - Sett_RadiantSerpentSkin.jpg
+  - Sett_SpiritBlossomSpringsSkin.jpg
 
 Shaco
-  - Original
-  - MadHatter
-  - Royal
-  - Nutcracko
-  - Workshop
-  - Asylum
-  - Masked
-  - WildCard
-  - DarkStar
-  - Arcanist
-  - CrimeCityNightmare
-  - Winterblessed
-  - SoulFighter
-  - PrestigeSoulFighter
-  - FrightNight
-  - Cat-in-the-Box
-  - PrestigePandemonium
+  - Shaco_OriginalSkin.jpg
+  - Shaco_MadHatterSkin.jpg
+  - Shaco_RoyalSkin.jpg
+  - Shaco_NutcrackoSkin.jpg
+  - Shaco_WorkshopSkin.jpg
+  - Shaco_AsylumSkin.jpg
+  - Shaco_MaskedSkin.jpg
+  - Shaco_WildCardSkin.jpg
+  - Shaco_DarkStarSkin.jpg
+  - Shaco_ArcanistSkin.jpg
+  - Shaco_CrimeCityNightmareSkin.jpg
+  - Shaco_WinterblessedSkin.jpg
+  - Shaco_SoulFighterSkin.jpg
+  - Shaco_PrestigeSoulFighterSkin.jpg
+  - Shaco_FrightNightSkin.jpg
+  - Shaco_Cat-in-the-BoxSkin.jpg
+  - Shaco_PrestigePandemoniumSkin.jpg
 
 Shen
-  - Original
-  - Frozen
-  - YellowJacket
-  - Surgeon
-  - BloodMoon
-  - Warlord
-  - TPA
-  - Pulsefire
-  - Infernal
-  - PsyOps
-  - Shockblade
-  - AshenGuardian
-  - ThreeHonors
+  - Shen_OriginalSkin.jpg
+  - Shen_FrozenSkin.jpg
+  - Shen_YellowJacketSkin.jpg
+  - Shen_SurgeonSkin.jpg
+  - Shen_BloodMoonSkin.jpg
+  - Shen_WarlordSkin.jpg
+  - Shen_TPASkin.jpg
+  - Shen_PulsefireSkin.jpg
+  - Shen_InfernalSkin.jpg
+  - Shen_PsyOpsSkin.jpg
+  - Shen_ShockbladeSkin.jpg
+  - Shen_AshenGuardianSkin.jpg
+  - Shen_ThreeHonorsSkin.jpg
 
 Shyvana
-  - Original
-  - ShyvanaIronscale
-  - Boneclaw
-  - Darkflame
-  - IceDrake
-  - Worlds2014
-  - SuperGalaxy
-  - Ruined
-  - ImmortalJourney
+  - Shyvana_OriginalSkin.jpg
+  - Shyvana_ShyvanaIronscaleSkin.jpg
+  - Shyvana_BoneclawSkin.jpg
+  - Shyvana_DarkflameSkin.jpg
+  - Shyvana_IceDrakeSkin.jpg
+  - Shyvana_Worlds2014Skin.jpg
+  - Shyvana_SuperGalaxySkin.jpg
+  - Shyvana_RuinedSkin.jpg
+  - Shyvana_ImmortalJourneySkin.jpg
 
 Singed
-  - Original
-  - RiotSquad
-  - Hextech
-  - Surfer
-  - MadScientist
-  - Augmented
-  - SnowDay
-  - SSW
-  - BlackScourge
-  - Beekeeper
-  - Resistance
-  - Astronaut
-  - ArcaneShimmerLab
+  - Singed_OriginalSkin.jpg
+  - Singed_RiotSquadSkin.jpg
+  - Singed_HextechSkin.jpg
+  - Singed_SurferSkin.jpg
+  - Singed_MadScientistSkin.jpg
+  - Singed_AugmentedSkin.jpg
+  - Singed_SnowDaySkin.jpg
+  - Singed_SSWSkin.jpg
+  - Singed_BlackScourgeSkin.jpg
+  - Singed_BeekeeperSkin.jpg
+  - Singed_ResistanceSkin.jpg
+  - Singed_AstronautSkin.jpg
+  - Singed_ArcaneShimmerLabSkin.jpg
 
 Sion
-  - Original
-  - Hextech
-  - Barbarian
-  - Lumberjack
-  - Warmonger
-  - MechaZero
-  - Worldbreaker
-  - Blackfrost
-  - HighNoon
-  - CosmicPaladin
-  - GrandReckoning
+  - Sion_OriginalSkin.jpg
+  - Sion_HextechSkin.jpg
+  - Sion_BarbarianSkin.jpg
+  - Sion_LumberjackSkin.jpg
+  - Sion_WarmongerSkin.jpg
+  - Sion_MechaZeroSkin.jpg
+  - Sion_WorldbreakerSkin.jpg
+  - Sion_BlackfrostSkin.jpg
+  - Sion_HighNoonSkin.jpg
+  - Sion_CosmicPaladinSkin.jpg
+  - Sion_GrandReckoningSkin.jpg
 
 Sivir
-  - Original
-  - WarriorPrincess
-  - Spectacular
-  - Huntress
-  - Bandit
-  - PAX
-  - Snowstorm
-  - Warden
-  - Victorious
-  - NeoPAX
-  - PizzaDelivery
-  - BloodMoon
-  - Odyssey
-  - CafeCuties
-  - SolarEclipse
-  - Mythmaker
-  - PrestigeMythmaker
-  - PrimalAmbush
-  - Ann-Sivir-sary
-  - PROJECT
+  - Sivir_OriginalSkin.jpg
+  - Sivir_WarriorPrincessSkin.jpg
+  - Sivir_SpectacularSkin.jpg
+  - Sivir_HuntressSkin.jpg
+  - Sivir_BanditSkin.jpg
+  - Sivir_PAXSkin.jpg
+  - Sivir_SnowstormSkin.jpg
+  - Sivir_WardenSkin.jpg
+  - Sivir_VictoriousSkin.jpg
+  - Sivir_NeoPAXSkin.jpg
+  - Sivir_PizzaDeliverySkin.jpg
+  - Sivir_BloodMoonSkin.jpg
+  - Sivir_OdysseySkin.jpg
+  - Sivir_CafeCutiesSkin.jpg
+  - Sivir_SolarEclipseSkin.jpg
+  - Sivir_MythmakerSkin.jpg
+  - Sivir_PrestigeMythmakerSkin.jpg
+  - Sivir_PrimalAmbushSkin.jpg
+  - Sivir_Ann-Sivir-sarySkin.jpg
+  - Sivir_PROJECTSkin.jpg
 
 Skarner
-  - Original
-  - Sandscourge
-  - Earthrune
-  - BattlecastAlpha
-  - GuardianoftheSands
-  - CosmicSting
-  - MechaKingdoms
+  - Skarner_OriginalSkin.jpg
+  - Skarner_SandscourgeSkin.jpg
+  - Skarner_EarthruneSkin.jpg
+  - Skarner_BattlecastAlphaSkin.jpg
+  - Skarner_GuardianoftheSandsSkin.jpg
+  - Skarner_CosmicStingSkin.jpg
+  - Skarner_MechaKingdomsSkin.jpg
 
 Smolder
-  - Original
-  - Heavenscale
-  - Reindeer
+  - Smolder_OriginalSkin.jpg
+  - Smolder_HeavenscaleSkin.jpg
+  - Smolder_ReindeerSkin.jpg
 
 Sona
-  - Original
-  - Muse
-  - Pentakill
-  - SilentNight
-  - Guqin
-  - Arcade
-  - DJ
-  - Sweetheart
-  - Odyssey
-  - PsyOps
-  - PentakillLostChapter
-  - StarGuardian
-  - ImmortalJourney
-  - PrestigeImmortalJourney
-  - Victorious
-  - SpiritBlossomSprings
-  - PrestigeRequiem
+  - Sona_OriginalSkin.jpg
+  - Sona_MuseSkin.jpg
+  - Sona_PentakillSkin.jpg
+  - Sona_SilentNightSkin.jpg
+  - Sona_GuqinSkin.jpg
+  - Sona_ArcadeSkin.jpg
+  - Sona_DJSkin.jpg
+  - Sona_SweetheartSkin.jpg
+  - Sona_OdysseySkin.jpg
+  - Sona_PsyOpsSkin.jpg
+  - Sona_PentakillLostChapterSkin.jpg
+  - Sona_StarGuardianSkin.jpg
+  - Sona_ImmortalJourneySkin.jpg
+  - Sona_PrestigeImmortalJourneySkin.jpg
+  - Sona_VictoriousSkin.jpg
+  - Sona_SpiritBlossomSpringsSkin.jpg
+  - Sona_PrestigeRequiemSkin.jpg
 
 Soraka
-  - Original
-  - Dryad
-  - Divine
-  - Celestine
-  - Reaper
-  - OrderoftheBanana
-  - Program
-  - StarGuardian
-  - PajamaGuardian
-  - WinterWonder
-  - Dawnbringer
-  - Nightbringer
-  - PrestigeStarGuardian
-  - CafeCuties
-  - SpiritBlossom
-  - ImmortalJourney
-  - FaerieCourt
-  - FloraFatalis
+  - Soraka_OriginalSkin.jpg
+  - Soraka_DryadSkin.jpg
+  - Soraka_DivineSkin.jpg
+  - Soraka_CelestineSkin.jpg
+  - Soraka_ReaperSkin.jpg
+  - Soraka_OrderoftheBananaSkin.jpg
+  - Soraka_ProgramSkin.jpg
+  - Soraka_StarGuardianSkin.jpg
+  - Soraka_PajamaGuardianSkin.jpg
+  - Soraka_WinterWonderSkin.jpg
+  - Soraka_DawnbringerSkin.jpg
+  - Soraka_NightbringerSkin.jpg
+  - Soraka_PrestigeStarGuardianSkin.jpg
+  - Soraka_CafeCutiesSkin.jpg
+  - Soraka_SpiritBlossomSkin.jpg
+  - Soraka_ImmortalJourneySkin.jpg
+  - Soraka_FaerieCourtSkin.jpg
+  - Soraka_FloraFatalisSkin.jpg
 
 Swain
-  - Original
-  - NorthernFront
-  - Bilgewater
-  - Tyrant
-  - DragonMaster
-  - Hextech
-  - CrystalRose
-  - Winterblessed
-  - ChosenoftheWolf
-  - PrestigeChosenoftheWolf
-  - FriedChickenKing
+  - Swain_OriginalSkin.jpg
+  - Swain_NorthernFrontSkin.jpg
+  - Swain_BilgewaterSkin.jpg
+  - Swain_TyrantSkin.jpg
+  - Swain_DragonMasterSkin.jpg
+  - Swain_HextechSkin.jpg
+  - Swain_CrystalRoseSkin.jpg
+  - Swain_WinterblessedSkin.jpg
+  - Swain_ChosenoftheWolfSkin.jpg
+  - Swain_PrestigeChosenoftheWolfSkin.jpg
+  - Swain_FriedChickenKingSkin.jpg
 
 Sylas
-  - Original
-  - LunarWraith
-  - Freljord
-  - PROJECT
-  - PrestigePROJECT
-  - BattleWolf
-  - AshenSlayer
-  - Winterblessed
-  - DarkStar
-  - PrestigeT1
+  - Sylas_OriginalSkin.jpg
+  - Sylas_LunarWraithSkin.jpg
+  - Sylas_FreljordSkin.jpg
+  - Sylas_PROJECTSkin.jpg
+  - Sylas_PrestigePROJECTSkin.jpg
+  - Sylas_BattleWolfSkin.jpg
+  - Sylas_AshenSlayerSkin.jpg
+  - Sylas_WinterblessedSkin.jpg
+  - Sylas_DarkStarSkin.jpg
+  - Sylas_PrestigeT1Skin.jpg
 
 Syndra
-  - Original
-  - Justicar
-  - Atlantean
-  - QueenofDiamonds
-  - SnowDay
-  - SKTT1
-  - StarGuardian
-  - PoolParty
-  - WitheredRose
-  - Bewitching
-  - PrestigeStarGuardian
-  - SpiritBlossom
-  - Coven
-  - DumplingDarlings
+  - Syndra_OriginalSkin.jpg
+  - Syndra_JusticarSkin.jpg
+  - Syndra_AtlanteanSkin.jpg
+  - Syndra_QueenofDiamondsSkin.jpg
+  - Syndra_SnowDaySkin.jpg
+  - Syndra_SKTT1Skin.jpg
+  - Syndra_StarGuardianSkin.jpg
+  - Syndra_PoolPartySkin.jpg
+  - Syndra_WitheredRoseSkin.jpg
+  - Syndra_BewitchingSkin.jpg
+  - Syndra_PrestigeStarGuardianSkin.jpg
+  - Syndra_SpiritBlossomSkin.jpg
+  - Syndra_CovenSkin.jpg
+  - Syndra_DumplingDarlingsSkin.jpg
 
 Tahm Kench
-  - Tahm Kench Original
-  - Tahm Kench MasterChef
-  - Tahm Kench UrfKench
-  - Tahm Kench CoinEmperor
-  - Tahm Kench Arcana
-  - Tahm Kench HighNoon
-  - Tahm Kench ShanHaiScrolls
-  - Tahm Kench ChonccKench
+  - Tahm_Kench_OriginalSkin.jpg
+  - Tahm_Kench_MasterChefSkin.jpg
+  - Tahm_Kench_UrfKenchSkin.jpg
+  - Tahm_Kench_CoinEmperorSkin.jpg
+  - Tahm_Kench_ArcanaSkin.jpg
+  - Tahm_Kench_HighNoonSkin.jpg
+  - Tahm_Kench_ShanHaiScrollsSkin.jpg
+  - Tahm_Kench_ChonccKenchSkin.jpg
 
 Taliyah
-  - Original
-  - Freljord
-  - SSG
-  - PoolParty
-  - StarGuardian
-  - CrystalisMotus
-  - Durand'sLegacy
+  - Taliyah_OriginalSkin.jpg
+  - Taliyah_FreljordSkin.jpg
+  - Taliyah_SSGSkin.jpg
+  - Taliyah_PoolPartySkin.jpg
+  - Taliyah_StarGuardianSkin.jpg
+  - Taliyah_CrystalisMotusSkin.jpg
+  - Taliyah_Durand'sLegacySkin.jpg
 
 Talon
-  - Original
-  - Renegade
-  - CrimsonElite
-  - Dragonblade
-  - SSW
-  - BloodMoon
-  - EnduringSword
-  - TalonBlackwood
-  - WitheredRose
-  - HighNoon
-  - PrestigeHighNoon
-  - PrimalAmbush
-  - GrandReckoning
+  - Talon_OriginalSkin.jpg
+  - Talon_RenegadeSkin.jpg
+  - Talon_CrimsonEliteSkin.jpg
+  - Talon_DragonbladeSkin.jpg
+  - Talon_SSWSkin.jpg
+  - Talon_BloodMoonSkin.jpg
+  - Talon_EnduringSwordSkin.jpg
+  - Talon_TalonBlackwoodSkin.jpg
+  - Talon_WitheredRoseSkin.jpg
+  - Talon_HighNoonSkin.jpg
+  - Talon_PrestigeHighNoonSkin.jpg
+  - Talon_PrimalAmbushSkin.jpg
+  - Talon_GrandReckoningSkin.jpg
 
 Taric
-  - Original
-  - Emerald
-  - ArmoroftheFifthAge
-  - Bloodstone
-  - PoolParty
-  - TaricLuminshield
-  - SpaceGroove
-  - Fatebreaker
+  - Taric_OriginalSkin.jpg
+  - Taric_EmeraldSkin.jpg
+  - Taric_ArmoroftheFifthAgeSkin.jpg
+  - Taric_BloodstoneSkin.jpg
+  - Taric_PoolPartySkin.jpg
+  - Taric_TaricLuminshieldSkin.jpg
+  - Taric_SpaceGrooveSkin.jpg
+  - Taric_FatebreakerSkin.jpg
 
 Teemo
-  - Original
-  - HappyElf
-  - Recon
-  - Badger
-  - Astronaut
-  - Cottontail
-  - Super
-  - Panda
-  - OmegaSquad
-  - LittleDevil
-  - Beemo
-  - SpiritBlossom
-  - PrestigeSpiritBlossom
-  - Firecracker
-  - SpaceGroove
-  - SpiritBlossomSprings
+  - Teemo_OriginalSkin.jpg
+  - Teemo_HappyElfSkin.jpg
+  - Teemo_ReconSkin.jpg
+  - Teemo_BadgerSkin.jpg
+  - Teemo_AstronautSkin.jpg
+  - Teemo_CottontailSkin.jpg
+  - Teemo_SuperSkin.jpg
+  - Teemo_PandaSkin.jpg
+  - Teemo_OmegaSquadSkin.jpg
+  - Teemo_LittleDevilSkin.jpg
+  - Teemo_BeemoSkin.jpg
+  - Teemo_SpiritBlossomSkin.jpg
+  - Teemo_PrestigeSpiritBlossomSkin.jpg
+  - Teemo_FirecrackerSkin.jpg
+  - Teemo_SpaceGrooveSkin.jpg
+  - Teemo_SpiritBlossomSpringsSkin.jpg
 
 Thresh
-  - Original
-  - DeepTerror
-  - Worlds2013
-  - BloodMoon
-  - SSW
-  - DarkStar
-  - HighNoon
-  - Pulsefire
-  - PrestigePulsefire
-  - FPX
-  - SpiritBlossom
-  - Unbound
-  - SteelDragon
-  - PrestigePulsefire(2022)
-  - LunarEmperor
-  - Winterblessed
-  - Janitor
+  - Thresh_OriginalSkin.jpg
+  - Thresh_DeepTerrorSkin.jpg
+  - Thresh_Worlds2013Skin.jpg
+  - Thresh_BloodMoonSkin.jpg
+  - Thresh_SSWSkin.jpg
+  - Thresh_DarkStarSkin.jpg
+  - Thresh_HighNoonSkin.jpg
+  - Thresh_PulsefireSkin.jpg
+  - Thresh_PrestigePulsefireSkin.jpg
+  - Thresh_FPXSkin.jpg
+  - Thresh_SpiritBlossomSkin.jpg
+  - Thresh_UnboundSkin.jpg
+  - Thresh_SteelDragonSkin.jpg
+  - Thresh_PrestigePulsefire(2022)Skin.jpg
+  - Thresh_LunarEmperorSkin.jpg
+  - Thresh_WinterblessedSkin.jpg
+  - Thresh_JanitorSkin.jpg
 
 Tristana
-  - Original
-  - RiotGirl
-  - EarnestElf
-  - Firefighter
-  - Guerilla
-  - Buccaneer
-  - RocketGirl
-  - DragonTrainer
-  - Bewitching
-  - OmegaSquad
-  - LittleDemon
-  - PenguCosplay
-  - Hextech
-  - Firecracker
-  - SpiritBlossom
-  - FaerieCourt
-  - RainShepherd
+  - Tristana_OriginalSkin.jpg
+  - Tristana_RiotGirlSkin.jpg
+  - Tristana_EarnestElfSkin.jpg
+  - Tristana_FirefighterSkin.jpg
+  - Tristana_GuerillaSkin.jpg
+  - Tristana_BuccaneerSkin.jpg
+  - Tristana_RocketGirlSkin.jpg
+  - Tristana_DragonTrainerSkin.jpg
+  - Tristana_BewitchingSkin.jpg
+  - Tristana_OmegaSquadSkin.jpg
+  - Tristana_LittleDemonSkin.jpg
+  - Tristana_PenguCosplaySkin.jpg
+  - Tristana_HextechSkin.jpg
+  - Tristana_FirecrackerSkin.jpg
+  - Tristana_SpiritBlossomSkin.jpg
+  - Tristana_FaerieCourtSkin.jpg
+  - Tristana_RainShepherdSkin.jpg
 
 Trundle
-  - Original
-  - Lil'Slugger
-  - Junkyard
-  - Traditional
-  - Constable
-  - Worldbreaker
-  - Dragonslayer
-  - FrightNight
-  - EsportsFan
+  - Trundle_OriginalSkin.jpg
+  - Trundle_Lil'SluggerSkin.jpg
+  - Trundle_JunkyardSkin.jpg
+  - Trundle_TraditionalSkin.jpg
+  - Trundle_ConstableSkin.jpg
+  - Trundle_WorldbreakerSkin.jpg
+  - Trundle_DragonslayerSkin.jpg
+  - Trundle_FrightNightSkin.jpg
+  - Trundle_EsportsFanSkin.jpg
 
 Tryndamere
-  - Original
-  - Highland
-  - King
-  - Viking
-  - Demonblade
-  - Sultan
-  - WarringKingdoms
-  - Nightmare
-  - BeastHunter
-  - Chemtech
-  - BloodMoon
-  - Nightbringer
-  - Victorious
-  - VisionsoftheFallen
+  - Tryndamere_OriginalSkin.jpg
+  - Tryndamere_HighlandSkin.jpg
+  - Tryndamere_KingSkin.jpg
+  - Tryndamere_VikingSkin.jpg
+  - Tryndamere_DemonbladeSkin.jpg
+  - Tryndamere_SultanSkin.jpg
+  - Tryndamere_WarringKingdomsSkin.jpg
+  - Tryndamere_NightmareSkin.jpg
+  - Tryndamere_BeastHunterSkin.jpg
+  - Tryndamere_ChemtechSkin.jpg
+  - Tryndamere_BloodMoonSkin.jpg
+  - Tryndamere_NightbringerSkin.jpg
+  - Tryndamere_VictoriousSkin.jpg
+  - Tryndamere_VisionsoftheFallenSkin.jpg
 
 Twisted Fate
-  - Twisted Fate Original
-  - Twisted Fate PAX
-  - Twisted Fate JackofHearts
-  - Twisted Fate TheMagnificent
-  - Twisted Fate Tango
-  - Twisted Fate HighNoon
-  - Twisted Fate Musketeer
-  - Twisted Fate Underworld
-  - Twisted Fate RedCard
-  - Twisted Fate Cutpurse
-  - Twisted Fate BloodMoon
-  - Twisted Fate Pulsefire
-  - Twisted Fate Odyssey
-  - Twisted Fate DWG
-  - Twisted Fate CrimeCityNightmare
-  - Twisted Fate SpaceGroove
-  - Twisted Fate Victorious
+  - Twisted_Fate_OriginalSkin.jpg
+  - Twisted_Fate_PAXSkin.jpg
+  - Twisted_Fate_JackofHeartsSkin.jpg
+  - Twisted_Fate_TheMagnificentSkin.jpg
+  - Twisted_Fate_TangoSkin.jpg
+  - Twisted_Fate_HighNoonSkin.jpg
+  - Twisted_Fate_MusketeerSkin.jpg
+  - Twisted_Fate_UnderworldSkin.jpg
+  - Twisted_Fate_RedCardSkin.jpg
+  - Twisted_Fate_CutpurseSkin.jpg
+  - Twisted_Fate_BloodMoonSkin.jpg
+  - Twisted_Fate_PulsefireSkin.jpg
+  - Twisted_Fate_OdysseySkin.jpg
+  - Twisted_Fate_DWGSkin.jpg
+  - Twisted_Fate_CrimeCityNightmareSkin.jpg
+  - Twisted_Fate_SpaceGrooveSkin.jpg
+  - Twisted_Fate_VictoriousSkin.jpg
 
 Twitch
-  - Original
-  - Kingpin
-  - WhistlerVillage
-  - Medieval
-  - CrimeCity
-  - Vandal
-  - Pickpocket
-  - SSW
-  - OmegaSquad
-  - IceKing
-  - TwitchShadowfoot
-  - Dragonslayer
-  - HighNoon
-  - CheddarChief
-  - PoolParty
+  - Twitch_OriginalSkin.jpg
+  - Twitch_KingpinSkin.jpg
+  - Twitch_WhistlerVillageSkin.jpg
+  - Twitch_MedievalSkin.jpg
+  - Twitch_CrimeCitySkin.jpg
+  - Twitch_VandalSkin.jpg
+  - Twitch_PickpocketSkin.jpg
+  - Twitch_SSWSkin.jpg
+  - Twitch_OmegaSquadSkin.jpg
+  - Twitch_IceKingSkin.jpg
+  - Twitch_TwitchShadowfootSkin.jpg
+  - Twitch_DragonslayerSkin.jpg
+  - Twitch_HighNoonSkin.jpg
+  - Twitch_CheddarChiefSkin.jpg
+  - Twitch_PoolPartySkin.jpg
 
 Udyr
-  - Original
-  - BlackBelt
-  - Primal
-  - SpiritGuard
-  - DefinitelyNot
-  - DragonOracle
-  - Inkshadow
+  - Udyr_OriginalSkin.jpg
+  - Udyr_BlackBeltSkin.jpg
+  - Udyr_PrimalSkin.jpg
+  - Udyr_SpiritGuardSkin.jpg
+  - Udyr_DefinitelyNotSkin.jpg
+  - Udyr_DragonOracleSkin.jpg
+  - Udyr_InkshadowSkin.jpg
 
 Urgot
-  - Original
-  - GiantEnemyCrabgot
-  - Butcher
-  - Battlecast
-  - HighNoon
-  - PajamaGuardianCosplay
-  - FrightNight
-  - UrgottheClogfather
+  - Urgot_OriginalSkin.jpg
+  - Urgot_GiantEnemyCrabgotSkin.jpg
+  - Urgot_ButcherSkin.jpg
+  - Urgot_BattlecastSkin.jpg
+  - Urgot_HighNoonSkin.jpg
+  - Urgot_PajamaGuardianCosplaySkin.jpg
+  - Urgot_FrightNightSkin.jpg
+  - Urgot_UrgottheClogfatherSkin.jpg
 
 Varus
-  - Original
-  - BlightCrystal
-  - Arclight
-  - ArcticOps
-  - Heartseeker
-  - VarusSwiftbolt
-  - DarkStar
-  - Conqueror
-  - Infernal
-  - PROJECT
-  - CosmicHunter
-  - HighNoon
-  - SnowMoon
-  - Empyrean
-  - SpiritBlossom
-  - T1
+  - Varus_OriginalSkin.jpg
+  - Varus_BlightCrystalSkin.jpg
+  - Varus_ArclightSkin.jpg
+  - Varus_ArcticOpsSkin.jpg
+  - Varus_HeartseekerSkin.jpg
+  - Varus_VarusSwiftboltSkin.jpg
+  - Varus_DarkStarSkin.jpg
+  - Varus_ConquerorSkin.jpg
+  - Varus_InfernalSkin.jpg
+  - Varus_PROJECTSkin.jpg
+  - Varus_CosmicHunterSkin.jpg
+  - Varus_HighNoonSkin.jpg
+  - Varus_SnowMoonSkin.jpg
+  - Varus_EmpyreanSkin.jpg
+  - Varus_SpiritBlossomSkin.jpg
+  - Varus_T1Skin.jpg
 
 Vayne
-  - Original
-  - Vindicator
-  - Aristocrat
-  - Dragonslayer
-  - Heartseeker
-  - SKTT1
-  - Arclight
-  - Soulstealer
-  - PROJECT
-  - Firecracker
-  - PrestigeFirecracker
-  - SpiritBlossom
-  - FPX
-  - Sentinel
-  - BattleBat
-  - PrestigeFirecracker(2022)
-  - Dawnbringer
-  - Dragonmancer
-  - RisenLegend
-  - Demoncursed
+  - Vayne_OriginalSkin.jpg
+  - Vayne_VindicatorSkin.jpg
+  - Vayne_AristocratSkin.jpg
+  - Vayne_DragonslayerSkin.jpg
+  - Vayne_HeartseekerSkin.jpg
+  - Vayne_SKTT1Skin.jpg
+  - Vayne_ArclightSkin.jpg
+  - Vayne_SoulstealerSkin.jpg
+  - Vayne_PROJECTSkin.jpg
+  - Vayne_FirecrackerSkin.jpg
+  - Vayne_PrestigeFirecrackerSkin.jpg
+  - Vayne_SpiritBlossomSkin.jpg
+  - Vayne_FPXSkin.jpg
+  - Vayne_SentinelSkin.jpg
+  - Vayne_BattleBatSkin.jpg
+  - Vayne_PrestigeFirecracker(2022)Skin.jpg
+  - Vayne_DawnbringerSkin.jpg
+  - Vayne_DragonmancerSkin.jpg
+  - Vayne_RisenLegendSkin.jpg
+  - Vayne_DemoncursedSkin.jpg
 
 Veigar
-  - Original
-  - WhiteMage
-  - Curling
-  - VeigarGreybeard
-  - Leprechaun
-  - BaronVon
-  - SuperbVillain
-  - BadSanta
-  - FinalBoss
-  - OmegaSquad
-  - Elderwood
-  - FuryhornCosplay
-  - Astronaut
-  - MonsterTamer
-  - KingBeegar
-  - FrightNight
+  - Veigar_OriginalSkin.jpg
+  - Veigar_WhiteMageSkin.jpg
+  - Veigar_CurlingSkin.jpg
+  - Veigar_VeigarGreybeardSkin.jpg
+  - Veigar_LeprechaunSkin.jpg
+  - Veigar_BaronVonSkin.jpg
+  - Veigar_SuperbVillainSkin.jpg
+  - Veigar_BadSantaSkin.jpg
+  - Veigar_FinalBossSkin.jpg
+  - Veigar_OmegaSquadSkin.jpg
+  - Veigar_ElderwoodSkin.jpg
+  - Veigar_FuryhornCosplaySkin.jpg
+  - Veigar_AstronautSkin.jpg
+  - Veigar_MonsterTamerSkin.jpg
+  - Veigar_KingBeegarSkin.jpg
+  - Veigar_FrightNightSkin.jpg
 
 Vel'Koz
-  - Vel'Koz Original
-  - Vel'Koz Battlecast
-  - Vel'Koz Arclight
-  - Vel'Koz DefinitelyNot
-  - Vel'Koz Infernal
-  - Vel'Koz Blackfrost
-  - Vel'Koz Bee'Koz
+  - Vel'Koz_OriginalSkin.jpg
+  - Vel'Koz_BattlecastSkin.jpg
+  - Vel'Koz_ArclightSkin.jpg
+  - Vel'Koz_DefinitelyNotSkin.jpg
+  - Vel'Koz_InfernalSkin.jpg
+  - Vel'Koz_BlackfrostSkin.jpg
+  - Vel'Koz_Bee'KozSkin.jpg
 
 Vex
-  - Original
-  - Dawnbringer
-  - Empyrean
-  - Stargazer
-  - SurpriseParty
+  - Vex_OriginalSkin.jpg
+  - Vex_DawnbringerSkin.jpg
+  - Vex_EmpyreanSkin.jpg
+  - Vex_StargazerSkin.jpg
+  - Vex_SurprisePartySkin.jpg
 
 Vi
-  - Original
-  - NeonStrike
-  - Officer
-  - Debonair
-  - Demon
-  - WarringKingdoms
-  - PROJECT
-  - Heartbreaker
-  - PsyOps
-  - ArcaneUndercity
-  - Heartache
-  - PrimalAmbush
-  - ArcaneBrawler
-  - T1
+  - Vi_OriginalSkin.jpg
+  - Vi_NeonStrikeSkin.jpg
+  - Vi_OfficerSkin.jpg
+  - Vi_DebonairSkin.jpg
+  - Vi_DemonSkin.jpg
+  - Vi_WarringKingdomsSkin.jpg
+  - Vi_PROJECTSkin.jpg
+  - Vi_HeartbreakerSkin.jpg
+  - Vi_PsyOpsSkin.jpg
+  - Vi_ArcaneUndercitySkin.jpg
+  - Vi_HeartacheSkin.jpg
+  - Vi_PrimalAmbushSkin.jpg
+  - Vi_ArcaneBrawlerSkin.jpg
+  - Vi_T1Skin.jpg
 
 Viego
-  - Original
-  - LunarBeast
-  - DissonanceofPentakill
-  - EDG
-  - King
-  - SoulFighter
-  - Worlds2024
-  - RevenantReign
+  - Viego_OriginalSkin.jpg
+  - Viego_LunarBeastSkin.jpg
+  - Viego_DissonanceofPentakillSkin.jpg
+  - Viego_EDGSkin.jpg
+  - Viego_KingSkin.jpg
+  - Viego_SoulFighterSkin.jpg
+  - Viego_Worlds2024Skin.jpg
+  - Viego_RevenantReignSkin.jpg
 
 Viktor
-  - Original
-  - FullMachine
-  - Prototype
-  - Creator
-  - DeathSworn
-  - PsyOps
-  - HighNoon
-  - ArcaneSavior
-  - MachineHerald
+  - Viktor_OriginalSkin.jpg
+  - Viktor_FullMachineSkin.jpg
+  - Viktor_PrototypeSkin.jpg
+  - Viktor_CreatorSkin.jpg
+  - Viktor_DeathSwornSkin.jpg
+  - Viktor_PsyOpsSkin.jpg
+  - Viktor_HighNoonSkin.jpg
+  - Viktor_ArcaneSaviorSkin.jpg
+  - Viktor_MachineHeraldSkin.jpg
 
 Vladimir
-  - Original
-  - Count
-  - Marquis
-  - Nosferatu
-  - Vandal
-  - BloodLord
-  - Soulstealer
-  - Academy
-  - DarkWaters
-  - Nightbringer
-  - CosmicDevourer
-  - CafeCuties
-  - BrokenCovenant
-  - MasqueoftheBlackRose
-  - PsyOps
+  - Vladimir_OriginalSkin.jpg
+  - Vladimir_CountSkin.jpg
+  - Vladimir_MarquisSkin.jpg
+  - Vladimir_NosferatuSkin.jpg
+  - Vladimir_VandalSkin.jpg
+  - Vladimir_BloodLordSkin.jpg
+  - Vladimir_SoulstealerSkin.jpg
+  - Vladimir_AcademySkin.jpg
+  - Vladimir_DarkWatersSkin.jpg
+  - Vladimir_NightbringerSkin.jpg
+  - Vladimir_CosmicDevourerSkin.jpg
+  - Vladimir_CafeCutiesSkin.jpg
+  - Vladimir_BrokenCovenantSkin.jpg
+  - Vladimir_MasqueoftheBlackRoseSkin.jpg
+  - Vladimir_PsyOpsSkin.jpg
 
 Volibear
-  - Original
-  - ThunderLord
-  - NorthernStorm
-  - Runeguard
-  - Captain
-  - ElRayo
-  - TheThousand-PiercedBear
-  - DualityDragon
-  - PrestigeDualityDragon
-  - Inkshadow
-  - SpiritBlossomSprings
+  - Volibear_OriginalSkin.jpg
+  - Volibear_ThunderLordSkin.jpg
+  - Volibear_NorthernStormSkin.jpg
+  - Volibear_RuneguardSkin.jpg
+  - Volibear_CaptainSkin.jpg
+  - Volibear_ElRayoSkin.jpg
+  - Volibear_TheThousand-PiercedBearSkin.jpg
+  - Volibear_DualityDragonSkin.jpg
+  - Volibear_PrestigeDualityDragonSkin.jpg
+  - Volibear_InkshadowSkin.jpg
+  - Volibear_SpiritBlossomSpringsSkin.jpg
 
 Warwick
-  - Original
-  - Grey
-  - UrftheManatee
-  - BigBad
-  - TundraHunter
-  - Feral
-  - Firefang
-  - Hyena
-  - Marauder
-  - Urfwick
-  - LunarGuardian
-  - PROJECT
-  - OldGod
-  - Winterblessed
-  - PrestigeWinterblessed
-  - ArcaneVander
-  - Warhound
+  - Warwick_OriginalSkin.jpg
+  - Warwick_GreySkin.jpg
+  - Warwick_UrftheManateeSkin.jpg
+  - Warwick_BigBadSkin.jpg
+  - Warwick_TundraHunterSkin.jpg
+  - Warwick_FeralSkin.jpg
+  - Warwick_FirefangSkin.jpg
+  - Warwick_HyenaSkin.jpg
+  - Warwick_MarauderSkin.jpg
+  - Warwick_UrfwickSkin.jpg
+  - Warwick_LunarGuardianSkin.jpg
+  - Warwick_PROJECTSkin.jpg
+  - Warwick_OldGodSkin.jpg
+  - Warwick_WinterblessedSkin.jpg
+  - Warwick_PrestigeWinterblessedSkin.jpg
+  - Warwick_ArcaneVanderSkin.jpg
+  - Warwick_WarhoundSkin.jpg
 
 Wukong
-  - Wukong Original
-  - Wukong Volcanic
-  - Wukong General
-  - Wukong JadeDragon
-  - Wukong Underworld
-  - Wukong Radiant
-  - Wukong LancerStratus
-  - Wukong BattleAcademia
-  - Wukong Elderwood
-  - Wukong MechaKingdoms
+  - Wukong_OriginalSkin.jpg
+  - Wukong_VolcanicSkin.jpg
+  - Wukong_GeneralSkin.jpg
+  - Wukong_JadeDragonSkin.jpg
+  - Wukong_UnderworldSkin.jpg
+  - Wukong_RadiantSkin.jpg
+  - Wukong_LancerStratusSkin.jpg
+  - Wukong_BattleAcademiaSkin.jpg
+  - Wukong_ElderwoodSkin.jpg
+  - Wukong_MechaKingdomsSkin.jpg
 
 Xayah
-  - Original
-  - CosmicDusk
-  - Sweetheart
-  - SSG
-  - StarGuardian
-  - Elderwood
-  - BravePhoenix
-  - PrestigeBravePhoenix
-  - Arcana
-  - BrokenCovenant
-  - RedeemedStarGuardian
-  - BattleBat
-  - BattleAcademia
+  - Xayah_OriginalSkin.jpg
+  - Xayah_CosmicDuskSkin.jpg
+  - Xayah_SweetheartSkin.jpg
+  - Xayah_SSGSkin.jpg
+  - Xayah_StarGuardianSkin.jpg
+  - Xayah_ElderwoodSkin.jpg
+  - Xayah_BravePhoenixSkin.jpg
+  - Xayah_PrestigeBravePhoenixSkin.jpg
+  - Xayah_ArcanaSkin.jpg
+  - Xayah_BrokenCovenantSkin.jpg
+  - Xayah_RedeemedStarGuardianSkin.jpg
+  - Xayah_BattleBatSkin.jpg
+  - Xayah_BattleAcademiaSkin.jpg
 
 Xerath
-  - Original
-  - Runeborn
-  - Battlecast
-  - ScorchedEarth
-  - GuardianoftheSands
-  - DarkStar
-  - Arcana
-  - Astronaut
-  - CrystalisIndomitus
-  - CorruptedPetricite
+  - Xerath_OriginalSkin.jpg
+  - Xerath_RunebornSkin.jpg
+  - Xerath_BattlecastSkin.jpg
+  - Xerath_ScorchedEarthSkin.jpg
+  - Xerath_GuardianoftheSandsSkin.jpg
+  - Xerath_DarkStarSkin.jpg
+  - Xerath_ArcanaSkin.jpg
+  - Xerath_AstronautSkin.jpg
+  - Xerath_CrystalisIndomitusSkin.jpg
+  - Xerath_CorruptedPetriciteSkin.jpg
 
 Xin Zhao
-  - Xin Zhao Original
-  - Xin Zhao Commando
-  - Xin Zhao Imperial
-  - Xin Zhao Viscero
-  - Xin Zhao WingedHussar
-  - Xin Zhao WarringKingdoms
-  - Xin Zhao SecretAgent
-  - Xin Zhao Dragonslayer
-  - Xin Zhao CosmicDefender
-  - Xin Zhao Marauder
-  - Xin Zhao Firecracker
-  - Xin Zhao TrialsofTwilight
+  - Xin_Zhao_OriginalSkin.jpg
+  - Xin_Zhao_CommandoSkin.jpg
+  - Xin_Zhao_ImperialSkin.jpg
+  - Xin_Zhao_VisceroSkin.jpg
+  - Xin_Zhao_WingedHussarSkin.jpg
+  - Xin_Zhao_WarringKingdomsSkin.jpg
+  - Xin_Zhao_SecretAgentSkin.jpg
+  - Xin_Zhao_DragonslayerSkin.jpg
+  - Xin_Zhao_CosmicDefenderSkin.jpg
+  - Xin_Zhao_MarauderSkin.jpg
+  - Xin_Zhao_FirecrackerSkin.jpg
+  - Xin_Zhao_TrialsofTwilightSkin.jpg
 
 Yasuo
-  - Original
-  - HighNoon
-  - PROJECT
-  - BloodMoon
-  - Nightbringer
-  - Odyssey
-  - BattleBoss
-  - TrueDamage
-  - PrestigeTrueDamage
-  - SpiritBlossom
-  - SeaDog
-  - TruthDragon
-  - DreamDragon
-  - Inkshadow
-  - PrestigeInkshadow
-  - Foreseen
-  - BattleWolf
-  - GenesisNightbringer
-  - PetalsofSpring
+  - Yasuo_OriginalSkin.jpg
+  - Yasuo_HighNoonSkin.jpg
+  - Yasuo_PROJECTSkin.jpg
+  - Yasuo_BloodMoonSkin.jpg
+  - Yasuo_NightbringerSkin.jpg
+  - Yasuo_OdysseySkin.jpg
+  - Yasuo_BattleBossSkin.jpg
+  - Yasuo_TrueDamageSkin.jpg
+  - Yasuo_PrestigeTrueDamageSkin.jpg
+  - Yasuo_SpiritBlossomSkin.jpg
+  - Yasuo_SeaDogSkin.jpg
+  - Yasuo_TruthDragonSkin.jpg
+  - Yasuo_DreamDragonSkin.jpg
+  - Yasuo_InkshadowSkin.jpg
+  - Yasuo_PrestigeInkshadowSkin.jpg
+  - Yasuo_ForeseenSkin.jpg
+  - Yasuo_BattleWolfSkin.jpg
+  - Yasuo_GenesisNightbringerSkin.jpg
+  - Yasuo_PetalsofSpringSkin.jpg
 
 Yone
-  - Original
-  - SpiritBlossom
-  - BattleAcademia
-  - Dawnbringer
-  - OceanSong
-  - Inkshadow
-  - HEARTSTEEL
-  - PrestigeHEARTSTEEL
-  - HighNoon
-  - PeacemakerHighNoon
-  - MaskedJustice
-  - T1
+  - Yone_OriginalSkin.jpg
+  - Yone_SpiritBlossomSkin.jpg
+  - Yone_BattleAcademiaSkin.jpg
+  - Yone_DawnbringerSkin.jpg
+  - Yone_OceanSongSkin.jpg
+  - Yone_InkshadowSkin.jpg
+  - Yone_HEARTSTEELSkin.jpg
+  - Yone_PrestigeHEARTSTEELSkin.jpg
+  - Yone_HighNoonSkin.jpg
+  - Yone_PeacemakerHighNoonSkin.jpg
+  - Yone_MaskedJusticeSkin.jpg
+  - Yone_T1Skin.jpg
 
 Yorick
-  - Original
-  - Undertaker
-  - Pentakill
-  - Arclight
-  - Meowrick
-  - Resistance
-  - PentakillLostChapter
-  - SpiritBlossom
-  - DarkStar
-  - HighNoon
+  - Yorick_OriginalSkin.jpg
+  - Yorick_UndertakerSkin.jpg
+  - Yorick_PentakillSkin.jpg
+  - Yorick_ArclightSkin.jpg
+  - Yorick_MeowrickSkin.jpg
+  - Yorick_ResistanceSkin.jpg
+  - Yorick_PentakillLostChapterSkin.jpg
+  - Yorick_SpiritBlossomSkin.jpg
+  - Yorick_DarkStarSkin.jpg
+  - Yorick_HighNoonSkin.jpg
 
 Yunara
-  - Original
-  - SpiritBlossomSprings
+  - Yunara_OriginalSkin.jpg
+  - Yunara_SpiritBlossomSpringsSkin.jpg
 
 Yuumi
-  - Original
-  - BattlePrincipal
-  - Heartseeker
-  - Yuubee
-  - Bewitching
-  - EDG
-  - Shiba
-  - CyberCat
-  - PrestigeCyberCat
-  - Nightbringer
-  - Firecracker
+  - Yuumi_OriginalSkin.jpg
+  - Yuumi_BattlePrincipalSkin.jpg
+  - Yuumi_HeartseekerSkin.jpg
+  - Yuumi_YuubeeSkin.jpg
+  - Yuumi_BewitchingSkin.jpg
+  - Yuumi_EDGSkin.jpg
+  - Yuumi_ShibaSkin.jpg
+  - Yuumi_CyberCatSkin.jpg
+  - Yuumi_PrestigeCyberCatSkin.jpg
+  - Yuumi_NightbringerSkin.jpg
+  - Yuumi_FirecrackerSkin.jpg
 
 Zaahen
-  - Original
-  - ImmortalJourney
+  - Zaahen_OriginalSkin.jpg
+  - Zaahen_ImmortalJourneySkin.jpg
 
 Zac
-  - Original
-  - SpecialWeapon
-  - PoolParty
-  - SKTT1
-  - Battlecast
-  - Empyrean
-  - ZestyDip
-  - SpaceGroove
+  - Zac_OriginalSkin.jpg
+  - Zac_SpecialWeaponSkin.jpg
+  - Zac_PoolPartySkin.jpg
+  - Zac_SKTT1Skin.jpg
+  - Zac_BattlecastSkin.jpg
+  - Zac_EmpyreanSkin.jpg
+  - Zac_ZestyDipSkin.jpg
+  - Zac_SpaceGrooveSkin.jpg
 
 Zed
-  - Original
-  - Shockblade
-  - SKTT1
-  - PROJECT
-  - Worlds2016
-  - DeathSworn
-  - GalaxySlayer
-  - PsyOps
-  - PrestigePROJECT
-  - Debonair
-  - Empyrean
-  - ImmortalJourney
-  - BloodMoon
-  - QuantumGalaxySlayer
-  - PrestigeSpiritBlossom
+  - Zed_OriginalSkin.jpg
+  - Zed_ShockbladeSkin.jpg
+  - Zed_SKTT1Skin.jpg
+  - Zed_PROJECTSkin.jpg
+  - Zed_Worlds2016Skin.jpg
+  - Zed_DeathSwornSkin.jpg
+  - Zed_GalaxySlayerSkin.jpg
+  - Zed_PsyOpsSkin.jpg
+  - Zed_PrestigePROJECTSkin.jpg
+  - Zed_DebonairSkin.jpg
+  - Zed_EmpyreanSkin.jpg
+  - Zed_ImmortalJourneySkin.jpg
+  - Zed_BloodMoonSkin.jpg
+  - Zed_QuantumGalaxySlayerSkin.jpg
+  - Zed_PrestigeSpiritBlossomSkin.jpg
 
 Zeri
-  - Original
-  - WitheredRose
-  - OceanSong
-  - ImmortalJourney
-  - FrightNight
-  - PrestigeFrightNight
-  - WinterWonder
+  - Zeri_OriginalSkin.jpg
+  - Zeri_WitheredRoseSkin.jpg
+  - Zeri_OceanSongSkin.jpg
+  - Zeri_ImmortalJourneySkin.jpg
+  - Zeri_FrightNightSkin.jpg
+  - Zeri_PrestigeFrightNightSkin.jpg
+  - Zeri_WinterWonderSkin.jpg
 
 Ziggs
-  - Original
-  - MadScientist
-  - Major
-  - PoolParty
-  - SnowDay
-  - MasterArcanist
-  - BattleBoss
-  - Odyssey
-  - SugarRush
-  - Hextech
-  - BZZZiggs
-  - LaIlusión
-  - Firecracker
+  - Ziggs_OriginalSkin.jpg
+  - Ziggs_MadScientistSkin.jpg
+  - Ziggs_MajorSkin.jpg
+  - Ziggs_PoolPartySkin.jpg
+  - Ziggs_SnowDaySkin.jpg
+  - Ziggs_MasterArcanistSkin.jpg
+  - Ziggs_BattleBossSkin.jpg
+  - Ziggs_OdysseySkin.jpg
+  - Ziggs_SugarRushSkin.jpg
+  - Ziggs_HextechSkin.jpg
+  - Ziggs_BZZZiggsSkin.jpg
+  - Ziggs_LaIlusiónSkin.jpg
+  - Ziggs_FirecrackerSkin.jpg
 
 Zilean
-  - Original
-  - OldSaint
-  - Groovy
-  - ShurimaDesert
-  - TimeMachine
-  - BloodMoon
-  - SugarRush
-  - Winterblessed
-  - Arcana
+  - Zilean_OriginalSkin.jpg
+  - Zilean_OldSaintSkin.jpg
+  - Zilean_GroovySkin.jpg
+  - Zilean_ShurimaDesertSkin.jpg
+  - Zilean_TimeMachineSkin.jpg
+  - Zilean_BloodMoonSkin.jpg
+  - Zilean_SugarRushSkin.jpg
+  - Zilean_WinterblessedSkin.jpg
+  - Zilean_ArcanaSkin.jpg
 
 Zoe
-  - Original
-  - CyberPop
-  - PoolParty
-  - StarGuardian
-  - Arcanist
-  - PrestigeArcanist
-  - EDG
-  - Winterblessed
-  - DarkStar
-  - PrestigeEternalAspect
+  - Zoe_OriginalSkin.jpg
+  - Zoe_CyberPopSkin.jpg
+  - Zoe_PoolPartySkin.jpg
+  - Zoe_StarGuardianSkin.jpg
+  - Zoe_ArcanistSkin.jpg
+  - Zoe_PrestigeArcanistSkin.jpg
+  - Zoe_EDGSkin.jpg
+  - Zoe_WinterblessedSkin.jpg
+  - Zoe_DarkStarSkin.jpg
+  - Zoe_PrestigeEternalAspectSkin.jpg
 
 Zyra
-  - Original
-  - Wildfire
-  - Haunted
-  - SKTT1
-  - DragonSorceress
-  - Coven
-  - PrestigeCoven
-  - CrystalRose
-  - CrimeCityNightmare
-  - Mythmaker
-  - StreetDemons
-  - BloodMoon
-  - SpiritBlossom
+  - Zyra_OriginalSkin.jpg
+  - Zyra_WildfireSkin.jpg
+  - Zyra_HauntedSkin.jpg
+  - Zyra_SKTT1Skin.jpg
+  - Zyra_DragonSorceressSkin.jpg
+  - Zyra_CovenSkin.jpg
+  - Zyra_PrestigeCovenSkin.jpg
+  - Zyra_CrystalRoseSkin.jpg
+  - Zyra_CrimeCityNightmareSkin.jpg
+  - Zyra_MythmakerSkin.jpg
+  - Zyra_StreetDemonsSkin.jpg
+  - Zyra_BloodMoonSkin.jpg
+  - Zyra_SpiritBlossomSkin.jpg
 
