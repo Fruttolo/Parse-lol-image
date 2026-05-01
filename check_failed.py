@@ -11,6 +11,7 @@ Per ogni download fallito in failed_downloads.txt:
 """
 
 import io
+import re
 import threading
 import tkinter as tk
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -41,6 +42,16 @@ WIKI_API_URL    = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
 MAX_CANDIDATES  = 25   # quanti candidati mostrare al massimo
 MAX_DL_WORKERS  = 8    # download paralleli
+
+# Pattern da rimuovere dal nome file wiki (case-insensitive)
+_JUNK_RE = re.compile(r'_(old|unused)\d*', re.IGNORECASE)
+
+
+def _clean_wiki_name(name: str) -> str:
+    """Rimuove suffissi _old, _old1, _unused, _unused2, ecc. dal nome file."""
+    p = Path(name)
+    return _JUNK_RE.sub('', p.stem) + p.suffix
+
 
 THUMB_W, THUMB_H = 240, 135   # thumbnail 16:9
 COLS = 3
@@ -578,9 +589,10 @@ class SkinSelectorApp:
             return
 
         # Salva in alternatives/SHARED/ con il nome del file wiki selezionato
+        clean_name = _clean_wiki_name(self._sel_wiki_name)
         dest_dir = ALTERNATIVES_DIR / "SHARED"
         dest_dir.mkdir(parents=True, exist_ok=True)
-        dest = dest_dir / self._sel_wiki_name
+        dest = dest_dir / clean_name
         raw = _raw_cache.get(self._sel_wiki_name)
         if raw:
             dest.write_bytes(raw)
@@ -589,7 +601,7 @@ class SkinSelectorApp:
 
         # Aggiorna shared_exceptions.json
         original_key = Path(self._current_target_hd).stem
-        shared_value = Path(self._sel_wiki_name).stem
+        shared_value = Path(clean_name).stem
         exceptions: dict = {}
         if SHARED_EXCEPTIONS_FILE.exists():
             try:
