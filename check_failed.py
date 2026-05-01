@@ -227,6 +227,8 @@ class SkinSelectorApp:
 
         self._current_champion = ""
         self._current_target_hd = ""
+        self._ref_img: Optional[Image.Image] = None
+        self._ref_filename: str = ""
 
         self._build_ui()
         self.root.after(100, self._load_entry)
@@ -312,6 +314,11 @@ class SkinSelectorApp:
                   activebackground="#5a1f66", activeforeground=WHITE,
                   relief="flat", padx=18, pady=7, cursor="hand2",
                   ).pack(side="left", padx=(8, 0))
+        tk.Button(bottom, text="📁  Mantieni originale", command=self._keep_original,
+                  font=("Helvetica", 11), fg=WHITE, bg="#2e5f7a",
+                  activebackground="#1e4a62", activeforeground=WHITE,
+                  relief="flat", padx=18, pady=7, cursor="hand2",
+                  ).pack(side="left", padx=(8, 0))
         self._status_var = tk.StringVar()
         tk.Label(bottom, textvariable=self._status_var,
                  font=("Helvetica", 10), fg=MUTED, bg=BG_CARD,
@@ -365,6 +372,7 @@ class SkinSelectorApp:
         candidates_names = [
             n for n in get_wiki_jpg_images(filename)
             if n.replace(" ", "_") != filename.replace(" ", "_")
+            and "_hd." in n.lower()
         ]
         total = len(candidates_names)
 
@@ -410,6 +418,8 @@ class SkinSelectorApp:
         filename: str,
     ) -> None:
         self._loading_var.set("")
+        self._ref_img = ref_img
+        self._ref_filename = filename
 
         if ref_img is not None:
             self._ref_photo = ImageTk.PhotoImage(self._make_thumb(ref_img))
@@ -596,6 +606,32 @@ class SkinSelectorApp:
             f"[magenta]🔗[/] [bold]{self._current_champion}[/]  "
             f"{original_key} → [bold]SHARED[/] {shared_value}")
         self._status_var.set(f"SHARED: {original_key} → {shared_value}")
+        self.root.update()
+
+        self.idx += 1
+        self.root.after(200, self._load_entry)
+
+    def _keep_original(self) -> None:
+        if self._ref_img is None:
+            messagebox.showwarning(
+                "Riferimento non disponibile",
+                "L'immagine di riferimento non è stata scaricata.")
+            return
+
+        dest_dir = ALTERNATIVES_DIR / self._current_champion
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dest = dest_dir / self._current_target_hd
+
+        raw = _raw_cache.get(self._ref_filename)
+        if raw:
+            dest.write_bytes(raw)
+        else:
+            self._ref_img.save(str(dest), format="JPEG", quality=95)
+
+        console.print(
+            f"[cyan]📁[/] [bold]{self._current_champion}[/]  "
+            f"originale non-HD → {dest}")
+        self._status_var.set(f"Salvato originale → {dest}")
         self.root.update()
 
         self.idx += 1
