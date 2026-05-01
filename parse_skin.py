@@ -4,6 +4,7 @@ Download HD splash arts for all League of Legends champions.
 Reads skin list from champions.txt and saves images to splash_arts/.
 """
 
+import json
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -25,11 +26,24 @@ console = Console()
 CHAMPIONS_FILE = "champions.txt"
 SPLASH_ARTS_DIR = Path("splash_arts")
 SHARED_DIR = SPLASH_ARTS_DIR / "SHARED"
-OLD_DIR = SPLASH_ARTS_DIR / "OLD"
 FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
+SHARED_EXCEPTIONS_FILE = "shared_exceptions.json"
 REQUEST_TIMEOUT = 30
 MAX_WORKERS = 10
+
+# Maps expected HD filename → actual filename in SHARED_DIR
+SHARED_EXCEPTIONS: dict[str, str] = {}
+
+
+def load_shared_exceptions() -> None:
+    """Populate SHARED_EXCEPTIONS from shared_exceptions.json (silently skip if missing)."""
+    global SHARED_EXCEPTIONS
+    try:
+        with open(SHARED_EXCEPTIONS_FILE, encoding="utf-8") as f:
+            SHARED_EXCEPTIONS = json.load(f)
+    except FileNotFoundError:
+        pass
 
 
 def parse_champions(filepath: str) -> dict[str, list[str]]:
@@ -81,24 +95,14 @@ def stripped_filename(champion: str, hd_name: str) -> str:
     return hd_name
 
 
-def old2_filename(hd_name: str) -> str:
-    """'Heimerdinger_AlienInvaderSkin_HD.jpg' → 'Heimerdinger_AlienInvaderSkin_old2_HD.jpg'."""
-    if hd_name.endswith("_HD.jpg"):
-        stem = hd_name[: -len("_HD.jpg")]
-        return f"{stem}_old2_HD.jpg"
-    stem, ext = hd_name.rsplit(".", 1)
-    return f"{stem}_old2.{ext}"
-
-
 def download_skin(
     champion: str, skin_filename: str
 ) -> tuple[str, str, bool, str, str]:
     """
     Download a single HD skin image.
     Returns (champion, skin_filename, success, message, retry_type).
-    retry_type is '' for a direct download, 'shared' for the first retry
-    (champion prefix stripped, saved to SHARED_DIR), or 'old' for the second
-    retry (_old2 suffix, saved to OLD_DIR).
+    retry_type is '' for a direct download, or 'shared' for the retry
+    (champion prefix stripped, saved to SHARED_DIR).
     """
     hd_name = hd_filename(skin_filename)
     save_dir = SPLASH_ARTS_DIR / champion
@@ -108,17 +112,17 @@ def download_skin(
     if save_path.exists() and save_path.stat().st_size > 0:
         return champion, skin_filename, True, "already exists", ""
 
+    # Skip if mapped via explicit shared exception
+    if hd_name in SHARED_EXCEPTIONS:
+        exception_path = SHARED_DIR / SHARED_EXCEPTIONS[hd_name]
+        if exception_path.exists() and exception_path.stat().st_size > 0:
+            return champion, skin_filename, True, "already exists", "shared"
+
     # Skip if already downloaded via shared path
     retry_name = stripped_filename(champion, hd_name)
     retry_save_path = SHARED_DIR / retry_name
     if retry_save_path.exists() and retry_save_path.stat().st_size > 0:
         return champion, skin_filename, True, "already exists", "shared"
-
-    # Skip if already downloaded via old2 path
-    old2_name = old2_filename(hd_name)
-    old2_save_path = OLD_DIR / old2_name
-    if old2_save_path.exists() and old2_save_path.stat().st_size > 0:
-        return champion, skin_filename, True, "already exists", "old"
 
     url = WIKI_IMAGE_BASE + quote(hd_name, safe="")
 
@@ -144,22 +148,7 @@ def download_skin(
                         retry_save_path.unlink(missing_ok=True)
                     return champion, skin_filename, False, str(exc), ""
 
-            # Retry 2: _old2 suffix on original name → OLD_DIR
-            old2_url = WIKI_IMAGE_BASE + quote(old2_name, safe="")
-            try:
-                old2_response = requests.get(old2_url, timeout=REQUEST_TIMEOUT, stream=True)
-                if old2_response.status_code == 404:
-                    return champion, skin_filename, False, f"404 Not Found: {url}", ""
-                old2_response.raise_for_status()
-                OLD_DIR.mkdir(parents=True, exist_ok=True)
-                with open(old2_save_path, "wb") as f:
-                    for chunk in old2_response.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                return champion, skin_filename, True, "downloaded (retry old2)", "old"
-            except requests.RequestException as exc:
-                if old2_save_path.exists():
-                    old2_save_path.unlink(missing_ok=True)
-                return champion, skin_filename, False, str(exc), ""
+            return champion, skin_filename, False, f"404 Not Found: {url}", ""
 
         response.raise_for_status()
 
@@ -190,6 +179,7 @@ def write_failed_report(failed: list[tuple[str, str, str]]) -> None:
 
 
 def main() -> None:
+    load_shared_exceptions()
     champions = parse_champions(CHAMPIONS_FILE)
     tasks = [
         (champion, skin)
@@ -206,7 +196,6 @@ def main() -> None:
     skipped = 0
     downloaded = 0
     retried_shared = 0
-    retried_old = 0
 
     with Progress(
         SpinnerColumn(),
@@ -237,12 +226,6 @@ def main() -> None:
                         task,
                         description=f"[dim]↷ {champion}/{skin}[/]",
                     )
-                elif retry_type == "old":
-                    retried_old += 1
-                    progress.update(
-                        task,
-                        description=f"[magenta]↺² {champion}/{skin}",
-                    )
                 elif retry_type == "shared":
                     retried_shared += 1
                     progress.update(
@@ -262,8 +245,7 @@ def main() -> None:
 
     console.print(f"\n[bold]Done.[/]")
     console.print(f"  Downloaded : [green]{downloaded}[/]")
-    console.print(f"  Retry 1    : [yellow]{retried_shared}[/] (saved to {SHARED_DIR}/)")
-    console.print(f"  Retry 2    : [magenta]{retried_old}[/] (saved to {OLD_DIR}/)")
+    console.print(f"  Retry SHARED : [yellow]{retried_shared}[/] (saved to {SHARED_DIR}/)")
     console.print(f"  Skipped    : [dim]{skipped}[/] (already present)")
     console.print(f"  Failed     : [{'red' if failed else 'green'}]{len(failed)}[/]")
     if failed:
