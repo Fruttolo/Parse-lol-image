@@ -1,24 +1,4 @@
 === Failed Downloads Report ===
-Generated: 2026-05-01 21:26:23
-Total failures: 5
+Generated: 2026-05-01 21:40:05
+Total failures: 0
 
-Champion : Blitzcrank
-File     : Blitzcrank_ZenithGamesSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_ZenithGamesSkin_HD.jpg
-------------------------------------------------------------
-Champion : Fiddlesticks
-File     : Fiddlesticks_StarNemesisSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_StarNemesisSkin_HD.jpg
-------------------------------------------------------------
-Champion : Riven
-File     : Riven_ReignitedWorlds2012Skin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Riven_ReignitedWorlds2012Skin_HD.jpg
-------------------------------------------------------------
-Champion : Soraka
-File     : Soraka_PrestigeStarGuardianSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Soraka_PrestigeStarGuardianSkin_HD.jpg
-------------------------------------------------------------
-Champion : Tristana
-File     : Tristana_RainShepherdSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Tristana_RainShepherdSkin_HD.jpg
-------------------------------------------------------------
