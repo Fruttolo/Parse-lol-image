@@ -1,98 +1,14 @@
 === Failed Downloads Report ===
-Generated: 2026-05-01 19:11:00
-Total failures: 194
+Generated: 2026-05-01 20:33:37
+Total failures: 173
 
-Champion : Aatrox
-File     : Aatrox_LunarEclipseSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Aatrox_LunarEclipseSkin_HD.jpg
-------------------------------------------------------------
-Champion : Akali
-File     : Akali_SashimiSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Akali_SashimiSkin_HD.jpg
-------------------------------------------------------------
-Champion : Alistar
-File     : Alistar_MarauderSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Alistar_MarauderSkin_HD.jpg
-------------------------------------------------------------
-Champion : Alistar
-File     : Alistar_MooCowSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Alistar_MooCowSkin_HD.jpg
-------------------------------------------------------------
-Champion : Alistar
-File     : Alistar_SKTT1Skin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Alistar_SKTT1Skin_HD.jpg
-------------------------------------------------------------
-Champion : Alistar
-File     : Alistar_SweeperSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Alistar_SweeperSkin_HD.jpg
-------------------------------------------------------------
-Champion : Amumu
-File     : Amumu_SurprisePartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Amumu_SurprisePartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Anivia
-File     : Anivia_BewitchingBatniviaSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Anivia_BewitchingBatniviaSkin_HD.jpg
-------------------------------------------------------------
-Champion : Ashe
-File     : Ashe_MarauderSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Ashe_MarauderSkin_HD.jpg
-------------------------------------------------------------
-Champion : Ashe
-File     : Ashe_OceanSongSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Ashe_OceanSongSkin_HD.jpg
-------------------------------------------------------------
-Champion : Aurelion Sol
-File     : Aurelion_Sol_MechaSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_MechaSkin_HD.jpg
-------------------------------------------------------------
-Champion : Azir
-File     : Azir_SKTT1Skin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Azir_SKTT1Skin_HD.jpg
-------------------------------------------------------------
-Champion : Bard
-File     : Bard_BardBardSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Bard_BardBardSkin_HD.jpg
-------------------------------------------------------------
-Champion : Blitzcrank
-File     : Blitzcrank_BattleBossSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_BattleBossSkin_HD.jpg
-------------------------------------------------------------
 Champion : Blitzcrank
 File     : Blitzcrank_ZenithGamesSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_ZenithGamesSkin_HD.jpg
 ------------------------------------------------------------
-Champion : Braum
-File     : Braum_BraumLionheartSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Braum_BraumLionheartSkin_HD.jpg
-------------------------------------------------------------
-Champion : Braum
-File     : Braum_PoolPartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Braum_PoolPartySkin_HD.jpg
-------------------------------------------------------------
 Champion : Caitlyn
 File     : Caitlyn_FirecrackerSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Caitlyn_FirecrackerSkin_HD.jpg
-------------------------------------------------------------
-Champion : Caitlyn
-File     : Caitlyn_HeartthrobSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Caitlyn_HeartthrobSkin_HD.jpg
-------------------------------------------------------------
-Champion : Caitlyn
-File     : Caitlyn_PoolPartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Caitlyn_PoolPartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Corki
-File     : Corki_CorgiSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Corki_CorgiSkin_HD.jpg
-------------------------------------------------------------
-Champion : Corki
-File     : Corki_DragonwingSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Corki_DragonwingSkin_HD.jpg
-------------------------------------------------------------
-Champion : Corki
-File     : Corki_HotRodSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Corki_HotRodSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Corki
 File     : Corki_IceTobogganSkin.jpg
