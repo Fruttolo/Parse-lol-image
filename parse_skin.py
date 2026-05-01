@@ -24,7 +24,7 @@ console = Console()
 
 CHAMPIONS_FILE = "champions.txt"
 SPLASH_ARTS_DIR = Path("splash_arts")
-RETRY_DIR = Path("retry")
+SHARED_DIR = SPLASH_ARTS_DIR / "SHARED"
 FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 REQUEST_TIMEOUT = 30
@@ -97,10 +97,9 @@ def download_skin(
     if save_path.exists() and save_path.stat().st_size > 0:
         return champion, skin_filename, True, "already exists", False
 
-    # Skip if already downloaded via retry path
+    # Skip if already downloaded via shared path
     retry_name = stripped_filename(champion, hd_name)
-    retry_save_dir = RETRY_DIR / champion
-    retry_save_path = retry_save_dir / retry_name
+    retry_save_path = SHARED_DIR / retry_name
     if retry_save_path.exists() and retry_save_path.stat().st_size > 0:
         return champion, skin_filename, True, "already exists", True
 
@@ -120,7 +119,7 @@ def download_skin(
                 if retry_response.status_code == 404:
                     return champion, skin_filename, False, f"404 Not Found: {url}", False
                 retry_response.raise_for_status()
-                retry_save_dir.mkdir(parents=True, exist_ok=True)
+                SHARED_DIR.mkdir(parents=True, exist_ok=True)
                 with open(retry_save_path, "wb") as f:
                     for chunk in retry_response.iter_content(chunk_size=8192):
                         f.write(chunk)
@@ -224,7 +223,7 @@ def main() -> None:
 
     console.print(f"\n[bold]Done.[/]")
     console.print(f"  Downloaded : [green]{downloaded}[/]")
-    console.print(f"  Retried    : [yellow]{retried}[/] (saved to {RETRY_DIR}/)")
+    console.print(f"  Retried    : [yellow]{retried}[/] (saved to {SHARED_DIR}/)")
     console.print(f"  Skipped    : [dim]{skipped}[/] (already present)")
     console.print(f"  Failed     : [{'red' if failed else 'green'}]{len(failed)}[/]")
     if failed:

@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from rich.console import Console
 from rich.progress import BarColumn, MofNCompleteColumn, Progress, SpinnerColumn, TextColumn
 
-SPLASH_DIR = os.path.join(os.path.dirname(__file__), "retry")
+SPLASH_DIR = os.path.join(os.path.dirname(__file__), "splash_arts")
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "duplicate_images.txt")
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 MAX_WORKERS = 16
