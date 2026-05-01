@@ -156,21 +156,62 @@ def download_skin(
         response = requests.get(url, timeout=REQUEST_TIMEOUT, stream=True)
 
         if response.status_code == 404:
-            # Retry 1: champion prefix stripped → SHARED_DIR
+            # Retry 1: same name, PNG format
+            png_hd_name = hd_name.removesuffix(".jpg") + ".png"
+            png_save_path = save_dir / png_hd_name
+            png_url = WIKI_IMAGE_BASE + quote(png_hd_name, safe="")
+            try:
+                png_response = requests.get(png_url, timeout=REQUEST_TIMEOUT, stream=True)
+                if png_response.status_code == 200:
+                    png_response.raise_for_status()
+                    with open(png_save_path, "wb") as f:
+                        for chunk in png_response.iter_content(chunk_size=8192):
+                            f.write(chunk)
+                    return champion, skin_filename, True, "downloaded (png)", ""
+                elif png_response.status_code != 404:
+                    png_response.raise_for_status()
+            except requests.RequestException as exc:
+                if png_save_path.exists():
+                    png_save_path.unlink(missing_ok=True)
+                return champion, skin_filename, False, str(exc), ""
+
+            # Retry 2: champion prefix stripped → SHARED_DIR (jpg)
             if retry_name != hd_name:
                 retry_url = WIKI_IMAGE_BASE + quote(retry_name, safe="")
                 try:
                     retry_response = requests.get(retry_url, timeout=REQUEST_TIMEOUT, stream=True)
-                    if retry_response.status_code != 404:
+                    if retry_response.status_code == 200:
                         retry_response.raise_for_status()
                         SHARED_DIR.mkdir(parents=True, exist_ok=True)
                         with open(retry_save_path, "wb") as f:
                             for chunk in retry_response.iter_content(chunk_size=8192):
                                 f.write(chunk)
                         return champion, skin_filename, True, "downloaded (retry shared)", "shared"
+                    elif retry_response.status_code != 404:
+                        retry_response.raise_for_status()
                 except requests.RequestException as exc:
                     if retry_save_path.exists():
                         retry_save_path.unlink(missing_ok=True)
+                    return champion, skin_filename, False, str(exc), ""
+
+                # Retry 3: stripped name, PNG format → SHARED_DIR
+                retry_png_name = retry_name.removesuffix(".jpg") + ".png"
+                retry_png_save_path = SHARED_DIR / retry_png_name
+                retry_png_url = WIKI_IMAGE_BASE + quote(retry_png_name, safe="")
+                try:
+                    retry_png_response = requests.get(retry_png_url, timeout=REQUEST_TIMEOUT, stream=True)
+                    if retry_png_response.status_code == 200:
+                        retry_png_response.raise_for_status()
+                        SHARED_DIR.mkdir(parents=True, exist_ok=True)
+                        with open(retry_png_save_path, "wb") as f:
+                            for chunk in retry_png_response.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                        return champion, skin_filename, True, "downloaded (retry shared png)", "shared"
+                    elif retry_png_response.status_code != 404:
+                        retry_png_response.raise_for_status()
+                except requests.RequestException as exc:
+                    if retry_png_save_path.exists():
+                        retry_png_save_path.unlink(missing_ok=True)
                     return champion, skin_filename, False, str(exc), ""
 
             return champion, skin_filename, False, f"404 Not Found: {url}", ""
