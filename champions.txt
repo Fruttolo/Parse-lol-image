@@ -11,7 +11,6 @@ Aatrox
   - Aatrox_PrestigeBloodMoonSkin.jpg
   - Aatrox_VictoriousSkin.jpg
   - Aatrox_OdysseySkin.jpg
-  - Aatrox_PrestigeBloodMoon(2022)Skin.jpg
   - Aatrox_LunarEclipseSkin.jpg
   - Aatrox_DRXSkin.jpg
   - Aatrox_PrestigeDRXSkin.jpg
@@ -33,7 +32,6 @@ Ahri
   - Ahri_SpiritBlossomSkin.jpg
   - Ahri_KDAALLOUTSkin.jpg
   - Ahri_CovenSkin.jpg
-  - Ahri_PrestigeKDA(2022)Skin.jpg
   - Ahri_ArcanaSkin.jpg
   - Ahri_SnowMoonSkin.jpg
   - Ahri_RisenLegendSkin.jpg
@@ -57,7 +55,6 @@ Akali
   - Akali_TrueDamageSkin.jpg
   - Akali_KDAALLOUTSkin.jpg
   - Akali_CrimeCityNightmareSkin.jpg
-  - Akali_PrestigeKDA(2022)Skin.jpg
   - Akali_StarGuardianSkin.jpg
   - Akali_DRXSkin.jpg
   - Akali_CovenSkin.jpg
@@ -286,7 +283,6 @@ Caitlyn
   - Caitlyn_PrestigeArcadeSkin.jpg
   - Caitlyn_BattleAcademiaSkin.jpg
   - Caitlyn_ArcaneEnforcerSkin.jpg
-  - Caitlyn_PrestigeArcade(2022)Skin.jpg
   - Caitlyn_SnowMoonSkin.jpg
   - Caitlyn_HeartthrobSkin.jpg
   - Caitlyn_DRXSkin.jpg
@@ -450,7 +446,6 @@ Evelynn
   - Evelynn_SugarRushSkin.jpg
   - Evelynn_KDAALLOUTSkin.jpg
   - Evelynn_CovenSkin.jpg
-  - Evelynn_PrestigeKDA(2022)Skin.jpg
   - Evelynn_SpiritBlossomSkin.jpg
   - Evelynn_SoulFighterSkin.jpg
   - Evelynn_HighNoonSkin.jpg
@@ -527,7 +522,6 @@ Fizz
   - Fizz_FuzzSkin.jpg
   - Fizz_PrestigeFuzzSkin.jpg
   - Fizz_LittleDevilSkin.jpg
-  - Fizz_PrestigeFuzz(2022)Skin.jpg
   - Fizz_AstronautSkin.jpg
   - Fizz_RainShepherdSkin.jpg
 
@@ -686,7 +680,6 @@ Irelia
   - Irelia_PrestigePROJECTSkin.jpg
   - Irelia_HighNoonSkin.jpg
   - Irelia_SentinelSkin.jpg
-  - Irelia_PrestigePROJECT(2022)Skin.jpg
   - Irelia_MythmakerSkin.jpg
   - Irelia_PorcelainSkin.jpg
   - Irelia_SpiritBlossomSkin.jpg
@@ -819,7 +812,6 @@ Kai'Sa
   - Kai'Sa_KDAALLOUTSkin.jpg
   - Kai'Sa_PrestigeKDAALLOUTSkin.jpg
   - Kai'Sa_LagoonDragonSkin.jpg
-  - Kai'Sa_PrestigeKDA(2022)Skin.jpg
   - Kai'Sa_StarGuardianSkin.jpg
   - Kai'Sa_InkshadowSkin.jpg
   - Kai'Sa_HeavenscaleSkin.jpg
@@ -1023,7 +1015,6 @@ Lee Sin
   - Lee_Sin_PrestigeNightbringerSkin.jpg
   - Lee_Sin_FPXSkin.jpg
   - Lee_Sin_StormDragonSkin.jpg
-  - Lee_Sin_PrestigeNightbringer(2022)Skin.jpg
   - Lee_Sin_ZenithGamesSkin.jpg
   - Lee_Sin_HeavenscaleSkin.jpg
   - Lee_Sin_DivineHeavenscaleSkin.jpg
@@ -1122,7 +1113,6 @@ Lux
   - Lux_SpaceGrooveSkin.jpg
   - Lux_PorcelainSkin.jpg
   - Lux_SoulFighterSkin.jpg
-  - Lux_PrestigeBattleAcademia(2022)Skin.jpg
   - Lux_PrestigePorcelainSkin.jpg
   - Lux_EmpyreanSkin.jpg
   - Lux_FaerieCourtSkin.jpg
@@ -1227,7 +1217,6 @@ Miss Fortune
   - Miss_Fortune_RuinedSkin.jpg
   - Miss_Fortune_BattleBunnySkin.jpg
   - Miss_Fortune_AdmiralBattleBunnySkin.jpg
-  - Miss_Fortune_PrestigeBewitching(2022)Skin.jpg
   - Miss_Fortune_BrokenCovenantSkin.jpg
   - Miss_Fortune_PrestigeBrokenCovenantSkin.jpg
   - Miss_Fortune_PorcelainSkin.jpg
@@ -1329,7 +1318,6 @@ Neeko
   - Neeko_StarGuardianSkin.jpg
   - Neeko_PrestigeStarGuardianSkin.jpg
   - Neeko_ShanHaiScrollsSkin.jpg
-  - Neeko_PrestigeStarGuardian(2022)Skin.jpg
   - Neeko_BewitchingSkin.jpg
   - Neeko_StreetDemonsSkin.jpg
   - Neeko_CosplayerSkin.jpg
@@ -1374,7 +1362,32 @@ Nocturne
   - Nocturne_EmpyreanSkin.jpg
 
 Nunu & Willump
-  (no skins found)
+  - Nunu_&_Willump_OriginalSkin.jpg
+  - Nunu_OriginalSkin.jpg
+  - Nunu_&_Willump_SasquatchSkin.jpg
+  - Nunu_SasquatchSkin.jpg
+  - Nunu_&_Willump_WorkshopSkin.jpg
+  - Nunu_WorkshopSkin.jpg
+  - Nunu_&_Willump_GrungySkin.jpg
+  - Nunu_GrungySkin.jpg
+  - Nunu_&_Willump_NunuBotSkin.jpg
+  - Nunu_NunuBotSkin.jpg
+  - Nunu_&_Willump_DemolisherSkin.jpg
+  - Nunu_DemolisherSkin.jpg
+  - Nunu_&_Willump_TPASkin.jpg
+  - Nunu_TPASkin.jpg
+  - Nunu_&_Willump_ZombieSkin.jpg
+  - Nunu_ZombieSkin.jpg
+  - Nunu_&_Willump_PapercraftSkin.jpg
+  - Nunu_PapercraftSkin.jpg
+  - Nunu_&_Willump_SpaceGrooveSkin.jpg
+  - Nunu_SpaceGrooveSkin.jpg
+  - Nunu_&_Willump_Nunu&BeelumpSkin.jpg
+  - Nunu_Nunu&BeelumpSkin.jpg
+  - Nunu_&_Willump_CosmicPaladinsSkin.jpg
+  - Nunu_CosmicPaladinsSkin.jpg
+  - Nunu_&_Willump_FrightNightSkin.jpg
+  - Nunu_FrightNightSkin.jpg
 
 Olaf
   - Olaf_OriginalSkin.jpg
@@ -1467,7 +1480,6 @@ Qiyana
   - Qiyana_PrestigeTrueDamageSkin.jpg
   - Qiyana_BattleQueenSkin.jpg
   - Qiyana_ShockbladeSkin.jpg
-  - Qiyana_PrestigeTrueDamage(2022)Skin.jpg
   - Qiyana_LunarEmpressSkin.jpg
   - Qiyana_LaIlusiónSkin.jpg
   - Qiyana_PrestigeBattleAcademiaSkin.jpg
@@ -1579,7 +1591,6 @@ Riven
   - Riven_SpiritBlossomSkin.jpg
   - Riven_SentinelSkin.jpg
   - Riven_BattleBunnyPrimeSkin.jpg
-  - Riven_PrestigeValiantSword(2022)Skin.jpg
   - Riven_BrokenCovenantSkin.jpg
   - Riven_PrimalAmbushSkin.jpg
 
@@ -1940,7 +1951,6 @@ Thresh
   - Thresh_SpiritBlossomSkin.jpg
   - Thresh_UnboundSkin.jpg
   - Thresh_SteelDragonSkin.jpg
-  - Thresh_PrestigePulsefire(2022)Skin.jpg
   - Thresh_LunarEmperorSkin.jpg
   - Thresh_WinterblessedSkin.jpg
   - Thresh_JanitorSkin.jpg
@@ -2080,7 +2090,6 @@ Vayne
   - Vayne_FPXSkin.jpg
   - Vayne_SentinelSkin.jpg
   - Vayne_BattleBatSkin.jpg
-  - Vayne_PrestigeFirecracker(2022)Skin.jpg
   - Vayne_DawnbringerSkin.jpg
   - Vayne_DragonmancerSkin.jpg
   - Vayne_RisenLegendSkin.jpg
