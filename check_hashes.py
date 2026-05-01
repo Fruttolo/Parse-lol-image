@@ -48,7 +48,7 @@ def find_duplicates(image_paths: list[str]) -> dict[str, list[str]]:
             for future in as_completed(futures):
                 path = futures[future]
                 file_hash = future.result()
-                hash_map[file_hash].append(os.path.basename(path))
+                hash_map[file_hash].append(os.path.relpath(path, SPLASH_DIR))
                 progress.advance(task)
 
     return {h: names for h, names in hash_map.items() if len(names) > 1}
