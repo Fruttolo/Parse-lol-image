@@ -567,10 +567,10 @@ class SkinSelectorApp:
                 "Clicca su un'immagine prima di flaggare come SHARED.")
             return
 
-        # Salva l'immagine come fa _confirm
-        dest_dir = ALTERNATIVES_DIR / self._current_champion
+        # Salva in alternatives/SHARED/ con il nome del file wiki selezionato
+        dest_dir = ALTERNATIVES_DIR / "SHARED"
         dest_dir.mkdir(parents=True, exist_ok=True)
-        dest = dest_dir / self._current_target_hd
+        dest = dest_dir / self._sel_wiki_name
         raw = _raw_cache.get(self._sel_wiki_name)
         if raw:
             dest.write_bytes(raw)
