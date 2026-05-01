@@ -1,6 +1,6 @@
 === Failed Downloads Report ===
-Generated: 2026-05-01 20:33:37
-Total failures: 173
+Generated: 2026-05-01 21:07:40
+Total failures: 141
 
 Champion : Blitzcrank
 File     : Blitzcrank_ZenithGamesSkin.jpg
@@ -10,141 +10,13 @@ Champion : Caitlyn
 File     : Caitlyn_FirecrackerSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Caitlyn_FirecrackerSkin_HD.jpg
 ------------------------------------------------------------
-Champion : Corki
-File     : Corki_IceTobogganSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Corki_IceTobogganSkin_HD.jpg
-------------------------------------------------------------
-Champion : Corki
-File     : Corki_UrfriderSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Corki_UrfriderSkin_HD.jpg
-------------------------------------------------------------
-Champion : Darius
-File     : Darius_DivineGod-KingSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Darius_DivineGod-KingSkin_HD.jpg
-------------------------------------------------------------
-Champion : Dr. Mundo
-File     : Dr._Mundo_ElMachoMundoSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_ElMachoMundoSkin_HD.jpg
-------------------------------------------------------------
-Champion : Dr. Mundo
-File     : Dr._Mundo_PoolPartyMundoSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_PoolPartyMundoSkin_HD.jpg
-------------------------------------------------------------
-Champion : Dr. Mundo
-File     : Dr._Mundo_TPAMundoSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_TPAMundoSkin_HD.jpg
-------------------------------------------------------------
-Champion : Draven
-File     : Draven_DravenDravenSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Draven_DravenDravenSkin_HD.jpg
-------------------------------------------------------------
-Champion : Draven
-File     : Draven_PoolPartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Draven_PoolPartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Ekko
-File     : Ekko_SKTT1Skin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Ekko_SKTT1Skin_HD.jpg
-------------------------------------------------------------
-Champion : Elise
-File     : Elise_SKTT1Skin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Elise_SKTT1Skin_HD.jpg
-------------------------------------------------------------
-Champion : Evelynn
-File     : Evelynn_SafecrackerSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Evelynn_SafecrackerSkin_HD.jpg
-------------------------------------------------------------
-Champion : Ezreal
-File     : Ezreal_AceofSpadesSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Ezreal_AceofSpadesSkin_HD.jpg
-------------------------------------------------------------
 Champion : Fiddlesticks
 File     : Fiddlesticks_StarNemesisSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_StarNemesisSkin_HD.jpg
 ------------------------------------------------------------
-Champion : Fiora
-File     : Fiora_BewitchingSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Fiora_BewitchingSkin_HD.jpg
-------------------------------------------------------------
-Champion : Fiora
-File     : Fiora_FaerieCourtSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Fiora_FaerieCourtSkin_HD.jpg
-------------------------------------------------------------
-Champion : Fizz
-File     : Fizz_FuzzSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Fizz_FuzzSkin_HD.jpg
-------------------------------------------------------------
-Champion : Galio
-File     : Galio_DragonGuardianSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Galio_DragonGuardianSkin_HD.jpg
-------------------------------------------------------------
-Champion : Galio
-File     : Galio_InfernalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Galio_InfernalSkin_HD.jpg
-------------------------------------------------------------
-Champion : Gangplank
-File     : Gangplank_PoolPartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Gangplank_PoolPartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Garen
-File     : Garen_FallenGod-KingSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Garen_FallenGod-KingSkin_HD.jpg
-------------------------------------------------------------
-Champion : Gnar
-File     : Gnar_ElLeónSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Gnar_ElLe%C3%B3nSkin_HD.jpg
-------------------------------------------------------------
-Champion : Gragas
-File     : Gragas_GragasCaskbreakerSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Gragas_GragasCaskbreakerSkin_HD.jpg
-------------------------------------------------------------
-Champion : Gragas
-File     : Gragas_MusicFanSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Gragas_MusicFanSkin_HD.jpg
-------------------------------------------------------------
-Champion : Gragas
-File     : Gragas_SuperfanSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Gragas_SuperfanSkin_HD.jpg
-------------------------------------------------------------
 Champion : Graves
 File     : Graves_CutthroatSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Graves_CutthroatSkin_HD.jpg
-------------------------------------------------------------
-Champion : Graves
-File     : Graves_SentinelSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Graves_SentinelSkin_HD.jpg
-------------------------------------------------------------
-Champion : Gwen
-File     : Gwen_SpaceGrooveSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Gwen_SpaceGrooveSkin_HD.jpg
-------------------------------------------------------------
-Champion : Hecarim
-File     : Hecarim_WorldbreakerSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Hecarim_WorldbreakerSkin_HD.jpg
-------------------------------------------------------------
-Champion : Heimerdinger
-File     : Heimerdinger_HeimerstingerSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_HeimerstingerSkin_HD.jpg
-------------------------------------------------------------
-Champion : Heimerdinger
-File     : Heimerdinger_PoolPartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_PoolPartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Ivern
-File     : Ivern_CandyKingSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Ivern_CandyKingSkin_HD.jpg
-------------------------------------------------------------
-Champion : Janna
-File     : Janna_GuardianoftheSandsSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Janna_GuardianoftheSandsSkin_HD.jpg
-------------------------------------------------------------
-Champion : Jarvan IV
-File     : Jarvan_IV_PoolPartySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Jarvan_IV_PoolPartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Jax
-File     : Jax_SKTT1Skin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Jax_SKTT1Skin_HD.jpg
 ------------------------------------------------------------
 Champion : Jax
 File     : Jax_WardenSkin.jpg
