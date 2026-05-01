@@ -16,7 +16,7 @@ DDRAGON_CHAMPIONS_URL = (
 )
 WIKI_API_URL = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
-MAX_WORKERS = 1
+MAX_WORKERS = 2
 OUTPUT_FILE = "champions.txt"
 
 
@@ -36,7 +36,7 @@ def get_skin_filenames(champ_name: str) -> list[str]:
         return []
 
     images: list[str] = payload.get("parse", {}).get("images", [])
-    return [img for img in images if img.lower().endswith("skin.jpg") and "(2022)" not in img]
+    return [img for img in images if img.lower().endswith("skin.jpg") and "(2022)" not in img and "Reignited" not in img]
 
 
 def main() -> None:
