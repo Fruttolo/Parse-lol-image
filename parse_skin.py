@@ -219,7 +219,7 @@ def main() -> None:
 
                 progress.advance(task)
 
-    write_failed_report(failed)
+    write_failed_report(sorted(failed))
 
     console.print(f"\n[bold]Done.[/]")
     console.print(f"  Downloaded : [green]{downloaded}[/]")
