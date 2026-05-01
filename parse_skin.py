@@ -112,11 +112,28 @@ def download_skin(
     if save_path.exists() and save_path.stat().st_size > 0:
         return champion, skin_filename, True, "already exists", ""
 
-    # Skip if mapped via explicit shared exception
-    if hd_name in SHARED_EXCEPTIONS:
-        exception_path = SHARED_DIR / SHARED_EXCEPTIONS[hd_name]
+    # Handle explicit shared exception: download mapped filename to SHARED_DIR
+    hd_stem = hd_name.removesuffix(".jpg")
+    if hd_stem in SHARED_EXCEPTIONS:
+        exception_name = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
+        exception_path = SHARED_DIR / exception_name
         if exception_path.exists() and exception_path.stat().st_size > 0:
             return champion, skin_filename, True, "already exists", "shared"
+        exception_url = WIKI_IMAGE_BASE + quote(exception_name, safe="")
+        try:
+            exc_response = requests.get(exception_url, timeout=REQUEST_TIMEOUT, stream=True)
+            if exc_response.status_code == 404:
+                return champion, skin_filename, False, f"404 Not Found: {exception_url}", ""
+            exc_response.raise_for_status()
+            SHARED_DIR.mkdir(parents=True, exist_ok=True)
+            with open(exception_path, "wb") as f:
+                for chunk in exc_response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            return champion, skin_filename, True, "downloaded (shared exception)", "shared"
+        except requests.RequestException as exc:
+            if exception_path.exists():
+                exception_path.unlink(missing_ok=True)
+            return champion, skin_filename, False, str(exc), ""
 
     # Skip if already downloaded via shared path
     retry_name = stripped_filename(champion, hd_name)
