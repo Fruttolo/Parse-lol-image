@@ -1,6 +1,6 @@
 === Failed Downloads Report ===
-Generated: 2026-05-01 18:56:28
-Total failures: 208
+Generated: 2026-05-01 19:11:00
+Total failures: 194
 
 Champion : Aatrox
 File     : Aatrox_LunarEclipseSkin.jpg
@@ -435,50 +435,6 @@ File     : Nocturne_CursedRevenantSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nocturne_CursedRevenantSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Nunu & Willump
-File     : Nunu_&_Willump_CosmicPaladinsSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_CosmicPaladinsSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_DemolisherSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_DemolisherSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_GrungySkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_GrungySkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_Nunu&BeelumpSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_Nunu%26BeelumpSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_NunuBotSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_NunuBotSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_OriginalSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_PapercraftSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_PapercraftSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_SasquatchSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_SasquatchSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_SpaceGrooveSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_SpaceGrooveSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_WorkshopSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_WorkshopSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
-File     : Nunu_&_Willump_ZombieSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_%26_Willump_ZombieSkin_HD.jpg
-------------------------------------------------------------
-Champion : Nunu & Willump
 File     : Nunu_TPASkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Nunu_TPASkin_HD.jpg
 ------------------------------------------------------------
@@ -518,17 +474,9 @@ Champion : Poppy
 File     : Poppy_BewitchingSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Poppy_BewitchingSkin_HD.jpg
 ------------------------------------------------------------
-Champion : Pyke
-File     : Pyke_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Pyke_OriginalSkin_HD.jpg
-------------------------------------------------------------
 Champion : Rakan
 File     : Rakan_CosmicDawnSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Rakan_CosmicDawnSkin_HD.jpg
-------------------------------------------------------------
-Champion : Rakan
-File     : Rakan_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Rakan_OriginalSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Rammus
 File     : Rammus_GuardianoftheSandsSkin.jpg
@@ -773,10 +721,6 @@ Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Warwick_
 Champion : Xayah
 File     : Xayah_CosmicDuskSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Xayah_CosmicDuskSkin_HD.jpg
-------------------------------------------------------------
-Champion : Xayah
-File     : Xayah_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Xayah_OriginalSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Xerath
 File     : Xerath_GuardianoftheSandsSkin.jpg
