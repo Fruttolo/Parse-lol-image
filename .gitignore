@@ -5,3 +5,4 @@ image_hashes.csv
 __pycache__/
 champion_report.csv
 duplicate_images.txt
+.venv/
