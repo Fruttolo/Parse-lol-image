@@ -1,0 +1,2418 @@
+League of Legends champions — version 16.9.1
+Total: 172
+========================================
+
+Aatrox
+  - Original
+  - Justicar
+  - Mecha
+  - SeaHunter
+  - BloodMoon
+  - PrestigeBloodMoon
+  - Victorious
+  - Odyssey
+  - PrestigeBloodMoon(2022)
+  - LunarEclipse
+  - DRX
+  - PrestigeDRX
+  - Primordian
+
+Ahri
+  - Original
+  - Dynasty
+  - Midnight
+  - Foxfire
+  - Popstar
+  - Challenger
+  - Academy
+  - Arcade
+  - StarGuardian
+  - KDA
+  - PrestigeKDA
+  - Elderwood
+  - SpiritBlossom
+  - KDAALLOUT
+  - Coven
+  - PrestigeKDA(2022)
+  - Arcana
+  - SnowMoon
+  - RisenLegend
+  - ImmortalizedLegend
+  - SpiritBlossomSprings
+  - AfterHoursSpiritBlossomSprings
+
+Akali
+  - Original
+  - Stinger
+  - Infernal
+  - All-star
+  - Nurse
+  - BloodMoon
+  - Silverfang
+  - Headhunter
+  - Sashimi
+  - KDA
+  - PrestigeKDA
+  - PROJECT
+  - TrueDamage
+  - KDAALLOUT
+  - CrimeCityNightmare
+  - PrestigeKDA(2022)
+  - StarGuardian
+  - DRX
+  - Coven
+  - PrestigeCoven
+  - Empyrean
+  - SpiritBlossom
+
+Akshan
+  - Original
+  - CyberPop
+  - CrystalRose
+  - ThreeHonors
+
+Alistar
+  - Original
+  - Black
+  - Golden
+  - Matador
+  - Longhorn
+  - Unchained
+  - Infernal
+  - Sweeper
+  - Marauder
+  - SKTT1
+  - MooCow
+  - Hextech
+  - Conqueror
+  - Blackfrost
+  - LunarBeast
+  - Elderwood
+
+Ambessa
+  - Original
+  - ChosenoftheWolf
+
+Amumu
+  - Original
+  - Pharaoh
+  - Vancouver
+  - Emumu
+  - Re-Gifted
+  - Almost-PromKing
+  - LittleKnight
+  - SadRobot
+  - SurpriseParty
+  - Infernal
+  - Hextech
+  - PumpkinPrince
+  - Porcelain
+  - Heartache
+  - DumplingDarlings
+
+Anivia
+  - Original
+  - TeamSpirit
+  - BirdofPrey
+  - NoxusHunter
+  - Hextech
+  - Blackfrost
+  - Prehistoric
+  - FestivalQueen
+  - Papercraft
+  - CosmicFlight
+  - DivinePhoenix
+  - BewitchingBatnivia
+  - Victorious
+
+Annie
+  - Original
+  - Goth
+  - RedRiding
+  - AnnieinWonderland
+  - PromQueen
+  - Frostfire
+  - Reverse
+  - FrankenTibbers
+  - Panda
+  - Sweetheart
+  - Hextech
+  - SuperGalaxy
+  - Annie-Versary
+  - LunarBeast
+  - CafeCuties
+  - FrightNight
+  - Winterblessed
+  - BattlePrincess
+  - Pandemonium
+
+Aphelios
+  - Original
+  - Nightbringer
+  - LunarBeast
+  - EDG
+  - SpiritBlossom
+  - HEARTSTEEL
+  - PrestigeSpiritBlossomSprings
+
+Ashe
+  - Original
+  - Freljord
+  - SherwoodForest
+  - Woad
+  - Queen
+  - Amethyst
+  - Heartseeker
+  - Marauder
+  - PROJECT
+  - Worlds2017
+  - CosmicQueen
+  - HighNoon
+  - FaeDragon
+  - Coven
+  - OceanSong
+  - LunarEmpress
+  - DRX
+  - CrystalisMotus
+  - Infernal
+  - SpiritBlossom
+  - Firecracker
+
+Aurelion Sol
+  - Aurelion Sol Original
+  - Aurelion Sol AshenLord
+  - Aurelion Sol Mecha
+  - Aurelion Sol StormDragon
+  - Aurelion Sol Inkshadow
+  - Aurelion Sol PorcelainProtector
+  - Aurelion Sol DivineArchitectPorcelain
+
+Aurora
+  - Original
+  - BattleBunny
+  - Arcana
+
+Azir
+  - Original
+  - Galactic
+  - Gravelord
+  - SKTT1
+  - WarringKingdoms
+  - Elderwood
+  - Worlds2022
+  - Attorney
+
+Bard
+  - Original
+  - Elderwood
+  - SnowDay
+  - BardBard
+  - Astronaut
+  - CafeCuties
+  - ShanHaiScrolls
+  - T1
+  - SpiritBlossom
+
+Bel'Veth
+  - Bel'Veth Original
+  - Bel'Veth BattleBoss
+  - Bel'Veth CosmicMatriarch
+  - Bel'Veth Primordian
+
+Blitzcrank
+  - Original
+  - Rusty
+  - Goalkeeper
+  - BoomBoom
+  - PiltoverCustoms
+  - DefinitelyNot
+  - iBlitzcrank
+  - Riot
+  - BattleBoss
+  - LancerRogue
+  - LancerParagon
+  - Witch'sBrew
+  - SpaceGroove
+  - Victorious
+  - ZenithGames
+  - Beezcrank
+  - BubbleBash
+
+Brand
+  - Original
+  - Apocalyptic
+  - Vandal
+  - Cryocore
+  - Zombie
+  - SpiritFire
+  - BattleBoss
+  - Arclight
+  - EternalDragon
+  - Debonair
+  - PrestigeDebonair
+  - StreetDemons
+  - Empyrean
+
+Braum
+  - Original
+  - Dragonslayer
+  - ElTigre
+  - BraumLionheart
+  - Santa
+  - CrimeCity
+  - SugarRush
+  - PoolParty
+  - GrillMaster
+  - Victorious
+
+Briar
+  - Original
+  - StreetDemons
+  - Primordian
+  - BattleAcademia
+
+Caitlyn
+  - Original
+  - Resistance
+  - Sheriff
+  - Safari
+  - ArcticWarfare
+  - Officer
+  - Headhunter
+  - LunarWraith
+  - Pulsefire
+  - PoolParty
+  - Arcade
+  - PrestigeArcade
+  - BattleAcademia
+  - ArcaneEnforcer
+  - PrestigeArcade(2022)
+  - SnowMoon
+  - Heartthrob
+  - DRX
+  - ArcaneCommander
+  - PrestigeArcaneCommander
+  - Firecracker
+
+Camille
+  - Original
+  - Program
+  - Coven
+  - iG
+  - Arcana
+  - StrikeCommander
+  - Winterblessed
+  - PrestigeWinterblessed
+  - PetalsofSpring
+
+Cassiopeia
+  - Original
+  - Desperada
+  - Siren
+  - Mythic
+  - JadeFang
+  - Eternum
+  - SpiritBlossom
+  - Coven
+  - Bewitching
+  - PrestigeMythmaker
+
+Cho'Gath
+  - Cho'Gath Original
+  - Cho'Gath Nightmare
+  - Cho'Gath Gentleman
+  - Cho'Gath LochNess
+  - Cho'Gath Jurassic
+  - Cho'Gath BattlecastPrime
+  - Cho'Gath Prehistoric
+  - Cho'Gath DarkStar
+  - Cho'Gath ShanHaiScrolls
+  - Cho'Gath BrokenCovenant
+  - Cho'Gath ToyTerror
+  - Cho'Gath Petricite
+
+Corki
+  - Original
+  - UFO
+  - IceToboggan
+  - RedBaron
+  - HotRod
+  - Urfrider
+  - Dragonwing
+  - Fnatic
+  - Arcade
+  - Corgi
+  - Astronaut
+  - BrickToy
+
+Darius
+  - Original
+  - Lord
+  - Bioforge
+  - WoadKing
+  - Dunkmaster
+  - Academy
+  - Dreadnova
+  - God-King
+  - HighNoon
+  - LunarBeast
+  - CrimeCityNightmare
+  - SpiritBlossom
+  - Porcelain
+  - DivineGod-King
+  - PrestigeTriumphantGeneral
+  - MechaKingdoms
+
+Diana
+  - Original
+  - DarkValkyrie
+  - LunarGoddess
+  - Infernal
+  - BloodMoon
+  - DarkWaters
+  - Dragonslayer
+  - BattleQueen
+  - PrestigeBattleQueen
+  - Sentinel
+  - Firecracker
+  - Winterblessed
+  - Heavenscale
+  - DarkCosmic
+  - PrestigeDarkCosmic
+
+Dr. Mundo
+  - Dr. Mundo Original
+  - Dr. Mundo Toxic
+  - Dr. Mundo Mr.Mundoverse
+  - Dr. Mundo CorporateMundo
+  - Dr. Mundo MundoMundo
+  - Dr. Mundo ExecutionerMundo
+  - Dr. Mundo RagebornMundo
+  - Dr. Mundo TPAMundo
+  - Dr. Mundo PoolPartyMundo
+  - Dr. Mundo ElMachoMundo
+  - Dr. Mundo FrozenPrinceMundo
+  - Dr. Mundo StreetDemons
+
+Draven
+  - Original
+  - SoulReaver
+  - Gladiator
+  - Primetime
+  - PoolParty
+  - BeastHunter
+  - DravenDraven
+  - Santa
+  - MechaKingdoms
+  - Ruined
+  - Debonair
+  - FrightNight
+  - LaIlusión
+  - GrandReckoning
+  - Victorious
+
+Ekko
+  - Original
+  - Sandstorm
+  - Academy
+  - PROJECT
+  - SKTT1
+  - TrickorTreat
+  - TrueDamage
+  - Pulsefire
+  - ArcaneFirelight
+  - StarGuardian
+  - PrestigeStarGuardian
+  - BreakoutTrueDamage
+  - ArcaneLastStand
+
+Elise
+  - Original
+  - DeathBlossom
+  - Victorious
+  - BloodMoon
+  - SKTT1
+  - SuperGalaxy
+  - Bewitching
+  - WitheredRose
+  - Coven
+  - MasqueoftheBlackRose
+
+Evelynn
+  - Original
+  - Shadow
+  - Masquerade
+  - Tango
+  - Safecracker
+  - BloodMoon
+  - KDA
+  - PrestigeKDA
+  - SugarRush
+  - KDAALLOUT
+  - Coven
+  - PrestigeKDA(2022)
+  - SpiritBlossom
+  - SoulFighter
+  - HighNoon
+  - PrestigeHighNoon
+  - Nightbringer
+
+Ezreal
+  - Original
+  - Nottingham
+  - Striker
+  - Frosted
+  - Explorer
+  - Pulsefire
+  - TPA
+  - Debonair
+  - AceofSpades
+  - Arcade
+  - StarGuardian
+  - SSG
+  - PajamaGuardian
+  - BattleAcademia
+  - PsyOps
+  - PrestigePsyOps
+  - PorcelainProtector
+  - FaerieCourt
+  - HEARTSTEEL
+  - Heavenscale
+  - PrestigeHeavenscale
+  - MasqueoftheBlackRose
+
+Fiddlesticks
+  - Original
+  - Spectral
+  - UnionJack
+  - Bandito
+  - Pumpkinhead
+  - FiddleMeTimbers
+  - SurpriseParty
+  - DarkCandy
+  - Risen
+  - Praetorian
+  - StarNemesis
+  - BloodMoon
+  - FloraFatalis
+
+Fiora
+  - Original
+  - RoyalGuard
+  - Nightraven
+  - Headmistress
+  - PROJECT
+  - PoolParty
+  - SoaringSword
+  - Heartpiercer
+  - iG
+  - Pulsefire
+  - LunarBeast
+  - PrestigeLunarBeast
+  - Bewitching
+  - FaerieCourt
+  - Dragonmancer
+  - BattleQueen
+  - Victorious
+
+Fizz
+  - Original
+  - Atlantean
+  - Tundra
+  - Fisherman
+  - Void
+  - Cottontail
+  - SuperGalaxy
+  - OmegaSquad
+  - Fuzz
+  - PrestigeFuzz
+  - LittleDevil
+  - PrestigeFuzz(2022)
+  - Astronaut
+  - RainShepherd
+
+Galio
+  - Original
+  - Enchanted
+  - Hextech
+  - Commando
+  - Gatekeeper
+  - Debonair
+  - Birdio
+  - Infernal
+  - DragonGuardian
+  - Mythmaker
+  - AegisFrame
+
+Gangplank
+  - Original
+  - Spooky
+  - Minuteman
+  - Sailor
+  - ToySoldier
+  - SpecialForces
+  - Sultan
+  - Captain
+  - Dreadnova
+  - PoolParty
+  - FPX
+  - GangplanktheBetrayer
+  - PROJECT
+
+Garen
+  - Original
+  - Sanguine
+  - DesertTrooper
+  - Commando
+  - Dreadknight
+  - Rugged
+  - SteelLegion
+  - RogueAdmiral
+  - WarringKingdoms
+  - God-King
+  - DemaciaVice
+  - MechaKingdoms
+  - PrestigeMechaKingdoms
+  - BattleAcademia
+  - Mythmaker
+  - Pengu
+  - FallenGod-King
+  - VisionsoftheFallen
+
+Gnar
+  - Original
+  - Dino
+  - Gentleman
+  - SnowDay
+  - ElLeón
+  - SuperGalaxy
+  - SSG
+  - Astronaut
+  - Elderwood
+  - LaIlusión
+  - T1
+
+Gragas
+  - Original
+  - Scuba
+  - Hillbilly
+  - Santa
+  - Gragas,Esq.
+  - Vandal
+  - Oktoberfest
+  - Superfan
+  - Fnatic
+  - GragasCaskbreaker
+  - ArcticOps
+  - Warden
+  - SpaceGroove
+  - HighNoon
+  - MusicFan
+
+Graves
+  - Original
+  - HiredGun
+  - Jailbreak
+  - CrimeCity
+  - Riot
+  - PoolParty
+  - Cutthroat
+  - SnowDay
+  - Victorious
+  - Praetorian
+  - BattleProfessor
+  - Sentinel
+  - EDG
+  - Porcelain
+
+Gwen
+  - Original
+  - SpaceGroove
+  - CafeCuties
+  - SoulFighter
+  - BattleQueen
+  - RainShepherd
+
+Hecarim
+  - Original
+  - BloodKnight
+  - Reaper
+  - Headless
+  - Arcade
+  - Elderwood
+  - Worldbreaker
+  - LancerZero
+  - HighNoon
+  - CosmicCharger
+  - Arcana
+  - Winterblessed
+  - Nightbringer
+
+Heimerdinger
+  - Original
+  - AlienInvader
+  - BlastZone
+  - PiltoverCustoms
+  - Snowmerdinger
+  - Hazmat
+  - DragonTrainer
+  - PoolParty
+  - Heimerstinger
+  - ArcaneProfessor
+
+Hwei
+  - Original
+  - Winterblessed
+  - SpiritBlossom
+
+Illaoi
+  - Original
+  - VoidBringer
+  - Resistance
+  - CosmicInvoker
+  - SnowMoon
+  - BattleBear
+
+Irelia
+  - Original
+  - Nightblade
+  - Aviator
+  - Infiltrator
+  - Frostblade
+  - OrderoftheLotus
+  - DivineSword
+  - iG
+  - PROJECT
+  - PrestigePROJECT
+  - HighNoon
+  - Sentinel
+  - PrestigePROJECT(2022)
+  - Mythmaker
+  - Porcelain
+  - SpiritBlossom
+
+Ivern
+  - Original
+  - CandyKing
+  - Dunkmaster
+  - OldGod
+  - Astronaut
+  - SpiritBlossom
+  - RainShepherd
+
+Janna
+  - Original
+  - Tempest
+  - Hextech
+  - FrostQueen
+  - Victorious
+  - Forecast
+  - Fnatic
+  - StarGuardian
+  - SacredSword
+  - Bewitching
+  - GuardianoftheSands
+  - BattleQueen
+  - CrystalRose
+  - CyberHalo
+  - PrestigeCyberHalo
+  - Heavenscale
+  - Dawnbringer
+
+Jarvan IV
+  - Jarvan IV Original
+  - Jarvan IV Commando
+  - Jarvan IV Dragonslayer
+  - Jarvan IV Darkforge
+  - Jarvan IV Victorious
+  - Jarvan IV WarringKingdoms
+  - Jarvan IV Fnatic
+  - Jarvan IV DarkStar
+  - Jarvan IV SSG
+  - Jarvan IV Hextech
+  - Jarvan IV PoolParty
+  - Jarvan IV LunarBeast
+  - Jarvan IV Worlds2021
+  - Jarvan IV Nightbringer
+  - Jarvan IV Mythmaker
+  - Jarvan IV PrestigeVisionsoftheFallen
+
+Jax
+  - Original
+  - TheMighty
+  - Vandal
+  - Angler
+  - PAX
+  - Jaximus
+  - Temple
+  - Nemesis
+  - SKTT1
+  - Warden
+  - GodStaff
+  - MechaKingdoms
+  - Conqueror
+  - PrestigeConqueror
+  - Empyrean
+  - NeoPAX
+  - PROJECT
+
+Jayce
+  - Original
+  - FullMetal
+  - Debonair
+  - Forsaken
+  - JayceBrighthammer
+  - BattleAcademia
+  - Resistance
+  - ArcaneInventor
+  - ZenithGames
+  - T1
+  - ArcaneSurvivor
+  - PrestigeT1
+  - PetalsofSpring
+
+Jhin
+  - Original
+  - HighNoon
+  - BloodMoon
+  - SKTT1
+  - PROJECT
+  - DarkCosmic
+  - ShanHaiScrolls
+  - DWG
+  - Empyrean
+  - SoulFighter
+  - DarkCosmicErasure
+  - Mythmaker
+  - Arcana
+
+Jinx
+  - Original
+  - CrimeCity
+  - Firecracker
+  - ZombieSlayer
+  - StarGuardian
+  - AmbitiousElf
+  - Odyssey
+  - PROJECT
+  - Heartseeker
+  - ArcaneEnemy
+  - BattleCat
+  - PrestigeBattleCat
+  - CafeCuties
+  - ArcaneFractured
+  - T1
+
+K'Sante
+  - K'Sante Original
+  - K'Sante Empyrean
+  - K'Sante PrestigeEmpyrean
+  - K'Sante HEARTSTEEL
+
+Kai'Sa
+  - Kai'Sa Original
+  - Kai'Sa BulletAngel
+  - Kai'Sa KDA
+  - Kai'Sa PrestigeKDA
+  - Kai'Sa iG
+  - Kai'Sa Arcade
+  - Kai'Sa KDAALLOUT
+  - Kai'Sa PrestigeKDAALLOUT
+  - Kai'Sa LagoonDragon
+  - Kai'Sa PrestigeKDA(2022)
+  - Kai'Sa StarGuardian
+  - Kai'Sa Inkshadow
+  - Kai'Sa Heavenscale
+  - Kai'Sa DarkStar
+  - Kai'Sa RisenLegend
+  - Kai'Sa ImmortalizedLegend
+
+Kalista
+  - Original
+  - BloodMoon
+  - Worlds2015
+  - SKTT1
+  - Marauder
+  - FaerieCourt
+  - Dawnbringer
+
+Karma
+  - Original
+  - SunGoddess
+  - Sakura
+  - Traditional
+  - OrderoftheLotus
+  - Warden
+  - WinterWonder
+  - Conqueror
+  - DarkStar
+  - Dawnbringer
+  - Odyssey
+  - Ruined
+  - TranquilityDragon
+  - FaerieQueen
+  - Infernal
+  - SpiritBlossom
+
+Karthus
+  - Original
+  - Phantom
+  - StatueofKarthus
+  - GrimReaper
+  - Pentakill
+  - Fnatic
+  - KarthusLightsbane
+  - Infernal
+  - PentakillLostChapter
+  - Elderwood
+  - Arcana
+
+Kassadin
+  - Original
+  - Festival
+  - DeepOne
+  - Pre-Void
+  - Harbinger
+  - CosmicReaver
+  - Count
+  - Hextech
+  - Shockblade
+  - Dragonmancer
+
+Katarina
+  - Original
+  - Mercenary
+  - RedCard
+  - Bilgewater
+  - KittyCat
+  - HighCommand
+  - Sandstorm
+  - SlayBelle
+  - WarringKingdoms
+  - PROJECT
+  - DeathSworn
+  - BattleAcademia
+  - BloodMoon
+  - BattleQueen
+  - HighNoon
+  - FaerieCourt
+  - PrestigeFaerieCourt
+  - ChosenoftheWolf
+  - PrestigeMasqueoftheBlackRose
+  - PetalsofSpring
+
+Kayle
+  - Original
+  - Silver
+  - Viridian
+  - Transcended
+  - Battleborn
+  - Judgment
+  - AetherWing
+  - Riot
+  - IronInquisitor
+  - Pentakill
+  - PsyOps
+  - Dragonslayer
+  - PentakillLostChapter
+  - Sun-Eater
+  - ImmortalJourney
+  - Empyrean
+  - PrestigeEmpyrean
+  - SpiritBlossom
+
+Kayn
+  - Original
+  - Soulhunter
+  - Odyssey
+  - Nightbringer
+  - PrestigeNightbringer
+  - SnowMoon
+  - HEARTSTEEL
+  - BattleAcademia
+
+Kennen
+  - Original
+  - Deadly
+  - SwampMaster
+  - Karate
+  - KennenM.D.
+  - ArcticOps
+  - BloodMoon
+  - Super
+  - Infernal
+  - DWG
+  - Astronaut
+
+Kha'Zix
+  - Kha'Zix Original
+  - Kha'Zix Mecha
+  - Kha'Zix GuardianoftheSands
+  - Kha'Zix DeathBlossom
+  - Kha'Zix DarkStar
+  - Kha'Zix Worlds2018
+  - Kha'Zix Odyssey
+  - Kha'Zix LunarGuardian
+  - Kha'Zix CrystalisIndomitus
+
+Kindred
+  - Original
+  - Shadowfire
+  - SuperGalaxy
+  - SpiritBlossom
+  - Porcelain
+  - WoofandLamb
+  - DRX
+  - PrestigePorcelain
+  - ChosenoftheWolf
+  - Pandemonium
+
+Kled
+  - Original
+  - Sir
+  - CountKledula
+  - Marauder
+  - Kibble-Head
+
+Kog'Maw
+  - Kog'Maw Original
+  - Kog'Maw Caterpillar
+  - Kog'Maw Sonoran
+  - Kog'Maw Monarch
+  - Kog'Maw Reindeer
+  - Kog'Maw LionDance
+  - Kog'Maw DeepSea
+  - Kog'Maw Jurassic
+  - Kog'Maw Battlecast
+  - Kog'Maw Pug'Maw
+  - Kog'Maw Hextech
+  - Kog'Maw Arcanist
+  - Kog'Maw Bee'Maw
+  - Kog'Maw Zap'Maw
+  - Kog'Maw ShanHaiScrolls
+  - Kog'Maw Victorious
+
+LeBlanc
+  - LeBlanc Original
+  - LeBlanc Wicked
+  - LeBlanc Prestigious
+  - LeBlanc Mistletoe
+  - LeBlanc Ravenborn
+  - LeBlanc Elderwood
+  - LeBlanc Program
+  - LeBlanc iG
+  - LeBlanc Coven
+  - LeBlanc Worlds2020
+  - LeBlanc PrestigeCoven
+  - LeBlanc Debonair
+  - LeBlanc Bewitching
+  - LeBlanc RisenLegend
+
+Lee Sin
+  - Lee Sin Original
+  - Lee Sin Traditional
+  - Lee Sin Acolyte
+  - Lee Sin DragonFist
+  - Lee Sin MuayThai
+  - Lee Sin PoolParty
+  - Lee Sin SKTT1
+  - Lee Sin Knockout
+  - Lee Sin GodFist
+  - Lee Sin Playmaker
+  - Lee Sin Nightbringer
+  - Lee Sin PrestigeNightbringer
+  - Lee Sin FPX
+  - Lee Sin StormDragon
+  - Lee Sin PrestigeNightbringer(2022)
+  - Lee Sin ZenithGames
+  - Lee Sin Heavenscale
+  - Lee Sin DivineHeavenscale
+  - Lee Sin T1
+  - Lee Sin Inkshadow
+
+Leona
+  - Original
+  - Valkyrie
+  - Defender
+  - IronSolari
+  - PoolParty
+  - PROJECT
+  - Barbecue
+  - SolarEclipse
+  - LunarEclipse
+  - MechaKingdoms
+  - BattleAcademia
+  - DWG
+  - PrestigeBattleAcademia
+  - Debonair
+  - HighNoon
+  - CrystalisMotus
+  - BattleLion
+  - PrestigeBattleLion
+
+Lillia
+  - Original
+  - SpiritBlossom
+  - Nightbringer
+  - ShanHaiScrolls
+  - FaerieCourt
+  - BowlingLeague
+  - PetalsofSpring
+
+Lissandra
+  - Original
+  - Bloodstone
+  - BladeQueen
+  - Program
+  - Coven
+  - DarkCosmic
+  - Porcelain
+  - PrestigePorcelain
+  - SpaceGroove
+  - FloraFatalis
+
+Lucian
+  - Original
+  - HiredGun
+  - Striker
+  - PROJECT
+  - Heartseeker
+  - HighNoon
+  - DemaciaVice
+  - Pulsefire
+  - PrestigePulsefire
+  - Victorious
+  - Arcana
+  - StrikePaladin
+  - Winterblessed
+  - MaskedJustice
+  - SunkenShadows
+
+Lulu
+  - Original
+  - Bittersweet
+  - Wicked
+  - DragonTrainer
+  - WinterWonder
+  - PoolParty
+  - StarGuardian
+  - CosmicEnchantress
+  - PajamaGuardian
+  - SpaceGroove
+  - PrestigeSpaceGroove
+  - MonsterTamer
+  - CafeCuties
+  - Arcana
+
+Lux
+  - Original
+  - Sorceress
+  - Spellthief
+  - Commando
+  - Imperial
+  - SteelLegion
+  - StarGuardian
+  - Elementalist
+  - LunarEmpress
+  - PajamaGuardian
+  - BattleAcademia
+  - PrestigeBattleAcademia
+  - DarkCosmic
+  - Cosmic
+  - SpaceGroove
+  - Porcelain
+  - SoulFighter
+  - PrestigeBattleAcademia(2022)
+  - PrestigePorcelain
+  - Empyrean
+  - FaerieCourt
+  - PrestigeSpiritBlossom
+  - PandaPal
+
+Malphite
+  - Original
+  - Shamrock
+  - CoralReef
+  - Marble
+  - Obsidian
+  - Glacial
+  - Mecha
+  - Ironside
+  - Odyssey
+  - DarkStar
+  - PrestigeDarkStar
+  - FPX
+  - OldGod
+  - LunarGuardian
+  - PoolParty
+
+Malzahar
+  - Original
+  - Vizier
+  - ShadowPrince
+  - Djinn
+  - Overlord
+  - SnowDay
+  - BattleBoss
+  - Hextech
+  - Worldbreaker
+  - Beezahar
+  - Debonair
+  - ThreeHonors
+  - Empyrean
+  - Fatebreaker
+
+Maokai
+  - Original
+  - Charred
+  - Totemic
+  - Festive
+  - Haunted
+  - Goalkeeper
+  - Meowkai
+  - Victorious
+  - Worldbreaker
+  - Astronaut
+  - DRX
+  - CorruptedPetricite
+
+Master Yi
+  - Master Yi Original
+  - Master Yi Assassin
+  - Master Yi Chosen
+  - Master Yi Ionia
+  - Master Yi SamuraiYi
+  - Master Yi Headhunter
+  - Master Yi PROJECTYi
+  - Master Yi CosmicBlade
+  - Master Yi EternalSwordYi
+  - Master Yi SnowManYi
+  - Master Yi BloodMoon
+  - Master Yi PsyOps
+  - Master Yi Debonair
+  - Master Yi SpiritBlossom
+  - Master Yi PrestigeSpiritBlossom
+  - Master Yi Inkshadow
+  - Master Yi Heavenscale
+  - Master Yi Victorious
+  - Master Yi PROJECTCommandLineYi
+
+Mel
+  - Original
+  - ArcaneCouncilor
+  - PrestigeWinterblessed
+
+Milio
+  - Original
+  - FaerieCourt
+  - RainShepherd
+  - WinterWonder
+
+Miss Fortune
+  - Miss Fortune Original
+  - Miss Fortune Cowgirl
+  - Miss Fortune Waterloo
+  - Miss Fortune SecretAgent
+  - Miss Fortune CandyCane
+  - Miss Fortune RoadWarrior
+  - Miss Fortune CrimeCity
+  - Miss Fortune Arcade
+  - Miss Fortune CaptainFortune
+  - Miss Fortune PoolParty
+  - Miss Fortune StarGuardian
+  - Miss Fortune GunGoddess
+  - Miss Fortune PajamaGuardian
+  - Miss Fortune Bewitching
+  - Miss Fortune PrestigeBewitching
+  - Miss Fortune Ruined
+  - Miss Fortune BattleBunny
+  - Miss Fortune AdmiralBattleBunny
+  - Miss Fortune PrestigeBewitching(2022)
+  - Miss Fortune BrokenCovenant
+  - Miss Fortune PrestigeBrokenCovenant
+  - Miss Fortune Porcelain
+  - Miss Fortune BattleQueen
+
+Mordekaiser
+  - Original
+  - DragonKnight
+  - Infernal
+  - Pentakill
+  - Lord
+  - KingofClubs
+  - DarkStar
+  - PROJECT
+  - PentakillLostChapter
+  - HighNoon
+  - AshenGraveknight
+  - OldGod
+  - Sahn-Uzal
+  - PrestigeMoneyMiser
+
+Morgana
+  - Original
+  - Exiled
+  - SinfulSucculence
+  - BladeMistress
+  - Blackthorn
+  - GhostBride
+  - Victorious
+  - LunarWraith
+  - Bewitching
+  - MajesticEmpress
+  - Coven
+  - Dawnbringer
+  - PrestigeBewitching
+  - StarNemesis
+  - SnowMoon
+  - Porcelain
+  - SpiritBlossom
+  - PrestigeVeiledLady
+
+Naafiri
+  - Original
+  - SoulFighter
+  - PROJECT
+  - Glizzy
+  - Warhound
+
+Nami
+  - Original
+  - Koi
+  - RiverSpirit
+  - UrftheNami-tee
+  - DeepSea
+  - SKTT1
+  - Program
+  - SplendidStaff
+  - CosmicDestiny
+  - Bewitching
+  - SpaceGroove
+  - PrestigeSpaceGroove
+  - Coven
+  - Mythmaker
+  - SunkenShadows
+
+Nasus
+  - Original
+  - Galactic
+  - Pharaoh
+  - Dreadknight
+  - RiotK-9
+  - Infernal
+  - Archduke
+  - Worldbreaker
+  - LunarGuardian
+  - Battlecast
+  - SpaceGroove
+  - ArmoredTitan
+  - Nightbringer
+  - Fatemaker
+
+Nautilus
+  - Original
+  - Abyssal
+  - Subterranean
+  - AstroNautilus
+  - Warden
+  - Worldbreaker
+  - Conqueror
+  - ShanHaiScrolls
+  - FrightNight
+  - CosmicPaladin
+  - CrystalisIndomitus
+  - Petricite
+
+Neeko
+  - Original
+  - WinterWonder
+  - StarGuardian
+  - PrestigeStarGuardian
+  - ShanHaiScrolls
+  - PrestigeStarGuardian(2022)
+  - Bewitching
+  - StreetDemons
+  - Cosplayer
+  - Beeko
+
+Nidalee
+  - Original
+  - SnowBunny
+  - Leopard
+  - FrenchMaid
+  - Pharaoh
+  - Bewitching
+  - Headhunter
+  - WarringKingdoms
+  - Challenger
+  - SuperGalaxy
+  - Dawnbringer
+  - CosmicHuntress
+  - DWG
+  - OceanSong
+  - Kittalee
+  - LaIlusión
+  - SpiritBlossom
+
+Nilah
+  - Original
+  - StarGuardian
+  - Coven
+  - Inkshadow
+
+Nocturne
+  - Original
+  - FrozenTerror
+  - Void
+  - Ravager
+  - Haunting
+  - Eternum
+  - CursedRevenant
+  - OldGod
+  - Hextech
+  - BrokenCovenant
+  - Empyrean
+
+Nunu & Willump
+  (no skins found)
+
+Olaf
+  - Original
+  - Forsaken
+  - Glacial
+  - Brolaf
+  - Pentakill
+  - Marauder
+  - Butcher
+  - SKTT1
+  - Dragonslayer
+  - Sentinel
+  - PentakillLostChapter
+  - Infernal
+
+Orianna
+  - Original
+  - Gothic
+  - SewnChaos
+  - Bladecraft
+  - TPA
+  - WinterWonder
+  - Heartseeker
+  - DarkStar
+  - Victorious
+  - PoolParty
+  - Orbeeanna
+  - StarGuardian
+  - T1
+
+Ornn
+  - Original
+  - ThunderLord
+  - Elderwood
+  - SpaceGroove
+  - Choo-Choo
+  - AegisFrame
+
+Pantheon
+  - Original
+  - Myrmidon
+  - Ruthless
+  - Perseus
+  - FullMetal
+  - GlaiveWarrior
+  - Dragonslayer
+  - ZombieSlayer
+  - Baker
+  - Pulsefire
+  - Ruined
+  - PrestigeAscended
+  - AshenConqueror
+  - ChosenoftheWolf
+
+Poppy
+  - Original
+  - Noxus
+  - Lollipoppy
+  - Blacksmith
+  - Ragdoll
+  - BattleRegalia
+  - ScarletHammer
+  - StarGuardian
+  - SnowFawn
+  - Hextech
+  - Astronaut
+  - Bewitching
+  - CafeCuties
+  - Firecracker
+
+Pyke
+  - Original
+  - SandWraith
+  - BloodMoon
+  - PROJECT
+  - PsyOps
+  - Sentinel
+  - AshenKnight
+  - Empyrean
+  - SoulFighter
+  - PrestigeSoulFighter
+  - FrightNight
+  - Inkshadow
+  - T1
+
+Qiyana
+  - Original
+  - BattleBoss
+  - TrueDamage
+  - PrestigeTrueDamage
+  - BattleQueen
+  - Shockblade
+  - PrestigeTrueDamage(2022)
+  - LunarEmpress
+  - LaIlusión
+  - PrestigeBattleAcademia
+
+Quinn
+  - Original
+  - Phoenix
+  - WoadScout
+  - Corsair
+  - Heartseeker
+  - Warden
+  - StarGuardian
+  - PROJECT
+
+Rakan
+  - Original
+  - CosmicDawn
+  - Sweetheart
+  - SSG
+  - iG
+  - StarGuardian
+  - Elderwood
+  - Arcana
+  - BrokenCovenant
+  - RedeemedStarGuardian
+  - Dragonmancer
+  - PrestigeDragonmancer
+  - BattleAcademia
+
+Rammus
+  - Original
+  - King
+  - Chrome
+  - Molten
+  - Freljord
+  - Ninja
+  - FullMetal
+  - GuardianoftheSands
+  - Sweeper
+  - Hextech
+  - Astronaut
+  - DurianDefender
+
+Rek'Sai
+  - Rek'Sai Original
+  - Rek'Sai Eternum
+  - Rek'Sai PoolParty
+  - Rek'Sai Blackfrost
+  - Rek'Sai Elderwood
+  - Rek'Sai Primordian
+
+Rell
+  - Original
+  - BattleQueen
+  - StarGuardian
+  - HighNoon
+  - GrandReckoning
+
+Renata Glasc
+  - Glasc Original
+  - Glasc AdmiralGlasc
+  - Glasc FrightNight
+  - Glasc LaIlusión
+  - Glasc PrestigeLaIlusión
+  - Glasc MasqueoftheBlackRose
+
+Renekton
+  - Original
+  - Galactic
+  - Outback
+  - Bloodfury
+  - RuneWars
+  - ScorchedEarth
+  - PoolParty
+  - Prehistoric
+  - SKTT1
+  - Renektoy
+  - Hextech
+  - Blackfrost
+  - PROJECT
+  - Dawnbringer
+  - Worlds2023
+  - Inkshadow
+
+Rengar
+  - Original
+  - Headhunter
+  - NightHunter
+  - SSW
+  - Mecha
+  - PrettyKitty
+  - GuardianoftheSands
+  - Sentinel
+  - StreetDemons
+
+Riven
+  - Original
+  - Redeemed
+  - CrimsonElite
+  - BattleBunny
+  - Worlds2012
+  - Dragonblade
+  - Arcade
+  - ReignitedWorlds2012
+  - Dawnbringer
+  - Pulsefire
+  - ValiantSword
+  - PrestigeValiantSword
+  - SpiritBlossom
+  - Sentinel
+  - BattleBunnyPrime
+  - PrestigeValiantSword(2022)
+  - BrokenCovenant
+  - PrimalAmbush
+
+Rumble
+  - Original
+  - RumbleintheJungle
+  - Bilgerat
+  - SuperGalaxy
+  - BadlandsBaron
+  - SpaceGroove
+  - CafeCuties
+
+Ryze
+  - Original
+  - Young
+  - Tribal
+  - Uncle
+  - Triumphant
+  - Professor
+  - Zombie
+  - DarkCrystal
+  - Pirate
+  - RyzeWhitebeard
+  - SKTT1
+  - Worlds2019
+  - GuardianoftheSands
+  - Arcana
+  - BloodMoon
+
+Samira
+  - Original
+  - PsyOps
+  - SpaceGroove
+  - HighNoon
+  - SoulFighter
+  - MasqueoftheBlackRose
+  - BattleProfessor
+
+Sejuani
+  - Original
+  - Sabretusk
+  - Darkrider
+  - Traditional
+  - BearCavalry
+  - PoroRider
+  - BeastHunter
+  - SejuaniDawnchaser
+  - Firecracker
+  - Hextech
+  - PROJECT
+  - SolarEclipse
+  - Victorious
+  - PugTrainer
+
+Senna
+  - Original
+  - TrueDamage
+  - PrestigeTrueDamage
+  - HighNoon
+  - PROJECT
+  - LunarEclipse
+  - PrestigeLunarEclipse
+  - Bewitching
+  - StarGuardian
+  - Winterblessed
+  - MaskedJustice
+  - Warhound
+
+Seraphine
+  - Original
+  - KDAALLOUTIndie
+  - KDAALLOUTRisingStar
+  - KDAALLOUTSuperstar
+  - GracefulPhoenix
+  - OceanSong
+  - PrestigeOceanSong
+  - FaerieCourt
+  - StarGuardian
+  - BattleDove
+  - DumplingDarlings
+  - Firecracker
+
+Sett
+  - Original
+  - MechaKingdoms
+  - ObsidianDragon
+  - PrestigeObsidianDragon
+  - PoolParty
+  - Firecracker
+  - SpiritBlossom
+  - SoulFighter
+  - HEARTSTEEL
+  - RadiantSerpent
+  - SpiritBlossomSprings
+
+Shaco
+  - Original
+  - MadHatter
+  - Royal
+  - Nutcracko
+  - Workshop
+  - Asylum
+  - Masked
+  - WildCard
+  - DarkStar
+  - Arcanist
+  - CrimeCityNightmare
+  - Winterblessed
+  - SoulFighter
+  - PrestigeSoulFighter
+  - FrightNight
+  - Cat-in-the-Box
+  - PrestigePandemonium
+
+Shen
+  - Original
+  - Frozen
+  - YellowJacket
+  - Surgeon
+  - BloodMoon
+  - Warlord
+  - TPA
+  - Pulsefire
+  - Infernal
+  - PsyOps
+  - Shockblade
+  - AshenGuardian
+  - ThreeHonors
+
+Shyvana
+  - Original
+  - ShyvanaIronscale
+  - Boneclaw
+  - Darkflame
+  - IceDrake
+  - Worlds2014
+  - SuperGalaxy
+  - Ruined
+  - ImmortalJourney
+
+Singed
+  - Original
+  - RiotSquad
+  - Hextech
+  - Surfer
+  - MadScientist
+  - Augmented
+  - SnowDay
+  - SSW
+  - BlackScourge
+  - Beekeeper
+  - Resistance
+  - Astronaut
+  - ArcaneShimmerLab
+
+Sion
+  - Original
+  - Hextech
+  - Barbarian
+  - Lumberjack
+  - Warmonger
+  - MechaZero
+  - Worldbreaker
+  - Blackfrost
+  - HighNoon
+  - CosmicPaladin
+  - GrandReckoning
+
+Sivir
+  - Original
+  - WarriorPrincess
+  - Spectacular
+  - Huntress
+  - Bandit
+  - PAX
+  - Snowstorm
+  - Warden
+  - Victorious
+  - NeoPAX
+  - PizzaDelivery
+  - BloodMoon
+  - Odyssey
+  - CafeCuties
+  - SolarEclipse
+  - Mythmaker
+  - PrestigeMythmaker
+  - PrimalAmbush
+  - Ann-Sivir-sary
+  - PROJECT
+
+Skarner
+  - Original
+  - Sandscourge
+  - Earthrune
+  - BattlecastAlpha
+  - GuardianoftheSands
+  - CosmicSting
+  - MechaKingdoms
+
+Smolder
+  - Original
+  - Heavenscale
+  - Reindeer
+
+Sona
+  - Original
+  - Muse
+  - Pentakill
+  - SilentNight
+  - Guqin
+  - Arcade
+  - DJ
+  - Sweetheart
+  - Odyssey
+  - PsyOps
+  - PentakillLostChapter
+  - StarGuardian
+  - ImmortalJourney
+  - PrestigeImmortalJourney
+  - Victorious
+  - SpiritBlossomSprings
+  - PrestigeRequiem
+
+Soraka
+  - Original
+  - Dryad
+  - Divine
+  - Celestine
+  - Reaper
+  - OrderoftheBanana
+  - Program
+  - StarGuardian
+  - PajamaGuardian
+  - WinterWonder
+  - Dawnbringer
+  - Nightbringer
+  - PrestigeStarGuardian
+  - CafeCuties
+  - SpiritBlossom
+  - ImmortalJourney
+  - FaerieCourt
+  - FloraFatalis
+
+Swain
+  - Original
+  - NorthernFront
+  - Bilgewater
+  - Tyrant
+  - DragonMaster
+  - Hextech
+  - CrystalRose
+  - Winterblessed
+  - ChosenoftheWolf
+  - PrestigeChosenoftheWolf
+  - FriedChickenKing
+
+Sylas
+  - Original
+  - LunarWraith
+  - Freljord
+  - PROJECT
+  - PrestigePROJECT
+  - BattleWolf
+  - AshenSlayer
+  - Winterblessed
+  - DarkStar
+  - PrestigeT1
+
+Syndra
+  - Original
+  - Justicar
+  - Atlantean
+  - QueenofDiamonds
+  - SnowDay
+  - SKTT1
+  - StarGuardian
+  - PoolParty
+  - WitheredRose
+  - Bewitching
+  - PrestigeStarGuardian
+  - SpiritBlossom
+  - Coven
+  - DumplingDarlings
+
+Tahm Kench
+  - Tahm Kench Original
+  - Tahm Kench MasterChef
+  - Tahm Kench UrfKench
+  - Tahm Kench CoinEmperor
+  - Tahm Kench Arcana
+  - Tahm Kench HighNoon
+  - Tahm Kench ShanHaiScrolls
+  - Tahm Kench ChonccKench
+
+Taliyah
+  - Original
+  - Freljord
+  - SSG
+  - PoolParty
+  - StarGuardian
+  - CrystalisMotus
+  - Durand'sLegacy
+
+Talon
+  - Original
+  - Renegade
+  - CrimsonElite
+  - Dragonblade
+  - SSW
+  - BloodMoon
+  - EnduringSword
+  - TalonBlackwood
+  - WitheredRose
+  - HighNoon
+  - PrestigeHighNoon
+  - PrimalAmbush
+  - GrandReckoning
+
+Taric
+  - Original
+  - Emerald
+  - ArmoroftheFifthAge
+  - Bloodstone
+  - PoolParty
+  - TaricLuminshield
+  - SpaceGroove
+  - Fatebreaker
+
+Teemo
+  - Original
+  - HappyElf
+  - Recon
+  - Badger
+  - Astronaut
+  - Cottontail
+  - Super
+  - Panda
+  - OmegaSquad
+  - LittleDevil
+  - Beemo
+  - SpiritBlossom
+  - PrestigeSpiritBlossom
+  - Firecracker
+  - SpaceGroove
+  - SpiritBlossomSprings
+
+Thresh
+  - Original
+  - DeepTerror
+  - Worlds2013
+  - BloodMoon
+  - SSW
+  - DarkStar
+  - HighNoon
+  - Pulsefire
+  - PrestigePulsefire
+  - FPX
+  - SpiritBlossom
+  - Unbound
+  - SteelDragon
+  - PrestigePulsefire(2022)
+  - LunarEmperor
+  - Winterblessed
+  - Janitor
+
+Tristana
+  - Original
+  - RiotGirl
+  - EarnestElf
+  - Firefighter
+  - Guerilla
+  - Buccaneer
+  - RocketGirl
+  - DragonTrainer
+  - Bewitching
+  - OmegaSquad
+  - LittleDemon
+  - PenguCosplay
+  - Hextech
+  - Firecracker
+  - SpiritBlossom
+  - FaerieCourt
+  - RainShepherd
+
+Trundle
+  - Original
+  - Lil'Slugger
+  - Junkyard
+  - Traditional
+  - Constable
+  - Worldbreaker
+  - Dragonslayer
+  - FrightNight
+  - EsportsFan
+
+Tryndamere
+  - Original
+  - Highland
+  - King
+  - Viking
+  - Demonblade
+  - Sultan
+  - WarringKingdoms
+  - Nightmare
+  - BeastHunter
+  - Chemtech
+  - BloodMoon
+  - Nightbringer
+  - Victorious
+  - VisionsoftheFallen
+
+Twisted Fate
+  - Twisted Fate Original
+  - Twisted Fate PAX
+  - Twisted Fate JackofHearts
+  - Twisted Fate TheMagnificent
+  - Twisted Fate Tango
+  - Twisted Fate HighNoon
+  - Twisted Fate Musketeer
+  - Twisted Fate Underworld
+  - Twisted Fate RedCard
+  - Twisted Fate Cutpurse
+  - Twisted Fate BloodMoon
+  - Twisted Fate Pulsefire
+  - Twisted Fate Odyssey
+  - Twisted Fate DWG
+  - Twisted Fate CrimeCityNightmare
+  - Twisted Fate SpaceGroove
+  - Twisted Fate Victorious
+
+Twitch
+  - Original
+  - Kingpin
+  - WhistlerVillage
+  - Medieval
+  - CrimeCity
+  - Vandal
+  - Pickpocket
+  - SSW
+  - OmegaSquad
+  - IceKing
+  - TwitchShadowfoot
+  - Dragonslayer
+  - HighNoon
+  - CheddarChief
+  - PoolParty
+
+Udyr
+  - Original
+  - BlackBelt
+  - Primal
+  - SpiritGuard
+  - DefinitelyNot
+  - DragonOracle
+  - Inkshadow
+
+Urgot
+  - Original
+  - GiantEnemyCrabgot
+  - Butcher
+  - Battlecast
+  - HighNoon
+  - PajamaGuardianCosplay
+  - FrightNight
+  - UrgottheClogfather
+
+Varus
+  - Original
+  - BlightCrystal
+  - Arclight
+  - ArcticOps
+  - Heartseeker
+  - VarusSwiftbolt
+  - DarkStar
+  - Conqueror
+  - Infernal
+  - PROJECT
+  - CosmicHunter
+  - HighNoon
+  - SnowMoon
+  - Empyrean
+  - SpiritBlossom
+  - T1
+
+Vayne
+  - Original
+  - Vindicator
+  - Aristocrat
+  - Dragonslayer
+  - Heartseeker
+  - SKTT1
+  - Arclight
+  - Soulstealer
+  - PROJECT
+  - Firecracker
+  - PrestigeFirecracker
+  - SpiritBlossom
+  - FPX
+  - Sentinel
+  - BattleBat
+  - PrestigeFirecracker(2022)
+  - Dawnbringer
+  - Dragonmancer
+  - RisenLegend
+  - Demoncursed
+
+Veigar
+  - Original
+  - WhiteMage
+  - Curling
+  - VeigarGreybeard
+  - Leprechaun
+  - BaronVon
+  - SuperbVillain
+  - BadSanta
+  - FinalBoss
+  - OmegaSquad
+  - Elderwood
+  - FuryhornCosplay
+  - Astronaut
+  - MonsterTamer
+  - KingBeegar
+  - FrightNight
+
+Vel'Koz
+  - Vel'Koz Original
+  - Vel'Koz Battlecast
+  - Vel'Koz Arclight
+  - Vel'Koz DefinitelyNot
+  - Vel'Koz Infernal
+  - Vel'Koz Blackfrost
+  - Vel'Koz Bee'Koz
+
+Vex
+  - Original
+  - Dawnbringer
+  - Empyrean
+  - Stargazer
+  - SurpriseParty
+
+Vi
+  - Original
+  - NeonStrike
+  - Officer
+  - Debonair
+  - Demon
+  - WarringKingdoms
+  - PROJECT
+  - Heartbreaker
+  - PsyOps
+  - ArcaneUndercity
+  - Heartache
+  - PrimalAmbush
+  - ArcaneBrawler
+  - T1
+
+Viego
+  - Original
+  - LunarBeast
+  - DissonanceofPentakill
+  - EDG
+  - King
+  - SoulFighter
+  - Worlds2024
+  - RevenantReign
+
+Viktor
+  - Original
+  - FullMachine
+  - Prototype
+  - Creator
+  - DeathSworn
+  - PsyOps
+  - HighNoon
+  - ArcaneSavior
+  - MachineHerald
+
+Vladimir
+  - Original
+  - Count
+  - Marquis
+  - Nosferatu
+  - Vandal
+  - BloodLord
+  - Soulstealer
+  - Academy
+  - DarkWaters
+  - Nightbringer
+  - CosmicDevourer
+  - CafeCuties
+  - BrokenCovenant
+  - MasqueoftheBlackRose
+  - PsyOps
+
+Volibear
+  - Original
+  - ThunderLord
+  - NorthernStorm
+  - Runeguard
+  - Captain
+  - ElRayo
+  - TheThousand-PiercedBear
+  - DualityDragon
+  - PrestigeDualityDragon
+  - Inkshadow
+  - SpiritBlossomSprings
+
+Warwick
+  - Original
+  - Grey
+  - UrftheManatee
+  - BigBad
+  - TundraHunter
+  - Feral
+  - Firefang
+  - Hyena
+  - Marauder
+  - Urfwick
+  - LunarGuardian
+  - PROJECT
+  - OldGod
+  - Winterblessed
+  - PrestigeWinterblessed
+  - ArcaneVander
+  - Warhound
+
+Wukong
+  - Wukong Original
+  - Wukong Volcanic
+  - Wukong General
+  - Wukong JadeDragon
+  - Wukong Underworld
+  - Wukong Radiant
+  - Wukong LancerStratus
+  - Wukong BattleAcademia
+  - Wukong Elderwood
+  - Wukong MechaKingdoms
+
+Xayah
+  - Original
+  - CosmicDusk
+  - Sweetheart
+  - SSG
+  - StarGuardian
+  - Elderwood
+  - BravePhoenix
+  - PrestigeBravePhoenix
+  - Arcana
+  - BrokenCovenant
+  - RedeemedStarGuardian
+  - BattleBat
+  - BattleAcademia
+
+Xerath
+  - Original
+  - Runeborn
+  - Battlecast
+  - ScorchedEarth
+  - GuardianoftheSands
+  - DarkStar
+  - Arcana
+  - Astronaut
+  - CrystalisIndomitus
+  - CorruptedPetricite
+
+Xin Zhao
+  - Xin Zhao Original
+  - Xin Zhao Commando
+  - Xin Zhao Imperial
+  - Xin Zhao Viscero
+  - Xin Zhao WingedHussar
+  - Xin Zhao WarringKingdoms
+  - Xin Zhao SecretAgent
+  - Xin Zhao Dragonslayer
+  - Xin Zhao CosmicDefender
+  - Xin Zhao Marauder
+  - Xin Zhao Firecracker
+  - Xin Zhao TrialsofTwilight
+
+Yasuo
+  - Original
+  - HighNoon
+  - PROJECT
+  - BloodMoon
+  - Nightbringer
+  - Odyssey
+  - BattleBoss
+  - TrueDamage
+  - PrestigeTrueDamage
+  - SpiritBlossom
+  - SeaDog
+  - TruthDragon
+  - DreamDragon
+  - Inkshadow
+  - PrestigeInkshadow
+  - Foreseen
+  - BattleWolf
+  - GenesisNightbringer
+  - PetalsofSpring
+
+Yone
+  - Original
+  - SpiritBlossom
+  - BattleAcademia
+  - Dawnbringer
+  - OceanSong
+  - Inkshadow
+  - HEARTSTEEL
+  - PrestigeHEARTSTEEL
+  - HighNoon
+  - PeacemakerHighNoon
+  - MaskedJustice
+  - T1
+
+Yorick
+  - Original
+  - Undertaker
+  - Pentakill
+  - Arclight
+  - Meowrick
+  - Resistance
+  - PentakillLostChapter
+  - SpiritBlossom
+  - DarkStar
+  - HighNoon
+
+Yunara
+  - Original
+  - SpiritBlossomSprings
+
+Yuumi
+  - Original
+  - BattlePrincipal
+  - Heartseeker
+  - Yuubee
+  - Bewitching
+  - EDG
+  - Shiba
+  - CyberCat
+  - PrestigeCyberCat
+  - Nightbringer
+  - Firecracker
+
+Zaahen
+  - Original
+  - ImmortalJourney
+
+Zac
+  - Original
+  - SpecialWeapon
+  - PoolParty
+  - SKTT1
+  - Battlecast
+  - Empyrean
+  - ZestyDip
+  - SpaceGroove
+
+Zed
+  - Original
+  - Shockblade
+  - SKTT1
+  - PROJECT
+  - Worlds2016
+  - DeathSworn
+  - GalaxySlayer
+  - PsyOps
+  - PrestigePROJECT
+  - Debonair
+  - Empyrean
+  - ImmortalJourney
+  - BloodMoon
+  - QuantumGalaxySlayer
+  - PrestigeSpiritBlossom
+
+Zeri
+  - Original
+  - WitheredRose
+  - OceanSong
+  - ImmortalJourney
+  - FrightNight
+  - PrestigeFrightNight
+  - WinterWonder
+
+Ziggs
+  - Original
+  - MadScientist
+  - Major
+  - PoolParty
+  - SnowDay
+  - MasterArcanist
+  - BattleBoss
+  - Odyssey
+  - SugarRush
+  - Hextech
+  - BZZZiggs
+  - LaIlusión
+  - Firecracker
+
+Zilean
+  - Original
+  - OldSaint
+  - Groovy
+  - ShurimaDesert
+  - TimeMachine
+  - BloodMoon
+  - SugarRush
+  - Winterblessed
+  - Arcana
+
+Zoe
+  - Original
+  - CyberPop
+  - PoolParty
+  - StarGuardian
+  - Arcanist
+  - PrestigeArcanist
+  - EDG
+  - Winterblessed
+  - DarkStar
+  - PrestigeEternalAspect
+
+Zyra
+  - Original
+  - Wildfire
+  - Haunted
+  - SKTT1
+  - DragonSorceress
+  - Coven
+  - PrestigeCoven
+  - CrystalRose
+  - CrimeCityNightmare
+  - Mythmaker
+  - StreetDemons
+  - BloodMoon
+  - SpiritBlossom
+
