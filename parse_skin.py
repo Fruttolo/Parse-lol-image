@@ -95,6 +95,14 @@ def stripped_filename(champion: str, hd_name: str) -> str:
     return hd_name
 
 
+def _exists(path: Path) -> bool:
+    """Return True if path (or its .jpg/.png counterpart) exists and is non-empty."""
+    if path.exists() and path.stat().st_size > 0:
+        return True
+    alt = path.with_suffix(".png" if path.suffix == ".jpg" else ".jpg")
+    return alt.exists() and alt.stat().st_size > 0
+
+
 def download_skin(
     champion: str, skin_filename: str
 ) -> tuple[str, str, bool, str, str]:
@@ -109,7 +117,7 @@ def download_skin(
     save_path = save_dir / hd_name
 
     # Skip if already downloaded (normal path)
-    if save_path.exists() and save_path.stat().st_size > 0:
+    if _exists(save_path):
         return champion, skin_filename, True, "already exists", ""
 
     # Handle explicit shared exception: download mapped filename to SHARED_DIR
@@ -117,7 +125,7 @@ def download_skin(
     if hd_stem in SHARED_EXCEPTIONS:
         exception_name = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
         exception_path = SHARED_DIR / exception_name
-        if exception_path.exists() and exception_path.stat().st_size > 0:
+        if _exists(exception_path):
             return champion, skin_filename, True, "already exists", "shared"
         exception_url = WIKI_IMAGE_BASE + quote(exception_name, safe="")
         try:
@@ -138,7 +146,7 @@ def download_skin(
     # Skip if already downloaded via shared path
     retry_name = stripped_filename(champion, hd_name)
     retry_save_path = SHARED_DIR / retry_name
-    if retry_save_path.exists() and retry_save_path.stat().st_size > 0:
+    if _exists(retry_save_path):
         return champion, skin_filename, True, "already exists", "shared"
 
     url = WIKI_IMAGE_BASE + quote(hd_name, safe="")

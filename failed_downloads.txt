@@ -1,6 +1,6 @@
 === Failed Downloads Report ===
-Generated: 2026-05-01 18:48:14
-Total failures: 211
+Generated: 2026-05-01 18:56:28
+Total failures: 208
 
 Champion : Aatrox
 File     : Aatrox_LunarEclipseSkin.jpg
@@ -25,10 +25,6 @@ Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Alistar_
 Champion : Alistar
 File     : Alistar_SweeperSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Alistar_SweeperSkin_HD.jpg
-------------------------------------------------------------
-Champion : Amumu
-File     : Amumu_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Amumu_OriginalSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Amumu
 File     : Amumu_SurprisePartySkin.jpg
@@ -73,10 +69,6 @@ Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Braum_Br
 Champion : Braum
 File     : Braum_PoolPartySkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Braum_PoolPartySkin_HD.jpg
-------------------------------------------------------------
-Champion : Briar
-File     : Briar_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Briar_OriginalSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Caitlyn
 File     : Caitlyn_FirecrackerSkin.jpg
@@ -369,10 +361,6 @@ Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Lulu_Bit
 Champion : Lulu
 File     : Lulu_DragonTrainerSkin.jpg
 Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Lulu_DragonTrainerSkin_HD.jpg
-------------------------------------------------------------
-Champion : Lulu
-File     : Lulu_OriginalSkin.jpg
-Reason   : 404 Not Found: https://wiki.leagueoflegends.com/en-us/images/Lulu_OriginalSkin_HD.jpg
 ------------------------------------------------------------
 Champion : Lulu
 File     : Lulu_PoolPartySkin.jpg
