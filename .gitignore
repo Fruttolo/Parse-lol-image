@@ -1,6 +1,8 @@
 .vscode/settings.json
 splash_arts/
+retry/
 image_hashes.csv
 __pycache__/
 failed_downloads.txt
 champion_report.csv
+duplicate_images.txt
