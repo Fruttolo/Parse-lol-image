@@ -19,6 +19,12 @@ REQUEST_TIMEOUT = 30
 MAX_WORKERS = 2
 OUTPUT_FILE = "champions.txt"
 
+# escludi skin che contengono queste stringhe
+EXCEPTIONS = [
+    "(2022)",
+    "Riven_ReignitedWorlds2012Skin",
+]
+
 
 def get_skin_filenames(champ_name: str) -> list[str]:
     """Return the wiki image filenames (e.g. 'Aatrox_OriginalSkin.jpg') for a champion."""
@@ -36,7 +42,18 @@ def get_skin_filenames(champ_name: str) -> list[str]:
         return []
 
     images: list[str] = payload.get("parse", {}).get("images", [])
-    return [img for img in images if img.lower().endswith("skin.jpg") and "(2022)" not in img and "Reignited" not in img]
+    
+    # Filtra gli immagini che sono skin e non contengono stringhe di EXCEPTIONS
+    filtered_images = []
+    for img in images:
+        if not img.lower().endswith("skin.jpg"):
+            continue
+        # Verifica che img non contenga nessuna delle stringhe in EXCEPTIONS
+        if any(ex.lower() in img.lower() for ex in EXCEPTIONS):
+            continue
+        filtered_images.append(img)
+
+    return filtered_images
 
 
 def main() -> None:
