@@ -29,11 +29,13 @@ SHARED_DIR = SPLASH_ARTS_DIR / "SHARED"
 FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 SHARED_EXCEPTIONS_FILE = "shared_exceptions.json"
+OTHER_EXCEPTIONS_FILE = "other_exceptions.json"
 REQUEST_TIMEOUT = 30
 MAX_WORKERS = 10
 
 # Maps expected HD filename → actual filename in SHARED_DIR
 SHARED_EXCEPTIONS: dict[str, str] = {}
+OTHER_EXCEPTIONS: dict[str, str] = {}
 
 
 def load_shared_exceptions() -> None:
@@ -42,6 +44,15 @@ def load_shared_exceptions() -> None:
     try:
         with open(SHARED_EXCEPTIONS_FILE, encoding="utf-8") as f:
             SHARED_EXCEPTIONS = json.load(f)
+    except FileNotFoundError:
+        pass
+
+def load_other_exceptions() -> None:
+    """Populate OTHER_EXCEPTIONS from other_exceptions.json (silently skip if missing)."""
+    global OTHER_EXCEPTIONS
+    try:
+        with open(OTHER_EXCEPTIONS_FILE, encoding="utf-8") as f:
+            OTHER_EXCEPTIONS = json.load(f)
     except FileNotFoundError:
         pass
 
@@ -213,6 +224,29 @@ def download_skin(
                     if retry_png_save_path.exists():
                         retry_png_save_path.unlink(missing_ok=True)
                     return champion, skin_filename, False, str(exc), ""
+                
+            # FALLBACK: Cerca nella mappa OTHER_EXCEPTIONS se tutti i retry sono falliti
+            if hd_stem in OTHER_EXCEPTIONS:
+                other_name = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
+                other_path = SHARED_DIR / other_name
+                if _exists(other_path):
+                    return champion, skin_filename, True, "downloaded (other exception)", "other"
+                other_url = WIKI_IMAGE_BASE + quote(other_name, safe="")
+                try:
+                    other_response = requests.get(other_url, timeout=REQUEST_TIMEOUT, stream=True)
+                    if other_response.status_code == 200:
+                        other_response.raise_for_status()
+                        SHARED_DIR.mkdir(parents=True, exist_ok=True)
+                        with open(other_path, "wb") as f:
+                            for chunk in other_response.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                        return champion, skin_filename, True, "downloaded (other exception)", "other"
+                    elif other_response.status_code != 404:
+                        other_response.raise_for_status()
+                except requests.RequestException:
+                    if other_path.exists():
+                        other_path.unlink(missing_ok=True)
+                    return champion, skin_filename, False, str(exc), ""
 
             return champion, skin_filename, False, f"404 Not Found: {url}", ""
 
@@ -246,6 +280,7 @@ def write_failed_report(failed: list[tuple[str, str, str]]) -> None:
 
 def main() -> None:
     load_shared_exceptions()
+    load_other_exceptions()
     champions = parse_champions(CHAMPIONS_FILE)
     tasks = [
         (champion, skin)
@@ -262,6 +297,7 @@ def main() -> None:
     skipped = 0
     downloaded = 0
     retried_shared = 0
+    retried_other = 0
 
     with Progress(
         SpinnerColumn(),
@@ -298,6 +334,12 @@ def main() -> None:
                         task,
                         description=f"[yellow]↺ {champion}/{skin}",
                     )
+                elif retry_type == "other":
+                    retried_other += 1
+                    progress.update(
+                        task,
+                        description=f"[blue]◆ {champion}/{skin}",
+                    )
                 else:
                     downloaded += 1
                     progress.update(
@@ -312,6 +354,7 @@ def main() -> None:
     console.print(f"\n[bold]Done.[/]")
     console.print(f"  Downloaded : [green]{downloaded}[/]")
     console.print(f"  Retry SHARED : [yellow]{retried_shared}[/] (saved to {SHARED_DIR}/)")
+    console.print(f"  Retry OTHER EXCEPTIONS : [blue]{retried_other}[/] (fallback)")
     console.print(f"  Skipped    : [dim]{skipped}[/] (already present)")
     console.print(f"  Failed     : [{'red' if failed else 'green'}]{len(failed)}[/]")
     if failed:

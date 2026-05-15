@@ -1,4 +1,4 @@
-League of Legends champions — version 16.9.1
+League of Legends champions — version 16.10.1
 Total: 172
 ========================================
 
@@ -375,6 +375,8 @@ Diana
   - Diana_HeavenscaleSkin.jpg
   - Diana_DarkCosmicSkin.jpg
   - Diana_PrestigeDarkCosmicSkin.jpg
+  - Diana_EternalAspectSkin.jpg
+  - Diana_EclipseEternalAspectSkin.jpg
 
 Dr. Mundo
   - Dr._Mundo_OriginalSkin.jpg
@@ -666,6 +668,7 @@ Illaoi
   - Illaoi_CosmicInvokerSkin.jpg
   - Illaoi_SnowMoonSkin.jpg
   - Illaoi_BattleBearSkin.jpg
+  - Illaoi_PastaMakerSkin.jpg
 
 Irelia
   - Irelia_OriginalSkin.jpg
@@ -683,6 +686,7 @@ Irelia
   - Irelia_MythmakerSkin.jpg
   - Irelia_PorcelainSkin.jpg
   - Irelia_SpiritBlossomSkin.jpg
+  - Irelia_BreadsticksSkin.jpg
 
 Ivern
   - Ivern_OriginalSkin.jpg
@@ -1040,6 +1044,7 @@ Leona
   - Leona_CrystalisMotusSkin.jpg
   - Leona_BattleLionSkin.jpg
   - Leona_PrestigeBattleLionSkin.jpg
+  - Leona_EternalAspectSkin.jpg
 
 Lillia
   - Lillia_OriginalSkin.jpg
@@ -1744,6 +1749,7 @@ Sion
   - Sion_HighNoonSkin.jpg
   - Sion_CosmicPaladinSkin.jpg
   - Sion_GrandReckoningSkin.jpg
+  - Sion_PizzaChefSkin.jpg
 
 Sivir
   - Sivir_OriginalSkin.jpg
@@ -2107,6 +2113,7 @@ Vel'Koz
   - Vel'Koz_InfernalSkin.jpg
   - Vel'Koz_BlackfrostSkin.jpg
   - Vel'Koz_Bee'KozSkin.jpg
+  - Vel'Koz_SpaghettiallaVel'KozSkin.jpg
 
 Vex
   - Vex_OriginalSkin.jpg

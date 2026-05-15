@@ -614,10 +614,26 @@ class SkinSelectorApp:
         else:
             self._sel_image.save(str(dest), format="JPEG", quality=95)
 
+        # Aggiorna other_exceptions.json
+        original_key = Path(self._current_target_hd).stem
+        other_value = Path(self._sel_wiki_name).stem
+        other_exceptions: dict = {}
+        other_exceptions_file = Path("other_exceptions.json")
+        if other_exceptions_file.exists():
+            try:
+                other_exceptions = json.loads(other_exceptions_file.read_text(encoding="utf-8"))
+            except Exception:
+                other_exceptions = {}
+        other_exceptions[original_key] = other_value
+        other_exceptions_file.write_text(
+            json.dumps(other_exceptions, indent=4, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
         console.print(
             f"[green]✓[/] [bold]{self._current_champion}[/]  "
             f"{self._sel_wiki_name} → {dest}")
-        self._status_var.set(f"Salvato → {dest}")
+        self._status_var.set(f"Salvato → {dest} + other_exceptions.json aggiornato")
         self.root.update()
 
         self.idx += 1
@@ -627,7 +643,7 @@ class SkinSelectorApp:
         """Chiamato dal background thread quando un candidato esiste già in SHARED."""
         target_hd = Path(filename).stem + "_HD.jpg"
         original_key = Path(target_hd).stem
-        shared_value = Path(clean_name).stem
+        shared_value = Path(wiki_name).stem
 
         exceptions: dict = {}
         if SHARED_EXCEPTIONS_FILE.exists():
@@ -672,7 +688,7 @@ class SkinSelectorApp:
 
         # Aggiorna shared_exceptions.json
         original_key = Path(self._current_target_hd).stem
-        shared_value = Path(clean_name).stem
+        shared_value = Path(self._sel_wiki_name).stem
         exceptions: dict = {}
         if SHARED_EXCEPTIONS_FILE.exists():
             try:
