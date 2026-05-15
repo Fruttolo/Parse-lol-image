@@ -7,3 +7,5 @@ champion_report.csv
 duplicate_images.txt
 .venv/
 alternatives/
+failed_downloads.txt
+differenze_cartelle.txt
