@@ -1,6 +1,5 @@
 {
     "Amumu_OriginalSkin_HD": "Amumu_OriginalSkin_Ch_HD",
-    "Anivia_BewitchingBatniviaSkin_HD": "Bewitching2022Skin_Unused_HD",
     "Aurelion_Sol_MechaSkin_HD": "Aurelion_Sol_MechaSkin_old_HD",
     "Caitlyn_FirecrackerSkin_HD": "Caitlyn_FirecrackerSkin_Unused_HD",
     "Corki_DragonwingSkin_HD": "Corki_DragonwingSkin_old_HD",
@@ -41,5 +40,7 @@
     "Sylas_PrestigePROJECTSkin_HD": "Sylas_PrestigePROJECTSkin_old_HD",
     "Taliyah_CrystalisMotusSkin_HD": "Taliyah_CrystalisMotusSkin_old_HD",
     "Vi_OfficerSkin_HD": "Vi_OfficerSkin_old_HD",
-    "Zed_PrestigePROJECTSkin_HD": "Zed_PrestigePROJECTSkin_Unused_HD"
+    "Zed_PrestigePROJECTSkin_HD": "Zed_PrestigePROJECTSkin_Unused_HD",
+    "Camille_ArcanaSkin_HD": "Camille_ArcanaSkin_Unused_HD",
+    "Seraphine_StarGuardianSkin_HD": "Seraphine_StarGuardianSkin_old_HD"
 }

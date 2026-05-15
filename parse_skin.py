@@ -6,6 +6,7 @@ Reads skin list from champions.txt and saves images to splash_arts/.
 
 import json
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
@@ -36,6 +37,9 @@ MAX_WORKERS = 10
 # Maps expected HD filename → actual filename in SHARED_DIR
 SHARED_EXCEPTIONS: dict[str, str] = {}
 OTHER_EXCEPTIONS: dict[str, str] = {}
+
+# Pattern da rimuovere dal nome file wiki (case-insensitive)
+_JUNK_RE = re.compile(r'_(old|unused)\d*', re.IGNORECASE)
 
 
 def load_shared_exceptions() -> None:
@@ -106,6 +110,12 @@ def stripped_filename(champion: str, hd_name: str) -> str:
     return hd_name
 
 
+def clean_skin_name(name: str) -> str:
+    """Remove suffixes like _old, _old1, _unused, _unused2 from skin names."""
+    p = Path(name)
+    return _JUNK_RE.sub('', p.stem) + p.suffix
+
+
 def _exists(path: Path) -> bool:
     """Return True if path (or its .jpg/.png counterpart) exists and is non-empty."""
     if path.exists() and path.stat().st_size > 0:
@@ -131,35 +141,7 @@ def download_skin(
     if _exists(save_path):
         return champion, skin_filename, True, "already exists", ""
 
-    # Handle explicit shared exception: download mapped filename to SHARED_DIR
     hd_stem = hd_name.removesuffix(".jpg")
-    if hd_stem in SHARED_EXCEPTIONS:
-        exception_name = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
-        exception_path = SHARED_DIR / exception_name
-        if _exists(exception_path):
-            return champion, skin_filename, True, "already exists", "shared"
-        exception_url = WIKI_IMAGE_BASE + quote(exception_name, safe="")
-        try:
-            exc_response = requests.get(exception_url, timeout=REQUEST_TIMEOUT, stream=True)
-            if exc_response.status_code == 404:
-                return champion, skin_filename, False, f"404 Not Found: {exception_url}", ""
-            exc_response.raise_for_status()
-            SHARED_DIR.mkdir(parents=True, exist_ok=True)
-            with open(exception_path, "wb") as f:
-                for chunk in exc_response.iter_content(chunk_size=8192):
-                    f.write(chunk)
-            return champion, skin_filename, True, "downloaded (shared exception)", "shared"
-        except requests.RequestException as exc:
-            if exception_path.exists():
-                exception_path.unlink(missing_ok=True)
-            return champion, skin_filename, False, str(exc), ""
-
-    # Skip if already downloaded via shared path
-    retry_name = stripped_filename(champion, hd_name)
-    retry_save_path = SHARED_DIR / retry_name
-    if _exists(retry_save_path):
-        return champion, skin_filename, True, "already exists", "shared"
-
     url = WIKI_IMAGE_BASE + quote(hd_name, safe="")
 
     try:
@@ -186,57 +168,41 @@ def download_skin(
                     png_save_path.unlink(missing_ok=True)
                 return champion, skin_filename, False, str(exc), ""
 
-            # Retry 2: champion prefix stripped → SHARED_DIR (jpg)
-            if retry_name != hd_name:
-                retry_url = WIKI_IMAGE_BASE + quote(retry_name, safe="")
+            # Retry 2: Check SHARED_EXCEPTIONS (only if explicitly mapped)
+            if hd_stem in SHARED_EXCEPTIONS:
+                exception_name_raw = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
+                exception_name_clean = clean_skin_name(SHARED_EXCEPTIONS[hd_stem]) + ".jpg"
+                exception_path = SHARED_DIR / exception_name_clean
+                if _exists(exception_path):
+                    return champion, skin_filename, True, "already exists", "shared"
+                exception_url = WIKI_IMAGE_BASE + quote(exception_name_raw, safe="")
                 try:
-                    retry_response = requests.get(retry_url, timeout=REQUEST_TIMEOUT, stream=True)
-                    if retry_response.status_code == 200:
-                        retry_response.raise_for_status()
+                    exc_response = requests.get(exception_url, timeout=REQUEST_TIMEOUT, stream=True)
+                    if exc_response.status_code == 200:
+                        exc_response.raise_for_status()
                         SHARED_DIR.mkdir(parents=True, exist_ok=True)
-                        with open(retry_save_path, "wb") as f:
-                            for chunk in retry_response.iter_content(chunk_size=8192):
+                        with open(exception_path, "wb") as f:
+                            for chunk in exc_response.iter_content(chunk_size=8192):
                                 f.write(chunk)
-                        return champion, skin_filename, True, "downloaded (retry shared)", "shared"
-                    elif retry_response.status_code != 404:
-                        retry_response.raise_for_status()
+                        return champion, skin_filename, True, "downloaded (shared exception)", "shared"
+                    elif exc_response.status_code != 404:
+                        exc_response.raise_for_status()
                 except requests.RequestException as exc:
-                    if retry_save_path.exists():
-                        retry_save_path.unlink(missing_ok=True)
+                    if exception_path.exists():
+                        exception_path.unlink(missing_ok=True)
                     return champion, skin_filename, False, str(exc), ""
 
-                # Retry 3: stripped name, PNG format → SHARED_DIR
-                retry_png_name = retry_name.removesuffix(".jpg") + ".png"
-                retry_png_save_path = SHARED_DIR / retry_png_name
-                retry_png_url = WIKI_IMAGE_BASE + quote(retry_png_name, safe="")
-                try:
-                    retry_png_response = requests.get(retry_png_url, timeout=REQUEST_TIMEOUT, stream=True)
-                    if retry_png_response.status_code == 200:
-                        retry_png_response.raise_for_status()
-                        SHARED_DIR.mkdir(parents=True, exist_ok=True)
-                        with open(retry_png_save_path, "wb") as f:
-                            for chunk in retry_png_response.iter_content(chunk_size=8192):
-                                f.write(chunk)
-                        return champion, skin_filename, True, "downloaded (retry shared png)", "shared"
-                    elif retry_png_response.status_code != 404:
-                        retry_png_response.raise_for_status()
-                except requests.RequestException as exc:
-                    if retry_png_save_path.exists():
-                        retry_png_save_path.unlink(missing_ok=True)
-                    return champion, skin_filename, False, str(exc), ""
-                
-            # FALLBACK: Cerca nella mappa OTHER_EXCEPTIONS se tutti i retry sono falliti
+            # Retry 3: Check OTHER_EXCEPTIONS (only if explicitly mapped)
             if hd_stem in OTHER_EXCEPTIONS:
-                other_name = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
-                other_path = SHARED_DIR / other_name
+                other_name_raw = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
+                other_path = save_dir / hd_name
                 if _exists(other_path):
                     return champion, skin_filename, True, "downloaded (other exception)", "other"
-                other_url = WIKI_IMAGE_BASE + quote(other_name, safe="")
+                other_url = WIKI_IMAGE_BASE + quote(other_name_raw, safe="")
                 try:
                     other_response = requests.get(other_url, timeout=REQUEST_TIMEOUT, stream=True)
                     if other_response.status_code == 200:
                         other_response.raise_for_status()
-                        SHARED_DIR.mkdir(parents=True, exist_ok=True)
                         with open(other_path, "wb") as f:
                             for chunk in other_response.iter_content(chunk_size=8192):
                                 f.write(chunk)
