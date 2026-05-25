@@ -34,9 +34,12 @@ except ImportError:
 
 console = Console()
 
-FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
-SHARED_EXCEPTIONS_FILE = Path("shared_exceptions.json")
-ALTERNATIVES_DIR = Path("splash_arts")
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+
+FAILED_DOWNLOADS_FILE = str(ROOT / "failed_downloads.txt")
+SHARED_EXCEPTIONS_FILE = DATA_DIR / "shared_exceptions.json"
+ALTERNATIVES_DIR = ROOT / "splash_arts"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 WIKI_API_URL    = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
@@ -618,7 +621,7 @@ class SkinSelectorApp:
         original_key = Path(self._current_target_hd).stem
         other_value = Path(self._sel_wiki_name).stem
         other_exceptions: dict = {}
-        other_exceptions_file = Path("other_exceptions.json")
+        other_exceptions_file = DATA_DIR / "other_exceptions.json"
         if other_exceptions_file.exists():
             try:
                 other_exceptions = json.loads(other_exceptions_file.read_text(encoding="utf-8"))

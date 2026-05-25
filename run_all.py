@@ -12,15 +12,15 @@ console = Console()
 
 # Scripts da eseguire in ordine
 SCRIPTS = [
-    "list_champions.py",
-    "parse_skin.py",
-    "check_failed.py",
-    "check_hashes.py",
-    "compare.py",
+    "scripts/list_champions.py",
+    "scripts/parse_skin.py",
+    "scripts/check_failed.py",
+    "scripts/check_hashes.py",
+    "scripts/compare.py",
 ]
 
 # Script GUI da lanciare alla fine
-GUI_SCRIPT = "viewer_differences.py"
+GUI_SCRIPT = "scripts/viewer_differences.py"
 
 WORKSPACE_DIR = Path(__file__).parent
 

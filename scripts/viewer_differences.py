@@ -5,6 +5,8 @@ from tkinter import ttk, messagebox
 from pathlib import Path
 from PIL import Image, ImageTk
 
+ROOT = Path(__file__).resolve().parent.parent
+
 class LoLTwoWaySync:
     def __init__(self, root):
         self.root = root
@@ -14,7 +16,7 @@ class LoLTwoWaySync:
 
         # --- CONFIGURAZIONE PERCORSI ---
         self.dir_a = Path("/home/salvo/Immagini/splash_arts_lol")
-        self.dir_b = Path(__file__).parent / "splash_arts"
+        self.dir_b = ROOT / "splash_arts"
 
         self.selected_file = None
         self.selected_side = None 

@@ -1,10 +1,13 @@
 import filecmp
 import os
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
 
 # --- CONFIGURAZIONE ---
 percorso_a = "/home/salvo/Immagini/splash_arts_lol"
-percorso_b = "/home/salvo/Progetti/Parse-lol-image/splash_arts"
-nome_report = "differenze_cartelle.txt"
+percorso_b = str(ROOT / "splash_arts")
+nome_report = str(ROOT / "differenze_cartelle.txt")
 
 def confronta_cartelle(path1, path2, report_file):
     with open(report_file, 'w', encoding='utf-8') as f:

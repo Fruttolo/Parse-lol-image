@@ -3,12 +3,17 @@
 Save the full League of Legends champion list (with splash art skins) to a text file.
 """
 
+from pathlib import Path
+
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, BarColumn, TextColumn, MofNCompleteColumn
 
 console = Console()
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
 
 DDRAGON_VERSIONS_URL = "https://ddragon.leagueoflegends.com/api/versions.json"
 DDRAGON_CHAMPIONS_URL = (
@@ -17,7 +22,7 @@ DDRAGON_CHAMPIONS_URL = (
 WIKI_API_URL = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
 MAX_WORKERS = 2
-OUTPUT_FILE = "champions.txt"
+OUTPUT_FILE = DATA_DIR / "champions.txt"
 
 # escludi skin che contengono queste stringhe
 EXCEPTIONS = [

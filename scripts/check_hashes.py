@@ -2,12 +2,14 @@ import hashlib
 import os
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 
 from rich.console import Console
 from rich.progress import BarColumn, MofNCompleteColumn, Progress, SpinnerColumn, TextColumn
 
-SPLASH_DIR = os.path.join(os.path.dirname(__file__), "splash_arts")
-OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "duplicate_images.txt")
+ROOT = Path(__file__).resolve().parent.parent
+SPLASH_DIR = str(ROOT / "splash_arts")
+OUTPUT_FILE = str(ROOT / "duplicate_images.txt")
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 MAX_WORKERS = 16
 

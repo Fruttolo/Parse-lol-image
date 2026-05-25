@@ -24,13 +24,16 @@ from rich.progress import (
 
 console = Console()
 
-CHAMPIONS_FILE = "champions.txt"
-SPLASH_ARTS_DIR = Path("splash_arts")
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+
+CHAMPIONS_FILE = DATA_DIR / "champions.txt"
+SPLASH_ARTS_DIR = ROOT / "splash_arts"
 SHARED_DIR = SPLASH_ARTS_DIR / "SHARED"
-FAILED_DOWNLOADS_FILE = "failed_downloads.txt"
+FAILED_DOWNLOADS_FILE = ROOT / "failed_downloads.txt"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
-SHARED_EXCEPTIONS_FILE = "shared_exceptions.json"
-OTHER_EXCEPTIONS_FILE = "other_exceptions.json"
+SHARED_EXCEPTIONS_FILE = DATA_DIR / "shared_exceptions.json"
+OTHER_EXCEPTIONS_FILE = DATA_DIR / "other_exceptions.json"
 REQUEST_TIMEOUT = 30
 MAX_WORKERS = 10
 
