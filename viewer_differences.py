@@ -57,9 +57,13 @@ class LoLTwoWaySync:
                                       bg="#27ae60", fg="white", font=('Arial', 10, 'bold'), command=lambda: self._transfer('A', 'B'))
         self.btn_move_to_b.pack(pady=5, fill=tk.X)
         
-        self.btn_move_all_to_b = tk.Button(btn_frame_a, text="Sposta TUTTI in B ➔➔", 
+        self.btn_move_all_to_b = tk.Button(btn_frame_a, text="Sposta TUTTI in B ➔➔",
                                           bg="#2980b9", fg="white", font=('Arial', 9), command=lambda: self._transfer_all('A', 'B'))
         self.btn_move_all_to_b.pack(pady=5, fill=tk.X)
+
+        self.btn_delete_all_a = tk.Button(btn_frame_a, text="Elimina TUTTI da A",
+                                          bg="#c0392b", fg="white", font=('Arial', 9), command=lambda: self._delete_all('A'))
+        self.btn_delete_all_a.pack(pady=5, fill=tk.X)
 
         # Colonna B (Destra)
         col_b = tk.Frame(lists_frame, bg="#1e1e1e")
@@ -77,9 +81,13 @@ class LoLTwoWaySync:
                                       bg="#27ae60", fg="white", font=('Arial', 10, 'bold'), command=lambda: self._transfer('B', 'A'))
         self.btn_move_to_a.pack(pady=5, fill=tk.X)
         
-        self.btn_move_all_to_a = tk.Button(btn_frame_b, text="⬅⬅ Sposta TUTTI in A", 
+        self.btn_move_all_to_a = tk.Button(btn_frame_b, text="⬅⬅ Sposta TUTTI in A",
                                           bg="#2980b9", fg="white", font=('Arial', 9), command=lambda: self._transfer_all('B', 'A'))
         self.btn_move_all_to_a.pack(pady=5, fill=tk.X)
+
+        self.btn_delete_all_b = tk.Button(btn_frame_b, text="Elimina TUTTI da B",
+                                          bg="#c0392b", fg="white", font=('Arial', 9), command=lambda: self._delete_all('B'))
+        self.btn_delete_all_b.pack(pady=5, fill=tk.X)
 
     def _get_relative_files(self, base_path):
         res = set()
@@ -202,6 +210,33 @@ class LoLTwoWaySync:
             messagebox.showinfo("Successo", f"Trasferiti {len(files_to_transfer)} file")
         except Exception as e:
             messagebox.showerror("Errore", f"Errore durante il trasferimento: {e}")
+
+    def _delete_all(self, side):
+        src_dir = self.dir_a if side == 'A' else self.dir_b
+        other_dir = self.dir_b if side == 'A' else self.dir_a
+
+        files_src = self._get_relative_files(src_dir)
+        files_other = self._get_relative_files(other_dir)
+
+        files_to_delete = files_src - files_other
+
+        if not files_to_delete:
+            messagebox.showinfo("Info", "Nessun file da eliminare")
+            return
+
+        if not messagebox.askyesno("Conferma", f"Eliminare {len(files_to_delete)} file SOLO in {side}?\nQuesta operazione è irreversibile."):
+            return
+
+        try:
+            for rel_p in files_to_delete:
+                (src_dir / rel_p).unlink()
+
+            self.selected_file = None
+            self.refresh_data()
+            self.pre_a_container.config(image='', text="Seleziona un file")
+            messagebox.showinfo("Successo", f"Eliminati {len(files_to_delete)} file da {side}")
+        except Exception as e:
+            messagebox.showerror("Errore", f"Errore durante l'eliminazione: {e}")
 
 if __name__ == "__main__":
     root = tk.Tk()

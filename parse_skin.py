@@ -144,88 +144,86 @@ def download_skin(
     hd_stem = hd_name.removesuffix(".jpg")
     url = WIKI_IMAGE_BASE + quote(hd_name, safe="")
 
+    # Step 1: Check SHARED_EXCEPTIONS before any download attempt
+    if hd_stem in SHARED_EXCEPTIONS:
+        exception_name_raw = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
+        exception_name_clean = clean_skin_name(SHARED_EXCEPTIONS[hd_stem]) + ".jpg"
+        exception_path = SHARED_DIR / exception_name_clean
+        if _exists(exception_path):
+            return champion, skin_filename, True, "already exists", "shared"
+        exception_url = WIKI_IMAGE_BASE + quote(exception_name_raw, safe="")
+        try:
+            exc_response = requests.get(exception_url, timeout=REQUEST_TIMEOUT, stream=True)
+            if exc_response.status_code == 200:
+                exc_response.raise_for_status()
+                SHARED_DIR.mkdir(parents=True, exist_ok=True)
+                with open(exception_path, "wb") as f:
+                    for chunk in exc_response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                return champion, skin_filename, True, "downloaded (shared exception)", "shared"
+            elif exc_response.status_code != 404:
+                exc_response.raise_for_status()
+        except requests.RequestException as exc:
+            if exception_path.exists():
+                exception_path.unlink(missing_ok=True)
+            return champion, skin_filename, False, str(exc), ""
+
     try:
         save_dir.mkdir(parents=True, exist_ok=True)
-        response = requests.get(url, timeout=REQUEST_TIMEOUT, stream=True)
 
-        if response.status_code == 404:
-            # Retry 1: same name, PNG format
-            png_hd_name = hd_name.removesuffix(".jpg") + ".png"
-            png_save_path = save_dir / png_hd_name
-            png_url = WIKI_IMAGE_BASE + quote(png_hd_name, safe="")
+        # Step 2: Normal JPG download
+        response = requests.get(url, timeout=REQUEST_TIMEOUT, stream=True)
+        if response.status_code == 200:
+            response.raise_for_status()
+            with open(save_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            return champion, skin_filename, True, "downloaded", ""
+        elif response.status_code != 404:
+            response.raise_for_status()
+
+        # Step 3: PNG format
+        png_hd_name = hd_name.removesuffix(".jpg") + ".png"
+        png_save_path = save_dir / png_hd_name
+        png_url = WIKI_IMAGE_BASE + quote(png_hd_name, safe="")
+        try:
+            png_response = requests.get(png_url, timeout=REQUEST_TIMEOUT, stream=True)
+            if png_response.status_code == 200:
+                png_response.raise_for_status()
+                with open(png_save_path, "wb") as f:
+                    for chunk in png_response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                return champion, skin_filename, True, "downloaded (png)", ""
+            elif png_response.status_code != 404:
+                png_response.raise_for_status()
+        except requests.RequestException as exc:
+            if png_save_path.exists():
+                png_save_path.unlink(missing_ok=True)
+            return champion, skin_filename, False, str(exc), ""
+
+        # Step 4: Check OTHER_EXCEPTIONS
+        if hd_stem in OTHER_EXCEPTIONS:
+            other_name_raw = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
+            other_path = save_dir / hd_name
+            other_url = WIKI_IMAGE_BASE + quote(other_name_raw, safe="")
             try:
-                png_response = requests.get(png_url, timeout=REQUEST_TIMEOUT, stream=True)
-                if png_response.status_code == 200:
-                    png_response.raise_for_status()
-                    with open(png_save_path, "wb") as f:
-                        for chunk in png_response.iter_content(chunk_size=8192):
+                other_response = requests.get(other_url, timeout=REQUEST_TIMEOUT, stream=True)
+                if other_response.status_code == 200:
+                    other_response.raise_for_status()
+                    with open(other_path, "wb") as f:
+                        for chunk in other_response.iter_content(chunk_size=8192):
                             f.write(chunk)
-                    return champion, skin_filename, True, "downloaded (png)", ""
-                elif png_response.status_code != 404:
-                    png_response.raise_for_status()
+                    return champion, skin_filename, True, "downloaded (other exception)", "other"
+                elif other_response.status_code != 404:
+                    other_response.raise_for_status()
             except requests.RequestException as exc:
-                if png_save_path.exists():
-                    png_save_path.unlink(missing_ok=True)
+                if other_path.exists():
+                    other_path.unlink(missing_ok=True)
                 return champion, skin_filename, False, str(exc), ""
 
-            # Retry 2: Check SHARED_EXCEPTIONS (only if explicitly mapped)
-            if hd_stem in SHARED_EXCEPTIONS:
-                exception_name_raw = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
-                exception_name_clean = clean_skin_name(SHARED_EXCEPTIONS[hd_stem]) + ".jpg"
-                exception_path = SHARED_DIR / exception_name_clean
-                if _exists(exception_path):
-                    return champion, skin_filename, True, "already exists", "shared"
-                exception_url = WIKI_IMAGE_BASE + quote(exception_name_raw, safe="")
-                try:
-                    exc_response = requests.get(exception_url, timeout=REQUEST_TIMEOUT, stream=True)
-                    if exc_response.status_code == 200:
-                        exc_response.raise_for_status()
-                        SHARED_DIR.mkdir(parents=True, exist_ok=True)
-                        with open(exception_path, "wb") as f:
-                            for chunk in exc_response.iter_content(chunk_size=8192):
-                                f.write(chunk)
-                        return champion, skin_filename, True, "downloaded (shared exception)", "shared"
-                    elif exc_response.status_code != 404:
-                        exc_response.raise_for_status()
-                except requests.RequestException as exc:
-                    if exception_path.exists():
-                        exception_path.unlink(missing_ok=True)
-                    return champion, skin_filename, False, str(exc), ""
-
-            # Retry 3: Check OTHER_EXCEPTIONS (only if explicitly mapped)
-            if hd_stem in OTHER_EXCEPTIONS:
-                other_name_raw = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
-                other_path = save_dir / hd_name
-                if _exists(other_path):
-                    return champion, skin_filename, True, "downloaded (other exception)", "other"
-                other_url = WIKI_IMAGE_BASE + quote(other_name_raw, safe="")
-                try:
-                    other_response = requests.get(other_url, timeout=REQUEST_TIMEOUT, stream=True)
-                    if other_response.status_code == 200:
-                        other_response.raise_for_status()
-                        with open(other_path, "wb") as f:
-                            for chunk in other_response.iter_content(chunk_size=8192):
-                                f.write(chunk)
-                        return champion, skin_filename, True, "downloaded (other exception)", "other"
-                    elif other_response.status_code != 404:
-                        other_response.raise_for_status()
-                except requests.RequestException:
-                    if other_path.exists():
-                        other_path.unlink(missing_ok=True)
-                    return champion, skin_filename, False, str(exc), ""
-
-            return champion, skin_filename, False, f"404 Not Found: {url}", ""
-
-        response.raise_for_status()
-
-        with open(save_path, "wb") as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                f.write(chunk)
-
-        return champion, skin_filename, True, "downloaded", ""
+        return champion, skin_filename, False, f"404 Not Found: {url}", ""
 
     except requests.RequestException as exc:
-        # Remove partial file if it was created
         if save_path.exists():
             save_path.unlink(missing_ok=True)
         return champion, skin_filename, False, str(exc), ""
