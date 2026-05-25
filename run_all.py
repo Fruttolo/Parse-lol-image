@@ -24,6 +24,20 @@ GUI_SCRIPT = "viewer_differences.py"
 
 WORKSPACE_DIR = Path(__file__).parent
 
+REPORT_FILES = [
+    "failed_downloads.txt",
+    "duplicate_images.txt",
+    "differenze_cartelle.txt",
+]
+
+
+def cleanup_reports() -> None:
+    for filename in REPORT_FILES:
+        path = WORKSPACE_DIR / filename
+        if path.exists():
+            path.unlink()
+            console.print(f"[dim]Eliminato: {filename}[/]")
+
 
 def run_script(script_name: str) -> bool:
     """
@@ -61,7 +75,9 @@ def main() -> None:
     console.print("[bold magenta]═" * 30 + "[/]")
     console.print("[bold magenta]  WRAPPER - Esecuzione script LoL[/bold magenta]")
     console.print("[bold magenta]═" * 30 + "[/]")
-    
+
+    cleanup_reports()
+
     results: dict[str, bool] = {}
     
     for script_name in SCRIPTS:
@@ -90,17 +106,23 @@ def main() -> None:
     
     if successful == total:
         console.print("[green][bold]Tutti gli script eseguiti correttamente![/bold][/]")
-        
-        # Avvia direttamente la GUI
-        console.print("[yellow]Avvio interfaccia grafica...[/]")
-        gui_path = WORKSPACE_DIR / GUI_SCRIPT
-        if gui_path.exists():
-            try:
-                subprocess.run([sys.executable, str(gui_path)], cwd=WORKSPACE_DIR)
-            except Exception as e:
-                console.print(f"[red]Errore nel lancio della GUI: {e}[/]")
+
+        diff_file = WORKSPACE_DIR / "differenze_cartelle.txt"
+        has_differences = diff_file.exists() and "MANCANTI" in diff_file.read_text(encoding="utf-8")
+
+        if not has_differences:
+            console.print("[green]Nessuna differenza trovata tra le cartelle. Interfaccia grafica non avviata.[/]")
         else:
-            console.print(f"[red]File non trovato: {GUI_SCRIPT}[/]")
+            # Avvia direttamente la GUI
+            console.print("[yellow]Avvio interfaccia grafica...[/]")
+            gui_path = WORKSPACE_DIR / GUI_SCRIPT
+            if gui_path.exists():
+                try:
+                    subprocess.run([sys.executable, str(gui_path)], cwd=WORKSPACE_DIR)
+                except Exception as e:
+                    console.print(f"[red]Errore nel lancio della GUI: {e}[/]")
+            else:
+                console.print(f"[red]File non trovato: {GUI_SCRIPT}[/]")
         
         sys.exit(0)
     else:
