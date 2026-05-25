@@ -26,6 +26,7 @@ File generati a runtime (gitignored):
 - `failed_downloads.txt` — download falliti (da parse_skin.py)
 - `duplicate_images.txt` — duplicati trovati (da check_hashes.py)
 - `differenze_cartelle.txt` — differenze tra cartelle (da compare.py)
+- `download_report.txt` — report dei download effettuati (da parse_skin.py)
 
 ## Installazione
 
@@ -48,9 +49,13 @@ rich
 
 ### 1. Esecuzione automatica
 ```bash
-python3 run_all.py
+python3 run_all.py [percorso_splash_arts_locale]
 ```
-Esegue tutti gli script in ordine. Al termine mostra un report e, se ci sono differenze tra cartelle, avvia automaticamente la GUI.
+Esegue tutti gli script in ordine. Se viene fornito il percorso a una cartella locale di splash arts, esegue anche il confronto tra cartelle e, se ci sono differenze, avvia automaticamente la GUI.
+
+Se il percorso è omesso, il confronto e la GUI vengono saltati.
+
+Se uno script fallisce, viene chiesta conferma prima di continuare con i successivi.
 
 ### 2. Scaricare immagini HD
 ```bash
@@ -66,15 +71,15 @@ Genera `duplicate_images.txt` con tutti i duplicati trovati.
 
 ### 4. Confrontare cartelle
 ```bash
-python3 scripts/compare.py
+python3 scripts/compare.py <percorso_cartella_locale>
 ```
-Genera `differenze_cartelle.txt` con file mancanti o diversi tra due cartelle.
+Confronta la cartella locale specificata con `splash_arts/` e genera `differenze_cartelle.txt` con i file mancanti in ciascuna delle due.
 
 ### 5. GUI per sincronizzazione
 ```bash
-python3 scripts/viewer_differences.py
+python3 scripts/viewer_differences.py <percorso_cartella_locale>
 ```
-Interfaccia grafica per visualizzare e trasferire immagini tra due directory.
+Interfaccia grafica per visualizzare le differenze e trasferire (o eliminare) immagini tra le due directory. Supporta anteprima delle immagini, trasferimento singolo o massivo e cancellazione.
 
 ### 6. Recupero download falliti
 ```bash
@@ -92,8 +97,8 @@ Crea `data/champions.txt` con tutti i champion e le loro skin.
 
 | Script | Funzione | Output |
 |--------|----------|--------|
-| `run_all.py` | Wrapper sequenziale | Report completo + GUI |
-| `scripts/parse_skin.py` | Download HD | `splash_arts/` + `failed_downloads.txt` |
+| `run_all.py` | Wrapper sequenziale | Report completo + GUI opzionale |
+| `scripts/parse_skin.py` | Download HD | `splash_arts/` + `failed_downloads.txt` + `download_report.txt` |
 | `scripts/check_hashes.py` | Rilevamento duplicati | `duplicate_images.txt` |
 | `scripts/compare.py` | Confronto cartelle | `differenze_cartelle.txt` |
 | `scripts/viewer_differences.py` | GUI sincronizzazione | Interfaccia Tkinter |
