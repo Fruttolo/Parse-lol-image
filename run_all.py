@@ -28,6 +28,7 @@ REPORT_FILES = [
     "failed_downloads.txt",
     "duplicate_images.txt",
     "differenze_cartelle.txt",
+    "download_report.txt"
 ]
 
 

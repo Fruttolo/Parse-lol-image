@@ -31,6 +31,7 @@ CHAMPIONS_FILE = DATA_DIR / "champions.txt"
 SPLASH_ARTS_DIR = ROOT / "splash_arts"
 SHARED_DIR = SPLASH_ARTS_DIR / "SHARED"
 FAILED_DOWNLOADS_FILE = ROOT / "failed_downloads.txt"
+DOWNLOAD_REPORT_FILE = ROOT / "download_report.txt"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 SHARED_EXCEPTIONS_FILE = DATA_DIR / "shared_exceptions.json"
 OTHER_EXCEPTIONS_FILE = DATA_DIR / "other_exceptions.json"
@@ -232,6 +233,23 @@ def download_skin(
         return champion, skin_filename, False, str(exc), ""
 
 
+def write_download_report(
+    downloaded_files: list[tuple[str, str, str]],
+    skipped: int,
+    failed: int,
+) -> None:
+    """Write a structured report of all successfully downloaded files."""
+    with open(DOWNLOAD_REPORT_FILE, "w", encoding="utf-8") as f:
+        f.write("=== Download Report ===\n")
+        f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write(f"Newly downloaded: {len(downloaded_files)}\n")
+        f.write(f"Skipped (already present): {skipped}\n")
+        f.write(f"Failed: {failed}\n\n")
+        for champion, skin, retry_type in downloaded_files:
+            label = f"[{retry_type}] " if retry_type else ""
+            f.write(f"{label}{champion}/{skin}\n")
+
+
 def write_failed_report(failed: list[tuple[str, str, str]]) -> None:
     """Write a structured report of failed downloads."""
     with open(FAILED_DOWNLOADS_FILE, "w", encoding="utf-8") as f:
@@ -261,6 +279,7 @@ def main() -> None:
     )
 
     failed: list[tuple[str, str, str]] = []
+    downloaded_files: list[tuple[str, str, str]] = []
     skipped = 0
     downloaded = 0
     retried_shared = 0
@@ -297,18 +316,21 @@ def main() -> None:
                     )
                 elif retry_type == "shared":
                     retried_shared += 1
+                    downloaded_files.append((champion, skin, "shared"))
                     progress.update(
                         task,
                         description=f"[yellow]↺ {champion}/{skin}",
                     )
                 elif retry_type == "other":
                     retried_other += 1
+                    downloaded_files.append((champion, skin, "other"))
                     progress.update(
                         task,
                         description=f"[blue]◆ {champion}/{skin}",
                     )
                 else:
                     downloaded += 1
+                    downloaded_files.append((champion, skin, ""))
                     progress.update(
                         task,
                         description=f"[green]✓ {champion}/{skin}",
@@ -317,6 +339,7 @@ def main() -> None:
                 progress.advance(task)
 
     write_failed_report(sorted(failed))
+    write_download_report(sorted(downloaded_files), skipped, len(failed))
 
     console.print(f"\n[bold]Done.[/]")
     console.print(f"  Downloaded : [green]{downloaded}[/]")
@@ -324,6 +347,7 @@ def main() -> None:
     console.print(f"  Retry OTHER EXCEPTIONS : [blue]{retried_other}[/] (fallback)")
     console.print(f"  Skipped    : [dim]{skipped}[/] (already present)")
     console.print(f"  Failed     : [{'red' if failed else 'green'}]{len(failed)}[/]")
+    console.print(f"  Report     : [dim]{DOWNLOAD_REPORT_FILE}[/]")
     if failed:
         console.print(f"\n[yellow]See {FAILED_DOWNLOADS_FILE} for details.[/]")
 
