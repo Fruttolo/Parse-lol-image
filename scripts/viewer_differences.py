@@ -1,11 +1,17 @@
+import argparse
 import os
 import shutil
+import sys
 import tkinter as tk
 from tkinter import ttk, messagebox
 from pathlib import Path
 from PIL import Image, ImageTk
 
 ROOT = Path(__file__).resolve().parent.parent
+
+parser = argparse.ArgumentParser(description="Visualizza e sincronizza le differenze tra due cartelle di splash arts")
+parser.add_argument("dir_a", help="Percorso della cartella A (splash arts locali)")
+args = parser.parse_args()
 
 class LoLTwoWaySync:
     def __init__(self, root):
@@ -15,7 +21,7 @@ class LoLTwoWaySync:
         self.root.configure(bg="#1e1e1e")
 
         # --- CONFIGURAZIONE PERCORSI ---
-        self.dir_a = Path("/home/salvo/Immagini/splash_arts_lol")
+        self.dir_a = Path(args.dir_a)
         self.dir_b = ROOT / "splash_arts"
 
         self.selected_file = None
@@ -241,6 +247,8 @@ class LoLTwoWaySync:
             messagebox.showerror("Errore", f"Errore durante l'eliminazione: {e}")
 
 if __name__ == "__main__":
+    if not Path(args.dir_a).exists():
+        parser.error(f"Il percorso della cartella A non esiste: {args.dir_a}")
     root = tk.Tk()
     app = LoLTwoWaySync(root)
     root.mainloop()

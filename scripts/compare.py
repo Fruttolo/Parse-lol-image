@@ -1,11 +1,15 @@
+import argparse
 import filecmp
 import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# --- CONFIGURAZIONE ---
-percorso_a = "/home/salvo/Immagini/splash_arts_lol"
+parser = argparse.ArgumentParser(description="Confronta due cartelle di splash arts")
+parser.add_argument("percorso_a", help="Percorso della cartella A (splash arts locali)")
+args = parser.parse_args()
+
+percorso_a = args.percorso_a
 percorso_b = str(ROOT / "splash_arts")
 nome_report = str(ROOT / "differenze_cartelle.txt")
 
@@ -53,7 +57,8 @@ def _analizza_ottimizzato(dir1, dir2, f_report):
         )
 
 if __name__ == "__main__":
-    if os.path.exists(percorso_a) and os.path.exists(percorso_b):
-        confronta_cartelle(percorso_a, percorso_b, nome_report)
-    else:
-        print("Errore: Uno o entrambi i percorsi non esistono.")
+    if not os.path.exists(percorso_a):
+        parser.error(f"Il percorso A non esiste: {percorso_a}")
+    if not os.path.exists(percorso_b):
+        parser.error(f"Il percorso B non esiste: {percorso_b}")
+    confronta_cartelle(percorso_a, percorso_b, nome_report)
