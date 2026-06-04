@@ -1,4 +1,4 @@
-League of Legends champions — version 16.10.1
+League of Legends champions — version 16.11.1
 Total: 172
 ========================================
 
@@ -249,6 +249,7 @@ Brand
   - Brand_PrestigeDebonairSkin.jpg
   - Brand_StreetDemonsSkin.jpg
   - Brand_EmpyreanSkin.jpg
+  - Brand_SinfulShoresSkin.jpg
 
 Braum
   - Braum_OriginalSkin.jpg
@@ -660,6 +661,7 @@ Hwei
   - Hwei_OriginalSkin.jpg
   - Hwei_WinterblessedSkin.jpg
   - Hwei_SpiritBlossomSkin.jpg
+  - Hwei_SinfulShoresSkin.jpg
 
 Illaoi
   - Illaoi_OriginalSkin.jpg
@@ -1003,6 +1005,7 @@ LeBlanc
   - LeBlanc_DebonairSkin.jpg
   - LeBlanc_BewitchingSkin.jpg
   - LeBlanc_RisenLegendSkin.jpg
+  - LeBlanc_PrestigeSinfulShoresSkin.jpg
 
 Lee Sin
   - Lee_Sin_OriginalSkin.jpg
