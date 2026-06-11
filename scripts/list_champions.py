@@ -31,7 +31,7 @@ EXCEPTIONS = [
 ]
 
 
-def get_skin_filenames(champ_name: str) -> list[str]:
+def get_skin_filenames(champ_name: str, ignore_exceptions: bool = False) -> list[str]:
     """Return the wiki image filenames (e.g. 'Aatrox_OriginalSkin.jpg') for a champion."""
     params = {
         "action": "parse",
@@ -47,14 +47,12 @@ def get_skin_filenames(champ_name: str) -> list[str]:
         return []
 
     images: list[str] = payload.get("parse", {}).get("images", [])
-    
-    # Filtra gli immagini che sono skin e non contengono stringhe di EXCEPTIONS
+
     filtered_images = []
     for img in images:
         if not img.lower().endswith("skin.jpg"):
             continue
-        # Verifica che img non contenga nessuna delle stringhe in EXCEPTIONS
-        if any(ex.lower() in img.lower() for ex in EXCEPTIONS):
+        if not ignore_exceptions and any(ex.lower() in img.lower() for ex in EXCEPTIONS):
             continue
         filtered_images.append(img)
 
@@ -62,9 +60,21 @@ def get_skin_filenames(champ_name: str) -> list[str]:
 
 
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force", action="store_true", help="Bypassa il controllo sulla versione")
+    parser.add_argument("--ignore-exceptions", action="store_true", help="Ignora le eccezioni in EXCEPTIONS")
+    args = parser.parse_args()
+
     r = requests.get(DDRAGON_VERSIONS_URL, timeout=REQUEST_TIMEOUT)
     r.raise_for_status()
     version: str = r.json()[0]
+
+    if not args.force and OUTPUT_FILE.exists():
+        first_line = OUTPUT_FILE.read_text(encoding="utf-8").splitlines()[0]
+        if f"version {version}" in first_line:
+            console.print(f"[green]✓[/] champions.txt già aggiornato (version {version}), skip.")
+            return
 
     r = requests.get(
         DDRAGON_CHAMPIONS_URL.format(version=version), timeout=REQUEST_TIMEOUT
@@ -84,7 +94,7 @@ def main() -> None:
     def fetch(index: int, champ_name: str) -> tuple[int, str, list[str]]:
         wiki_name = champ_name.split(" &")[0] if " &" in champ_name else champ_name
         try:
-            skins = get_skin_filenames(wiki_name)
+            skins = get_skin_filenames(wiki_name, ignore_exceptions=args.ignore_exceptions)
         except requests.RequestException:
             skins = []
         if " &" in champ_name:
