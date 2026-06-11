@@ -21,6 +21,7 @@ from typing import Optional, cast
 from urllib.parse import quote
 
 import json
+import time
 import requests
 from PIL import Image, ImageTk
 from rich.console import Console
@@ -39,7 +40,6 @@ DATA_DIR = ROOT / "data"
 
 FAILED_DOWNLOADS_FILE = str(ROOT / "failed_downloads.txt")
 SHARED_EXCEPTIONS_FILE = DATA_DIR / "shared_exceptions.json"
-ALTERNATIVES_DIR = ROOT / "splash_arts"
 WIKI_IMAGE_BASE = "https://wiki.leagueoflegends.com/en-us/images/"
 WIKI_API_URL    = "https://wiki.leagueoflegends.com/en-us/api.php"
 REQUEST_TIMEOUT = 30
@@ -164,14 +164,21 @@ def _download_wiki_image(filename: str) -> Optional[Image.Image]:
             return _img_cache[filename]
 
     url = WIKI_IMAGE_BASE + quote(filename, safe="()")
-    try:
-        r = requests.get(url, timeout=REQUEST_TIMEOUT)
-        r.raise_for_status()
-        raw = r.content
-        img = Image.open(io.BytesIO(raw)).convert("RGB")
-    except Exception:
-        img = None
-        raw = b""
+    img: Optional[Image.Image] = None
+    raw: bytes = b""
+    while True:
+        try:
+            r = requests.get(url, timeout=REQUEST_TIMEOUT)
+            r.raise_for_status()
+            raw = r.content
+            img = Image.open(io.BytesIO(raw)).convert("RGB")
+            break
+        except requests.exceptions.HTTPError as e:
+            if e.response is not None and e.response.status_code == 404:
+                break
+            time.sleep(2)
+        except Exception:
+            time.sleep(2)
 
     with _cache_lock:
         _img_cache[filename] = img
@@ -339,24 +346,21 @@ class SkinSelectorApp:
         bottom.pack(fill="x", side="bottom")
         btn_row = tk.Frame(bottom, bg=BG_CARD)
         btn_row.pack(anchor="center")
-        tk.Button(btn_row, text="✓  Conferma selezione", command=self._confirm,
+        tk.Button(btn_row, text="▶  Più champion",
+                  command=lambda: self._continue(do_other=True, do_shared=True),
                   font=("Helvetica", 11, "bold"), fg=WHITE, bg=GREEN,
                   activebackground="#388E3C", activeforeground=WHITE,
+                  relief="flat", padx=18, pady=8, cursor="hand2",
+                  ).pack(side="left", padx=6)
+        tk.Button(btn_row, text="▶  Singolo champion",
+                  command=lambda: self._continue(do_other=True, do_shared=False),
+                  font=("Helvetica", 11, "bold"), fg=WHITE, bg="#2980b9",
+                  activebackground="#1f6391", activeforeground=WHITE,
                   relief="flat", padx=18, pady=8, cursor="hand2",
                   ).pack(side="left", padx=6)
         tk.Button(btn_row, text="→  Salta", command=self._skip,
                   font=("Helvetica", 11), fg=WHITE, bg="#555577",
                   activebackground="#444466", activeforeground=WHITE,
-                  relief="flat", padx=18, pady=8, cursor="hand2",
-                  ).pack(side="left", padx=6)
-        tk.Button(btn_row, text="🔗  SHARED", command=self._flag_shared,
-                  font=("Helvetica", 11, "bold"), fg=WHITE, bg="#7b2d8b",
-                  activebackground="#5a1f66", activeforeground=WHITE,
-                  relief="flat", padx=18, pady=8, cursor="hand2",
-                  ).pack(side="left", padx=6)
-        tk.Button(btn_row, text="📁  Mantieni originale", command=self._keep_original,
-                  font=("Helvetica", 11), fg=WHITE, bg="#2e5f7a",
-                  activebackground="#1e4a62", activeforeground=WHITE,
                   relief="flat", padx=18, pady=8, cursor="hand2",
                   ).pack(side="left", padx=6)
         self._status_var = tk.StringVar()
@@ -406,6 +410,7 @@ class SkinSelectorApp:
     # ── Background load ──────────────────────────────────────────────────────
 
     def _background_load(self, champion: str, filename: str) -> None:
+
         # 1. Riferimento non-HD
         ref_img = _download_wiki_image(filename)
 
@@ -417,15 +422,6 @@ class SkinSelectorApp:
             if n.replace(" ", "_") != filename.replace(" ", "_")
             and "_hd." in n.lower()
         ]
-
-        # 2.5 Se uno dei candidati è già presente in SHARED, aggiorna
-        #     shared_exceptions.json automaticamente e passa al prossimo.
-        shared_dir = ALTERNATIVES_DIR / "SHARED"
-        for cname in candidates_names:
-            clean = _clean_wiki_name(cname)
-            if (shared_dir / clean).exists():
-                self.root.after(0, self._auto_shared, champion, filename, cname, clean)
-                return
 
         total = len(candidates_names)
 
@@ -599,141 +595,62 @@ class SkinSelectorApp:
 
     # ── Azioni ───────────────────────────────────────────────────────────────
 
-    def _confirm(self) -> None:
-        if self._sel_wiki_name is None or self._sel_image is None:
+    def _continue(self, do_other: bool, do_shared: bool) -> None:
+        if (do_other or do_shared) and self._sel_wiki_name is None:
             messagebox.showwarning(
                 "Nessuna selezione",
                 "Clicca su un'immagine prima di confermare.")
             return
 
-        dest_dir = ALTERNATIVES_DIR / self._current_champion
-        dest_dir.mkdir(parents=True, exist_ok=True)
-        dest = dest_dir / self._current_target_hd
-
-        # Salva i byte originali per non perdere qualità JPEG
-        raw = _raw_cache.get(self._sel_wiki_name)
-        if raw:
-            dest.write_bytes(raw)
-        else:
-            self._sel_image.save(str(dest), format="JPEG", quality=95)
-
-        # Aggiorna other_exceptions.json
         original_key = Path(self._current_target_hd).stem
-        other_value = Path(self._sel_wiki_name).stem
-        other_exceptions: dict = {}
-        other_exceptions_file = DATA_DIR / "other_exceptions.json"
-        if other_exceptions_file.exists():
-            try:
-                other_exceptions = json.loads(other_exceptions_file.read_text(encoding="utf-8"))
-            except Exception:
-                other_exceptions = {}
-        other_exceptions[original_key] = other_value
-        other_exceptions_file.write_text(
-            json.dumps(other_exceptions, indent=4, ensure_ascii=False),
-            encoding="utf-8",
-        )
+        parts: list[str] = []
 
-        console.print(
-            f"[green]✓[/] [bold]{self._current_champion}[/]  "
-            f"{self._sel_wiki_name} → {dest}")
-        self._status_var.set(f"Salvato → {dest} + other_exceptions.json aggiornato")
-        self.root.update()
+        if do_other and self._sel_wiki_name is not None:
+            other_value = Path(self._sel_wiki_name).stem
+            other_exceptions: dict = {}
+            other_exceptions_file = DATA_DIR / "other_exceptions.json"
+            if other_exceptions_file.exists():
+                try:
+                    other_exceptions = json.loads(other_exceptions_file.read_text(encoding="utf-8"))
+                except Exception:
+                    other_exceptions = {}
+            other_exceptions[original_key] = other_value
+            other_exceptions_file.write_text(
+                json.dumps(other_exceptions, indent=4, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            console.print(
+                f"[green]✓ OTHER[/] [bold]{self._current_champion}[/]  "
+                f'"{original_key}": "{other_value}"')
+            parts.append(f"OTHER: {original_key} → {other_value}")
 
-        self.idx += 1
-        self.root.after(200, self._load_entry)
+        if do_shared and self._sel_wiki_name is not None:
+            shared_value = Path(_clean_wiki_name(self._sel_wiki_name)).stem
+            _champ_prefix = self._current_champion + "_"
+            if shared_value.startswith(_champ_prefix):
+                shared_value = shared_value[len(_champ_prefix):]
+            exceptions: dict = {}
+            if SHARED_EXCEPTIONS_FILE.exists():
+                try:
+                    exceptions = json.loads(SHARED_EXCEPTIONS_FILE.read_text(encoding="utf-8"))
+                except Exception:
+                    exceptions = {}
+            if original_key not in exceptions:
+                exceptions[original_key] = shared_value
+                SHARED_EXCEPTIONS_FILE.write_text(
+                    json.dumps(exceptions, indent=4, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+                console.print(
+                    f"[magenta]🔗 SHARED[/] [bold]{self._current_champion}[/]  "
+                    f'"{original_key}": "{shared_value}"')
+                parts.append(f"SHARED: {original_key} → {shared_value}")
+            else:
+                console.print(
+                    f"[dim]⏭ SHARED skip (già presente)[/] [bold]{self._current_champion}[/]  "
+                    f'"{original_key}"')
 
-    def _auto_shared(self, champion: str, filename: str, wiki_name: str, clean_name: str) -> None:
-        """Chiamato dal background thread quando un candidato esiste già in SHARED."""
-        target_hd = Path(filename).stem + "_HD.jpg"
-        original_key = Path(target_hd).stem
-        shared_value = Path(wiki_name).stem
-
-        exceptions: dict = {}
-        if SHARED_EXCEPTIONS_FILE.exists():
-            try:
-                exceptions = json.loads(SHARED_EXCEPTIONS_FILE.read_text(encoding="utf-8"))
-            except Exception:
-                exceptions = {}
-        exceptions[original_key] = shared_value
-        SHARED_EXCEPTIONS_FILE.write_text(
-            json.dumps(exceptions, indent=4, ensure_ascii=False),
-            encoding="utf-8",
-        )
-
-        console.print(
-            f"[magenta]🔗 AUTO[/] [bold]{champion}[/]  "
-            f"{original_key} → [bold]SHARED[/] {shared_value}  "
-            f"([dim]già presente in SHARED/[/])")
-        self._loading_var.set("")
-        self._status_var.set(f"AUTO-SHARED: {original_key} → {shared_value}")
-        self.root.update()
-
-        self.idx += 1
-        self.root.after(200, self._load_entry)
-
-    def _flag_shared(self) -> None:
-        if self._sel_wiki_name is None or self._sel_image is None:
-            messagebox.showwarning(
-                "Nessuna selezione",
-                "Clicca su un'immagine prima di flaggare come SHARED.")
-            return
-
-        # Salva in alternatives/SHARED/ con il nome del file wiki selezionato
-        clean_name = _clean_wiki_name(self._sel_wiki_name)
-        dest_dir = ALTERNATIVES_DIR / "SHARED"
-        dest_dir.mkdir(parents=True, exist_ok=True)
-        dest = dest_dir / clean_name
-        raw = _raw_cache.get(self._sel_wiki_name)
-        if raw:
-            dest.write_bytes(raw)
-        else:
-            self._sel_image.save(str(dest), format="JPEG", quality=95)
-
-        # Aggiorna shared_exceptions.json
-        original_key = Path(self._current_target_hd).stem
-        shared_value = Path(self._sel_wiki_name).stem
-        exceptions: dict = {}
-        if SHARED_EXCEPTIONS_FILE.exists():
-            try:
-                exceptions = json.loads(SHARED_EXCEPTIONS_FILE.read_text(encoding="utf-8"))
-            except Exception:
-                exceptions = {}
-        exceptions[original_key] = shared_value
-        SHARED_EXCEPTIONS_FILE.write_text(
-            json.dumps(exceptions, indent=4, ensure_ascii=False),
-            encoding="utf-8",
-        )
-
-        console.print(
-            f"[magenta]🔗[/] [bold]{self._current_champion}[/]  "
-            f"{original_key} → [bold]SHARED[/] {shared_value}")
-        self._status_var.set(f"SHARED: {original_key} → {shared_value}")
-        self.root.update()
-
-        self.idx += 1
-        self.root.after(200, self._load_entry)
-
-    def _keep_original(self) -> None:
-        if self._ref_img is None:
-            messagebox.showwarning(
-                "Riferimento non disponibile",
-                "L'immagine di riferimento non è stata scaricata.")
-            return
-
-        dest_dir = ALTERNATIVES_DIR / self._current_champion
-        dest_dir.mkdir(parents=True, exist_ok=True)
-        dest = dest_dir / self._current_target_hd
-
-        raw = _raw_cache.get(self._ref_filename)
-        if raw:
-            dest.write_bytes(raw)
-        else:
-            self._ref_img.save(str(dest), format="JPEG", quality=95)
-
-        console.print(
-            f"[cyan]📁[/] [bold]{self._current_champion}[/]  "
-            f"originale non-HD → {dest}")
-        self._status_var.set(f"Salvato originale → {dest}")
+        self._status_var.set("  |  ".join(parts) if parts else "Saltato")
         self.root.update()
 
         self.idx += 1
