@@ -103,6 +103,8 @@ def compute_scores(
         score_matrix = hist_sim
 
     # Transfer back to CPU if on GPU
+    if hasattr(score_matrix, "get"):
+        score_matrix = score_matrix.get()
     return np.asarray(score_matrix, dtype=np.float32)
 
 
@@ -145,7 +147,7 @@ def main() -> None:
                         help="Folder to scan recursively")
     parser.add_argument("--threshold", type=float, default=0.95,
                         help="Minimum similarity score (0=different, 1=identical)")
-    parser.add_argument("--output", type=Path, default=ROOT / "other_duplicates.txt",
+    parser.add_argument("--output", type=Path, default=ROOT / "other_similar.txt",
                         help="Write results to this file (one pair per line)")
     parser.add_argument("--workers", type=int, default=8,
                         help="Parallel workers for image loading")
