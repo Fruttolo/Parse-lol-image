@@ -4,6 +4,7 @@ Download HD splash arts for all League of Legends champions.
 Reads skin list from champions.txt and saves images to splash_arts/.
 """
 
+import argparse
 import json
 import os
 import re
@@ -42,6 +43,11 @@ MAX_WORKERS = 10
 SHARED_EXCEPTIONS: dict[str, str] = {}
 OTHER_EXCEPTIONS: dict[str, str] = {}
 
+ONLY_SHARED: bool = False
+ONLY_OTHER: bool = False
+SIMPLE_PARSE: bool = False
+FORCE: bool = False
+
 # Pattern da rimuovere dal nome file wiki (case-insensitive)
 _JUNK_RE = re.compile(r'_(old|unused)\d*', re.IGNORECASE)
 
@@ -65,7 +71,7 @@ def load_other_exceptions() -> None:
         pass
 
 
-def parse_champions(filepath: str) -> dict[str, list[str]]:
+def parse_champions(filepath: str | Path) -> dict[str, list[str]]:
     """Parse champions.txt and return {champion: [skin_filename, ...]}."""
     champions: dict[str, list[str]] = {}
     current_champion: str | None = None
@@ -142,18 +148,26 @@ def download_skin(
     save_path = save_dir / hd_name
 
     # Skip if already downloaded (normal path)
-    if _exists(save_path):
+    if not FORCE and _exists(save_path):
         return champion, skin_filename, True, "already exists", ""
 
     hd_stem = hd_name.removesuffix(".jpg")
     url = WIKI_IMAGE_BASE + quote(hd_name, safe="")
 
+    # --only-shared: skip skins not in SHARED_EXCEPTIONS
+    if ONLY_SHARED and hd_stem not in SHARED_EXCEPTIONS:
+        return champion, skin_filename, True, "skipped (not a shared exception)", ""
+
+    # --only-other: skip skins not in OTHER_EXCEPTIONS
+    if ONLY_OTHER and hd_stem not in OTHER_EXCEPTIONS:
+        return champion, skin_filename, True, "skipped (not an other exception)", ""
+
     # Step 1: Check SHARED_EXCEPTIONS before any download attempt
-    if hd_stem in SHARED_EXCEPTIONS:
+    if not SIMPLE_PARSE and hd_stem in SHARED_EXCEPTIONS:
         exception_name_raw = SHARED_EXCEPTIONS[hd_stem] + ".jpg"
         exception_name_clean = clean_skin_name(SHARED_EXCEPTIONS[hd_stem]) + ".jpg"
         exception_path = SHARED_DIR / exception_name_clean
-        if _exists(exception_path):
+        if not FORCE and _exists(exception_path):
             return champion, skin_filename, True, "already exists", "shared"
         exception_url = WIKI_IMAGE_BASE + quote(exception_name_raw, safe="")
         try:
@@ -167,9 +181,34 @@ def download_skin(
                 return champion, skin_filename, True, "downloaded (shared exception)", "shared"
             elif exc_response.status_code != 404:
                 exc_response.raise_for_status()
+            else:
+                if ONLY_SHARED:
+                    return champion, skin_filename, False, f"404 Not Found (shared): {exception_url}", "shared"
         except requests.RequestException as exc:
             if exception_path.exists():
                 exception_path.unlink(missing_ok=True)
+            return champion, skin_filename, False, str(exc), ""
+
+    # --only-other: skip JPG/PNG steps and go straight to other exception URL
+    if ONLY_OTHER:
+        other_name_raw = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
+        save_dir.mkdir(parents=True, exist_ok=True)
+        other_path = save_dir / hd_name
+        other_url = WIKI_IMAGE_BASE + quote(other_name_raw, safe="")
+        try:
+            other_response = requests.get(other_url, timeout=REQUEST_TIMEOUT, stream=True)
+            if other_response.status_code == 200:
+                other_response.raise_for_status()
+                with open(other_path, "wb") as f:
+                    for chunk in other_response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                return champion, skin_filename, True, "downloaded (other exception)", "other"
+            elif other_response.status_code != 404:
+                other_response.raise_for_status()
+            return champion, skin_filename, False, f"404 Not Found (other): {other_url}", "other"
+        except requests.RequestException as exc:
+            if other_path.exists():
+                other_path.unlink(missing_ok=True)
             return champion, skin_filename, False, str(exc), ""
 
     try:
@@ -206,7 +245,7 @@ def download_skin(
             return champion, skin_filename, False, str(exc), ""
 
         # Step 4: Check OTHER_EXCEPTIONS
-        if hd_stem in OTHER_EXCEPTIONS:
+        if not SIMPLE_PARSE and hd_stem in OTHER_EXCEPTIONS:
             other_name_raw = OTHER_EXCEPTIONS[hd_stem] + ".jpg"
             other_path = save_dir / hd_name
             other_url = WIKI_IMAGE_BASE + quote(other_name_raw, safe="")
@@ -264,6 +303,35 @@ def write_failed_report(failed: list[tuple[str, str, str]]) -> None:
 
 
 def main() -> None:
+    global ONLY_SHARED, ONLY_OTHER, SIMPLE_PARSE, FORCE
+
+    parser = argparse.ArgumentParser(description="Download LoL HD splash arts.")
+    parser.add_argument(
+        "--only-shared",
+        action="store_true",
+        help="Download only skins mapped in shared_exceptions.json; skip all others.",
+    )
+    parser.add_argument(
+        "--only-other",
+        action="store_true",
+        help="Download only skins mapped in other_exceptions.json; skip all others.",
+    )
+    parser.add_argument(
+        "--simple-parse",
+        action="store_true",
+        help="Skip SHARED_EXCEPTIONS and OTHER_EXCEPTIONS; attempt direct JPG/PNG only.",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Re-download all skins regardless of whether they already exist.",
+    )
+    args = parser.parse_args()
+    ONLY_SHARED = args.only_shared
+    ONLY_OTHER = args.only_other
+    SIMPLE_PARSE = args.simple_parse
+    FORCE = args.force
+
     load_shared_exceptions()
     load_other_exceptions()
     champions = parse_champions(CHAMPIONS_FILE)
@@ -308,7 +376,7 @@ def main() -> None:
                         task,
                         description=f"[red]✗ {champion}/{skin}",
                     )
-                elif "already exists" in msg:
+                elif "already exists" in msg or "skipped" in msg:
                     skipped += 1
                     progress.update(
                         task,
@@ -345,7 +413,7 @@ def main() -> None:
     console.print(f"  Downloaded : [green]{downloaded}[/]")
     console.print(f"  Retry SHARED : [yellow]{retried_shared}[/] (saved to {SHARED_DIR}/)")
     console.print(f"  Retry OTHER EXCEPTIONS : [blue]{retried_other}[/] (fallback)")
-    console.print(f"  Skipped    : [dim]{skipped}[/] (already present)")
+    console.print(f"  Skipped    : [dim]{skipped}[/]")
     console.print(f"  Failed     : [{'red' if failed else 'green'}]{len(failed)}[/]")
     console.print(f"  Report     : [dim]{DOWNLOAD_REPORT_FILE}[/]")
     if failed:
