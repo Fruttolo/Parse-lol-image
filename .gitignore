@@ -10,3 +10,5 @@ alternatives/
 failed_downloads.txt
 differenze_cartelle.txt
 download_report.txt
+unresolved_duplicates.txt
+other_similar.txt

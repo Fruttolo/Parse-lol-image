@@ -1,4 +1,4 @@
-League of Legends champions — version 16.11.1
+League of Legends champions — version 16.12.1
 Total: 172
 ========================================
 
@@ -67,6 +67,7 @@ Akshan
   - Akshan_CyberPopSkin.jpg
   - Akshan_CrystalRoseSkin.jpg
   - Akshan_ThreeHonorsSkin.jpg
+  - Akshan_HighNoonSkin.jpg
 
 Alistar
   - Alistar_OriginalSkin.jpg
@@ -188,6 +189,7 @@ Aurora
   - Aurora_OriginalSkin.jpg
   - Aurora_BattleBunnySkin.jpg
   - Aurora_ArcanaSkin.jpg
+  - Aurora_BrokenCovenantSkin.jpg
 
 Azir
   - Azir_OriginalSkin.jpg
@@ -784,6 +786,7 @@ Jhin
   - Jhin_DarkCosmicErasureSkin.jpg
   - Jhin_MythmakerSkin.jpg
   - Jhin_ArcanaSkin.jpg
+  - Jhin_BrokenCovenantSkin.jpg
 
 Jinx
   - Jinx_OriginalSkin.jpg
@@ -1713,6 +1716,7 @@ Shen
   - Shen_ShockbladeSkin.jpg
   - Shen_AshenGuardianSkin.jpg
   - Shen_ThreeHonorsSkin.jpg
+  - Shen_BrokenCovenantSkin.jpg
 
 Shyvana
   - Shyvana_OriginalSkin.jpg
