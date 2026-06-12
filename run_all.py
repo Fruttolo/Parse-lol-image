@@ -180,48 +180,80 @@ def has_similar() -> bool:
     return any("  vs  " in line for line in sim_file.read_text(encoding="utf-8").splitlines())
 
 
+def _run_check_hashes(results: dict[str, bool]) -> bool | None:
+    """
+    Esegue check_hashes ripulendo prima lo stale report. Ritorna True/False per
+    successo dello script, None se lo script è fallito (chiamante deve uscire).
+    """
+    # check_hashes scrive duplicate_images.txt SOLO se trova duplicati:
+    # rimuovi lo stale così il conteggio riflette la scansione corrente.
+    dup_file = WORKSPACE_DIR / "duplicate_images.txt"
+    if dup_file.exists():
+        dup_file.unlink()
+
+    if not run_script("scripts/check_hashes.py"):
+        results["scripts/check_hashes.py"] = False
+        return None
+    results["scripts/check_hashes.py"] = True
+    return True
+
+
 def run_dedup_loop(results: dict[str, bool]) -> bool:
     """
-    check_hashes (+ find_similar sotto flag) → resolve_duplicates, ripetuto finché
-    restano file con hash uguale. I similar fanno scattare resolve ma NON tengono
-    in vita il loop (ignorati per la terminazione). Ritorna False se uno script
-    fallisce.
+    find_similar gira UNA SOLA volta all'inizio (sotto flag). check_hashes →
+    resolve_duplicates viene poi ripetuto finché restano file con hash uguale;
+    dalla seconda passata in poi si guarda SOLO il report degli hash. Ritorna
+    False se uno script fallisce.
     """
-    iteration = 0
-    prev_dup_count = -1
+    # 1. Prima passata hash
+    if _run_check_hashes(results) is None:
+        return False
 
-    while True:
-        iteration += 1
-        if iteration > 1:
-            console.print(f"\n[bold yellow]↺ Ricontrollo hash/similar (passo {iteration})[/]")
-
-        # check_hashes scrive duplicate_images.txt SOLO se trova duplicati:
-        # rimuovi lo stale così il conteggio riflette la scansione corrente.
-        dup_file = WORKSPACE_DIR / "duplicate_images.txt"
-        if dup_file.exists():
-            dup_file.unlink()
-
-        if not run_script("scripts/check_hashes.py"):
-            results["scripts/check_hashes.py"] = False
+    # 2. find_similar una sola volta (salvo --quick-scan)
+    sim = False
+    if not cli_args.quick_scan:
+        if not run_script("scripts/find_similar.py"):
+            results["scripts/find_similar.py"] = False
             return False
-        results["scripts/check_hashes.py"] = True
-
-        if not cli_args.quick_scan:
-            if not run_script("scripts/find_similar.py"):
-                results["scripts/find_similar.py"] = False
-                return False
-            results["scripts/find_similar.py"] = True
-
-        dup_count = count_hash_duplicates()
+        results["scripts/find_similar.py"] = True
         sim = has_similar()
 
-        if dup_count == 0 and not sim:
-            console.print("[green]Nessun duplicato/simile residuo.[/]")
+    dup_count = count_hash_duplicates()
+
+    # 3. Niente hash né similar → finito
+    if dup_count == 0 and not sim:
+        console.print("[green]Nessun duplicato/simile residuo.[/]")
+        return True
+
+    console.print(
+        f"\n[bold yellow]⚠ Trovati duplicati/simili "
+        f"(hash: {dup_count}, similar: {'sì' if sim else 'no'}) — avvio resolve_duplicates...[/]"
+    )
+    if not run_script("scripts/resolve_duplicates.py"):
+        results["scripts/resolve_duplicates.py"] = False
+        return False
+    results["scripts/resolve_duplicates.py"] = True
+
+    # 4-6. Loop SOLO hash: ricontrolla, risolvi finché il report hash è vuoto.
+    iteration = 1
+    prev_dup_count = -1
+    while True:
+        iteration += 1
+        console.print(f"\n[bold yellow]↺ Ricontrollo hash (passo {iteration})[/]")
+
+        if _run_check_hashes(results) is None:
+            return False
+
+        dup_count = count_hash_duplicates()
+
+        # 6. Report hash vuoto → avanti
+        if dup_count == 0:
+            console.print("[green]Nessun hash duplicato residuo.[/]")
             break
 
         # Stallo: resolve non ha ridotto gli hash duplicati → evita loop infinito
         # (es. cluster saltati nella review).
-        if dup_count > 0 and dup_count == prev_dup_count:
+        if dup_count == prev_dup_count:
             console.print(
                 f"[yellow]⚠ {dup_count} file con hash uguale ancora presenti ma "
                 f"resolve_duplicates non li ha ridotti — interrompo per evitare un loop.[/]"
@@ -229,20 +261,14 @@ def run_dedup_loop(results: dict[str, bool]) -> bool:
             break
         prev_dup_count = dup_count
 
+        # 5. Trovati hash → resolve → torna al ricontrollo
         console.print(
-            f"\n[bold yellow]⚠ Trovati duplicati/simili "
-            f"(hash: {dup_count}, similar: {'sì' if sim else 'no'}) — avvio resolve_duplicates...[/]"
+            f"\n[bold yellow]⚠ {dup_count} file con hash uguale — avvio resolve_duplicates...[/]"
         )
         if not run_script("scripts/resolve_duplicates.py"):
             results["scripts/resolve_duplicates.py"] = False
             return False
         results["scripts/resolve_duplicates.py"] = True
-
-        # Solo similar (nessun hash duplicato): una passata di resolve basta,
-        # i similar vengono ignorati per la terminazione.
-        if dup_count == 0:
-            console.print("[dim]Solo immagini simili: risolte in una passata, stop.[/]")
-            break
 
     return True
 
