@@ -28,6 +28,7 @@ OUTPUT_FILE = DATA_DIR / "champions.txt"
 EXCEPTIONS = [
     "(2022)",
     "Riven_ReignitedWorlds2012Skin",
+    "Warwick_UrfwickSkin_HD"
 ]
 
 
