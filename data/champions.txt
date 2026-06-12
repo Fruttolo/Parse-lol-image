@@ -2206,7 +2206,6 @@ Warwick
   - Warwick_FirefangSkin.jpg
   - Warwick_HyenaSkin.jpg
   - Warwick_MarauderSkin.jpg
-  - Warwick_UrfwickSkin.jpg
   - Warwick_LunarGuardianSkin.jpg
   - Warwick_PROJECTSkin.jpg
   - Warwick_OldGodSkin.jpg
