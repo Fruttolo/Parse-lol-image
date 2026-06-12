@@ -389,6 +389,19 @@ class ClusterReviewApp:
         shared_value = f"{name}_HD"
         target = SHARED_DIR / (clean_skin_name(shared_value) + ".jpg")
 
+        # Conferma se quel nome è già usato come mappatura condivisa da stem
+        # diversi da quelli di questo cluster.
+        member_stems = {m.stem for m in members}
+        if any(
+            v == shared_value and k not in member_stems
+            for k, v in self.exceptions.items()
+        ) and not messagebox.askyesno(
+            "Nome già usato",
+            f'"{shared_value}" è già usato come mappatura condivisa.\n'
+            f"Usarlo comunque per questo cluster?",
+        ):
+            return
+
         if target.exists() and not messagebox.askyesno(
             "Sovrascrivere?", f"{target.name} esiste già. Sovrascrivere?"
         ):

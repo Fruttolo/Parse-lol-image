@@ -16,7 +16,7 @@ import threading
 import tkinter as tk
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from tkinter import messagebox, ttk
+from tkinter import messagebox, simpledialog, ttk
 from typing import Optional, cast
 from urllib.parse import quote
 
@@ -625,30 +625,53 @@ class SkinSelectorApp:
             parts.append(f"OTHER: {original_key} → {other_value}")
 
         if do_shared and self._sel_wiki_name is not None:
-            shared_value = Path(_clean_wiki_name(self._sel_wiki_name)).stem
-            _champ_prefix = self._current_champion + "_"
-            if shared_value.startswith(_champ_prefix):
-                shared_value = shared_value[len(_champ_prefix):]
             exceptions: dict = {}
             if SHARED_EXCEPTIONS_FILE.exists():
                 try:
                     exceptions = json.loads(SHARED_EXCEPTIONS_FILE.read_text(encoding="utf-8"))
                 except Exception:
                     exceptions = {}
-            if original_key not in exceptions:
-                exceptions[original_key] = shared_value
-                SHARED_EXCEPTIONS_FILE.write_text(
-                    json.dumps(exceptions, indent=4, ensure_ascii=False),
-                    encoding="utf-8",
-                )
-                console.print(
-                    f"[magenta]🔗 SHARED[/] [bold]{self._current_champion}[/]  "
-                    f'"{original_key}": "{shared_value}"')
-                parts.append(f"SHARED: {original_key} → {shared_value}")
-            else:
+
+            if original_key in exceptions:
+                # Chiave già presente → skip silenzioso.
                 console.print(
                     f"[dim]⏭ SHARED skip (già presente)[/] [bold]{self._current_champion}[/]  "
                     f'"{original_key}"')
+            else:
+                # Valore derivato dal nome file wiki (senza prefisso champion).
+                shared_value = Path(_clean_wiki_name(self._sel_wiki_name)).stem
+                _champ_prefix = self._current_champion + "_"
+                if shared_value.startswith(_champ_prefix):
+                    shared_value = shared_value[len(_champ_prefix):]
+
+                # Se quel valore è già usato come mappatura condivisa → dialog
+                # per confermare / modificare il nome.
+                if shared_value in set(exceptions.values()):
+                    name = simpledialog.askstring(
+                        "Nome skin",
+                        f'"{shared_value}" è già usato come mappatura condivisa.\n'
+                        "Nome skin condivisa (senza _HD):",
+                        initialvalue=shared_value.removesuffix("_HD"),
+                        parent=self.root,
+                    )
+                    shared_value = (
+                        f"{name.strip().removesuffix('_HD')}_HD" if name else None
+                    )
+
+                if shared_value is not None:
+                    exceptions[original_key] = shared_value
+                    SHARED_EXCEPTIONS_FILE.write_text(
+                        json.dumps(exceptions, indent=4, ensure_ascii=False),
+                        encoding="utf-8",
+                    )
+                    console.print(
+                        f"[magenta]🔗 SHARED[/] [bold]{self._current_champion}[/]  "
+                        f'"{original_key}": "{shared_value}"')
+                    parts.append(f"SHARED: {original_key} → {shared_value}")
+                else:
+                    console.print(
+                        f"[dim]⏭ SHARED annullato[/] [bold]{self._current_champion}[/]  "
+                        f'"{original_key}"')
 
         self._status_var.set("  |  ".join(parts) if parts else "Saltato")
         self.root.update()
