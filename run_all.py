@@ -153,6 +153,20 @@ def _print_report(results: dict[str, bool]) -> None:
         sys.exit(1)
 
 
+def newly_downloaded_count() -> int:
+    """Numero di file scaricati nell'ultima run di parse_skin (download_report.txt)."""
+    report_file = WORKSPACE_DIR / "download_report.txt"
+    if not report_file.exists():
+        return 0
+    for line in report_file.read_text(encoding="utf-8").splitlines():
+        if line.startswith("Newly downloaded:"):
+            try:
+                return int(line.split(":", 1)[1].strip())
+            except ValueError:
+                return 0
+    return 0
+
+
 def has_failed_downloads() -> bool:
     failed_file = WORKSPACE_DIR / "failed_downloads.txt"
     if not failed_file.exists():
@@ -291,6 +305,7 @@ def main() -> None:
 
     # Loop parse_skin → check_failed finché ci sono failed downloads
     iteration = 0
+    total_downloaded = 0
     while True:
         iteration += 1
         if iteration > 1:
@@ -301,6 +316,8 @@ def main() -> None:
         if not success:
             _print_report(results)
             return
+
+        total_downloaded += newly_downloaded_count()
 
         check_non_404_failures()
 
@@ -313,6 +330,14 @@ def main() -> None:
         if not cf_success:
             _print_report(results)
             return
+
+    # Niente scaricato → salta dedup/compare/GUI e termina
+    if total_downloaded == 0:
+        console.print(
+            "\n[green]Nessun nuovo file scaricato: salto dedup, confronto e GUI.[/]"
+        )
+        _print_report(results)
+        return
 
     # Loop check_hashes/find_similar → resolve_duplicates finché ci sono hash uguali
     if not run_dedup_loop(results):
