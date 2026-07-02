@@ -6,6 +6,7 @@ __pycache__/
 champion_report.csv
 duplicate_images.txt
 .venv/
+.env
 alternatives/
 failed_downloads.txt
 differenze_cartelle.txt

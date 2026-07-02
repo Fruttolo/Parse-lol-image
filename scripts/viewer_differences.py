@@ -6,11 +6,13 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from pathlib import Path
 from PIL import Image, ImageTk
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env")
 
 parser = argparse.ArgumentParser(description="Visualizza e sincronizza le differenze tra due cartelle di splash arts")
-parser.add_argument("dir_a", help="Percorso della cartella A (splash arts locali)")
+parser.add_argument("dir_a", nargs="?", default=os.environ.get("SPLASH_ARTS_PATH"), help="Percorso della cartella A (splash arts locali)")
 args = parser.parse_args()
 
 class LoLTwoWaySync:

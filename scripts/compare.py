@@ -2,11 +2,13 @@ import argparse
 import filecmp
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env")
 
 parser = argparse.ArgumentParser(description="Confronta due cartelle di splash arts")
-parser.add_argument("percorso_a", help="Percorso della cartella A (splash arts locali)")
+parser.add_argument("percorso_a", nargs="?", default=os.environ.get("SPLASH_ARTS_PATH"), help="Percorso della cartella A (splash arts locali)")
 args = parser.parse_args()
 
 percorso_a = args.percorso_a

@@ -4,15 +4,20 @@ Wrapper per eseguire tutti gli script in sequenza.
 """
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
 from rich.console import Console
+from dotenv import load_dotenv
 
 console = Console()
 
+ROOT = Path(__file__).resolve().parent
+load_dotenv(ROOT / ".env")
+
 parser = argparse.ArgumentParser(description="Esegue tutti gli script LoL in sequenza")
-parser.add_argument("splash_arts_path", nargs="?", default=None,
+parser.add_argument("splash_arts_path", nargs="?", default=os.environ.get("SPLASH_ARTS_PATH"),
                     help="Percorso della cartella locale di splash arts (opzionale). "
                          "Se omesso, compare e viewer vengono saltati.")
 parser.add_argument("--quick-scan", action="store_true",

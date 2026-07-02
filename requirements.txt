@@ -2,3 +2,4 @@ requests
 rich
 Pillow
 imagehash
+python-dotenv
